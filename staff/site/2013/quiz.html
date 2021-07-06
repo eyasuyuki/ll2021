@@ -1,0 +1,271 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="author" content="Lightweight Language Matsuri" />
+    <title>LL QUIZ 2013 - Lightweight Language Matsuri</title>
+
+    <link rel="stylesheet" href="assets/themes/dinky/css/styles.css">
+    <link rel="stylesheet" href="assets/themes/dinky/css/pygment_trac.css">
+    <script src="assets/themes/dinky/js/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    
+    <style>
+      .logo {
+        padding-bottom: 0px;
+      }
+      .logo img {
+        display: block;
+        margin: 0 auto 0 auto;
+        padding: 0;
+        border: none;
+      }
+      h1.header img {
+        margin: 0;
+        padding: 0;
+        border: none;      
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="logo">
+	<img src="images/main_logo.jpg" alt="" />
+      </div>
+      <header>
+        <h1 class="header"><a href="index.html"><img src="images/logo_only.jpg" alt="Lightweight Language Matsuri"/></a></h1>
+        <p class="header">カテゴリ</p>
+        <ul>
+          
+          
+          
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="about.html">開催案内</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="shop_sample.html">物販＆見本誌</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="enquete.html">アンケートのお願い</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="program.html">プログラム</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="timetable.html">タイムテーブル</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="ticket.html">チケット</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="llnoc.html">会場ネットワーク</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="active"><a href="quiz.html" class="active">LL QUIZ 2013</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="archives.html">アーカイブ</a></li>
+      	
+      
+    
+  
+
+
+
+        </ul>
+        
+        
+        <div class="misc">
+          <ul>
+            <li class="blog"><a href="../blog/index.html" target="_blank">LL Blog</a></li>
+            
+            
+            
+            <li class="twitter"><a href="http://twitter.com/lljapan/" rel="me" target="_blank">twitter.com/lljapan</a></li>
+            
+            
+            <li class="facebook"><a href="http://facebook.com/lljapan/" rel="me" target="_blank">facebook.com/lljapan</a></li>
+            
+            
+            
+            
+          </ul>
+        </div><!-- misc -->
+        
+      </header>
+
+      <section>
+      
+<section>
+  <h1>LL QUIZ 2013</h1>
+
+  
+
+<h2>LL QUIZ 2013</h2>
+<p>
+昨年御好評いただきましたLL QUIZを今年も開催します。ふるってご参加ください</p>
+
+<p>
+<strong><a href="http://ll-quiz.ll2013/">会場内でこのURLにアクセスすると問題が読めます。</a></strong>
+</p>
+
+
+<h2>スケジュール</h2>
+<ul>
+	<li>8/7 問題文公開
+	<li>8/24 10:00 会場ネットワーク内で本番用の入力を公開
+	<li>8/24 11:00 提出サーバ公開
+	<li>8/24 15:00 提出締め切り
+	<li>8/24 18:00- LLNOCによる結果発表 (B会場) 
+</ul>
+
+<h2 id="question">問題</h2>
+<p>LLNOCチームは、本会場の無線ネットワークを提供している集団です。
+ネットワーク機器の配置を考える際には図を書いて送れば良いのですが、以下のような懸念があったため、特殊な処理を施す必要がある形式で図を送信しています。
+<ul>
+	<li>ネットワークを管理する一部のマシンでは図を編集するソフトウェアが入っていないこと
+	<li>仮にPNGやJPEGといった形式で漏洩してしまった場合には、そのままの姿でWeb上にアップされてしまうこと
+</ul>
+</p>
+<p>
+LLNOCチームが送信している画像のフォーマットは次のようなものです。
+各行は、次のようにスペースで区切られた二つの数字列からなっており、左側の数字は必ず1桁です。
+<pre>
+2 020001023456578
+</pre>
+右側の数字列のうち、左側の数字と同じ部分だけ塗りつぶします。
+浮き上がってきた図形が、送信しようとしている図形です。
+
+<h2>入力例</h2>
+<pre>
+1 222222222222
+2 145681298690
+3 212124345678
+1 234567189876
+4 343333433334
+7 472226769067
+9 592226968069
+5 652222566665
+4 744444444444
+3 876542124567
+</pre>
+
+<h2>解答及び解説</h2>
+<p>
+次のように塗りつぶすことになります。
+</p>
+<p>
+<img src="images/quiz-sample.png">
+</p>
+
+<p>したがって、答えは漢字の「山」となります。</p>
+
+
+
+
+  
+</section>
+
+
+      </section>
+
+
+      <footer>
+      <p>Using the <a href="https://github.com/sodabrew/theme-dinky">Dinky theme</a> for <a href="http://jekyllbootstrap.com/">Jekyll Bootstrap</a>. Customized by <a href="http://twitter.com/smellman/">@smellman</a></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+  </body>
+</html>
+

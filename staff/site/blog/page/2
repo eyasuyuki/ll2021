@@ -1,0 +1,940 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>LL Blog</title>
+<script type="text/javascript" src="../wp-content/themes/TechnologyComputerWordpressTheme/script.js"></script>
+<link rel="stylesheet" href="../wp-content/themes/TechnologyComputerWordpressTheme/style.css" type="text/css" media="screen" />
+<!--[if IE 6]><link rel="stylesheet" href="https://ll.jus.or.jp/blog/wp-content/themes/TechnologyComputerWordpressTheme/style.ie6.css" type="text/css" media="screen" /><![endif]-->
+<link rel="alternate" type="application/rss+xml" title="LL Blog RSS Feed" href="../feed" />
+<link rel="alternate" type="application/atom+xml" title="LL Blog Atom Feed" href="../feed/atom" /> 
+
+<link rel="pingback" href="https://ll.jus.or.jp/blog/xmlrpc.php" />
+<link rel='dns-prefetch' href='https://s.w.org/' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/ll.jus.or.jp\/blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.6"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='../wp-includes/css/dist/block-library/style.min.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='cptch_stylesheet-css'  href='../wp-content/plugins/captcha/css/front_end_style.css?ver=4.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='../wp-includes/css/dashicons.min.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='cptch_desktop_style-css'  href='../wp-content/plugins/captcha/css/desktop_style.css?ver=4.4.5' type='text/css' media='all' />
+<link rel="https://api.w.org/" href="../wp-json/index.html" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.6" />
+<meta property="og:title" content="LL Blog" /><meta property="og:locale" content="ja" /><meta property="og:type" content="website" /><meta property="og:url" content="https://ll.jus.or.jp/blog/page/2" /><meta property="og:site_name" content="LL Blog" /><meta property="og:description" content="LLイベント公式ブログ" />
+<!-- Twitter Cards Meta - V 2.5.4 -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@lljapan" />
+<meta name="twitter:creator" content="@lljapan" />
+<meta name="twitter:url" content="https://ll.jus.or.jp/blog" />
+<meta name="twitter:title" content="LL Blog" />
+<meta name="twitter:description" content="Lightweight Language（軽量プログラミング言語）関連のイベントを開催する組織のブログ" />
+<meta name="twitter:image" content="https://pbs.twimg.com/profile_images/1021190088301002752/kKhRhnI6_400x400.jpg" />
+<!-- Twitter Cards Meta By WPDeveloper.net -->
+
+</head>
+<body>
+<div class="PageBackgroundGradient"></div>
+<div class="Main">
+<div class="Sheet">
+ <div class="Sheet-tl"></div>
+ <div class="Sheet-tr"><div></div></div>
+ <div class="Sheet-bl"><div></div></div>
+ <div class="Sheet-br"><div></div></div>
+ <div class="Sheet-tc"><div></div></div>
+ <div class="Sheet-bc"><div></div></div>
+ <div class="Sheet-cl"><div></div></div>
+ <div class="Sheet-cr"><div></div></div>
+ <div class="Sheet-cc"></div>
+ <div class="Sheet-body">
+<div class="Header">
+ <div class="Header-png"></div>
+ <div class="Header-jpeg"></div>
+<div class="logo">
+ <h1 id="name-text" class="logo-name"><a href="../index.html">LL Blog</a></h1>
+ <div id="slogan-text" class="logo-text">LLイベント公式ブログ</div>
+</div>
+
+</div>
+<div class="nav">
+ <ul class="artmenu">
+  <li><a class="active" href="https://ll.jus.or.jp/blog"><span><span>Home</span></span></a></li> </ul>
+ <div class="l"></div>
+ <div class="r"><div></div></div>
+</div>
+<div class="contentLayout">
+<div class="sidebar1">
+
+		<div class="Block">
+ <div class="Block-tl"></div>
+ <div class="Block-tr"><div></div></div>
+ <div class="Block-bl"><div></div></div>
+ <div class="Block-br"><div></div></div>
+ <div class="Block-tc"><div></div></div>
+ <div class="Block-bc"><div></div></div>
+ <div class="Block-cl"><div></div></div>
+ <div class="Block-cr"><div></div></div>
+ <div class="Block-cc"></div>
+ <div class="Block-body">
+
+		<div class="BlockHeader">
+ <div class="header-tag-icon">
+  <div class="BlockHeader-text">最近の投稿</div>
+ </div>
+ <div class="l"></div>
+ <div class="r"><div></div></div>
+</div>
+<div class="BlockContent">
+ <div class="BlockContent-body">
+
+		<ul>
+											<li>
+					<a href="../index.html?p=732">「Learn Languages 2018 in ODC」当日のご案内</a>
+											<span class="post-date">2018年8月23日</span>
+									</li>
+											<li>
+					<a href="../index.html?p=721">「Learn Languages 2018 in ODC」開催のお知らせ</a>
+											<span class="post-date">2018年7月25日</span>
+									</li>
+											<li>
+					<a href="../index.html?p=709">LLイベント当日に関するご案内</a>
+											<span class="post-date">2017年8月18日</span>
+									</li>
+											<li>
+					<a href="../index.html?p=704">Learn Languages 2017 in ODCプログラム公開＆参加登録開始</a>
+											<span class="post-date">2017年7月26日</span>
+									</li>
+											<li>
+					<a href="../index.html?p=697">「Learn Languages 2017 in ODC」を開催します</a>
+											<span class="post-date">2017年6月18日</span>
+									</li>
+											<li>
+					<a href="../index.html?p=690">LLoT当日に関するお知らせ</a>
+											<span class="post-date">2016年8月26日</span>
+									</li>
+											<li>
+					<a href="../index.html?p=675">LLoTプログラム確定</a>
+											<span class="post-date">2016年8月12日</span>
+									</li>
+											<li>
+					<a href="../index.html?p=671">「帰ってきたデモ自慢」出場選手募集のお知らせ</a>
+											<span class="post-date">2016年6月30日</span>
+									</li>
+					</ul>
+
+		
+ </div>
+</div>
+
+ </div>
+</div>
+<div class="Block">
+ <div class="Block-tl"></div>
+ <div class="Block-tr"><div></div></div>
+ <div class="Block-bl"><div></div></div>
+ <div class="Block-br"><div></div></div>
+ <div class="Block-tc"><div></div></div>
+ <div class="Block-bc"><div></div></div>
+ <div class="Block-cl"><div></div></div>
+ <div class="Block-cr"><div></div></div>
+ <div class="Block-cc"></div>
+ <div class="Block-body">
+<div class="BlockHeader">
+ <div class="header-tag-icon">
+  <div class="BlockHeader-text">アーカイブ</div>
+ </div>
+ <div class="l"></div>
+ <div class="r"><div></div></div>
+</div>
+<div class="BlockContent">
+ <div class="BlockContent-body">
+
+			<ul>
+					<li><a href='../archives/date/2018/08'>2018年8月</a>&nbsp;(1)</li>
+	<li><a href='../archives/date/2018/07'>2018年7月</a>&nbsp;(1)</li>
+	<li><a href='../archives/date/2017/08'>2017年8月</a>&nbsp;(1)</li>
+	<li><a href='../archives/date/2017/07'>2017年7月</a>&nbsp;(1)</li>
+	<li><a href='../archives/date/2017/06'>2017年6月</a>&nbsp;(1)</li>
+	<li><a href='../archives/date/2016/08'>2016年8月</a>&nbsp;(2)</li>
+	<li><a href='../archives/date/2016/06'>2016年6月</a>&nbsp;(1)</li>
+	<li><a href='../archives/date/2016/05'>2016年5月</a>&nbsp;(1)</li>
+	<li><a href='../archives/date/2016/04'>2016年4月</a>&nbsp;(1)</li>
+	<li><a href='../archives/date/2015/09'>2015年9月</a>&nbsp;(3)</li>
+	<li><a href='../archives/date/2015/08'>2015年8月</a>&nbsp;(2)</li>
+	<li><a href='../archives/date/2015/07'>2015年7月</a>&nbsp;(1)</li>
+	<li><a href='../archives/date/2015/05'>2015年5月</a>&nbsp;(1)</li>
+	<li><a href='../archives/date/2015/02'>2015年2月</a>&nbsp;(1)</li>
+	<li><a href='../archives/date/2014/09'>2014年9月</a>&nbsp;(1)</li>
+	<li><a href='../archives/date/2014/08'>2014年8月</a>&nbsp;(5)</li>
+	<li><a href='../archives/date/2014/07'>2014年7月</a>&nbsp;(1)</li>
+	<li><a href='../archives/date/2014/06'>2014年6月</a>&nbsp;(2)</li>
+	<li><a href='../archives/date/2014/05'>2014年5月</a>&nbsp;(1)</li>
+	<li><a href='../archives/date/2014/01'>2014年1月</a>&nbsp;(1)</li>
+	<li><a href='../archives/date/2013/10'>2013年10月</a>&nbsp;(1)</li>
+	<li><a href='../archives/date/2013/09'>2013年9月</a>&nbsp;(1)</li>
+	<li><a href='../archives/date/2013/08'>2013年8月</a>&nbsp;(5)</li>
+	<li><a href='../archives/date/2013/07'>2013年7月</a>&nbsp;(1)</li>
+	<li><a href='../archives/date/2013/05'>2013年5月</a>&nbsp;(2)</li>
+	<li><a href='../archives/date/2013/04'>2013年4月</a>&nbsp;(1)</li>
+	<li><a href='../archives/date/2013/01'>2013年1月</a>&nbsp;(1)</li>
+	<li><a href='../archives/date/2012/12'>2012年12月</a>&nbsp;(1)</li>
+	<li><a href='../archives/date/2012/08'>2012年8月</a>&nbsp;(5)</li>
+	<li><a href='../archives/date/2012/07'>2012年7月</a>&nbsp;(6)</li>
+	<li><a href='../archives/date/2012/06'>2012年6月</a>&nbsp;(2)</li>
+	<li><a href='../archives/date/2012/05'>2012年5月</a>&nbsp;(3)</li>
+	<li><a href='../archives/date/2012/01'>2012年1月</a>&nbsp;(1)</li>
+	<li><a href='../archives/date/2011/11'>2011年11月</a>&nbsp;(1)</li>
+	<li><a href='../archives/date/2011/10'>2011年10月</a>&nbsp;(1)</li>
+	<li><a href='../archives/date/2011/08'>2011年8月</a>&nbsp;(10)</li>
+	<li><a href='../archives/date/2011/07'>2011年7月</a>&nbsp;(7)</li>
+	<li><a href='../archives/date/2011/06'>2011年6月</a>&nbsp;(5)</li>
+	<li><a href='../archives/date/2011/05'>2011年5月</a>&nbsp;(1)</li>
+	<li><a href='../archives/date/2011/03'>2011年3月</a>&nbsp;(2)</li>
+	<li><a href='../archives/date/2011/02'>2011年2月</a>&nbsp;(2)</li>
+	<li><a href='../archives/date/2010/09'>2010年9月</a>&nbsp;(1)</li>
+	<li><a href='../archives/date/2010/08'>2010年8月</a>&nbsp;(5)</li>
+	<li><a href='../archives/date/2010/07'>2010年7月</a>&nbsp;(9)</li>
+	<li><a href='../archives/date/2010/06'>2010年6月</a>&nbsp;(5)</li>
+	<li><a href='../archives/date/2010/05'>2010年5月</a>&nbsp;(2)</li>
+	<li><a href='../archives/date/2010/03'>2010年3月</a>&nbsp;(1)</li>
+			</ul>
+
+			
+ </div>
+</div>
+
+ </div>
+</div>
+</div>
+<div class="content">
+
+
+
+<div class="Post">
+ <div class="Post-tl"></div>
+ <div class="Post-tr"><div></div></div>
+ <div class="Post-bl"><div></div></div>
+ <div class="Post-br"><div></div></div>
+ <div class="Post-tc"><div></div></div>
+ <div class="Post-bc"><div></div></div>
+ <div class="Post-cl"><div></div></div>
+ <div class="Post-cr"><div></div></div>
+ <div class="Post-cc"></div>
+ <div class="Post-body">
+<div class="Post-inner article">
+
+<div class="PostContent">
+
+<div class="navigation">
+			<div class="alignleft"><a href="3" >&laquo; 前ページへ</a></div>
+			<div class="alignright"><a href="../index.html" >次ページへ &raquo;</a></div>
+</div>
+
+</div>
+<div class="cleared"></div>
+
+
+</div>
+
+
+ </div>
+</div>
+
+
+
+<div class="Post">
+ <div class="Post-tl"></div>
+ <div class="Post-tr"><div></div></div>
+ <div class="Post-bl"><div></div></div>
+ <div class="Post-br"><div></div></div>
+ <div class="Post-tc"><div></div></div>
+ <div class="Post-bc"><div></div></div>
+ <div class="Post-cl"><div></div></div>
+ <div class="Post-cr"><div></div></div>
+ <div class="Post-cc"></div>
+ <div class="Post-body">
+<div class="Post-inner article">
+<h2 class="PostHeaderIcon-wrapper"> <span class="PostHeader"><a href="../index.html?p=644" rel="bookmark" title="LL Ring Recursive来場御礼＆アンケートのお願い のパーマリンク">LL Ring Recursive来場御礼＆アンケートのお願い</a></span>
+</h2>
+<div class="PostMetadataHeader">
+<div class="PostHeaderIcons metadata-icons">
+<img src="../wp-content/themes/TechnologyComputerWordpressTheme/images/PostDateIcon.png" width="14" height="13" alt="PostDateIcon"/> 2015年9月7日
+</div>
+
+</div>
+<div class="PostContent">
+<p>2015年9月5日（土）に開催されたLLイベント「<a href="../../2015/index.html">LL Ring Recursive</a>」は、おかげさまで無事に終了いたしました。今年もたくさんの方にご来場いただきありがとうございました。</p>
+<p>今後のLLイベントのために<a href="../../2015/llrr/enquete.html" target="_blank">アンケート</a>を実施しております。<br />
+次のイベントをより良いものにするため、LL Ring Recursive にご参加いただいた方はもちろん、残念ながらご参加いただけなかった方からのご意見もお待ちしております。忌憚なきご意見・ご感想をぜひお寄せくださいませ。</p>
+<p>アンケートへのご回答は「<a href="../../2015/llrr/enquete.html" target="_blank">LL Ring Recursiveアンケート</a>」のページからお願いいたします。</p>
+
+</div>
+<div class="cleared"></div>
+<div class="PostMetadataFooter">
+<div class="PostFooterIcons metadata-icons">
+<img src="../wp-content/themes/TechnologyComputerWordpressTheme/images/PostCommentsIcon.png" width="18" height="18" alt="PostCommentsIcon"/> <span>コメントは受け付けていません。</span>
+</div>
+
+</div>
+
+</div>
+
+
+ </div>
+</div>
+
+<div class="Post">
+ <div class="Post-tl"></div>
+ <div class="Post-tr"><div></div></div>
+ <div class="Post-bl"><div></div></div>
+ <div class="Post-br"><div></div></div>
+ <div class="Post-tc"><div></div></div>
+ <div class="Post-bc"><div></div></div>
+ <div class="Post-cl"><div></div></div>
+ <div class="Post-cr"><div></div></div>
+ <div class="Post-cc"></div>
+ <div class="Post-body">
+<div class="Post-inner article">
+<h2 class="PostHeaderIcon-wrapper"> <span class="PostHeader"><a href="../index.html?p=638" rel="bookmark" title="入場時はQRコードのご用意を！ のパーマリンク">入場時はQRコードのご用意を！</a></span>
+</h2>
+<div class="PostMetadataHeader">
+<div class="PostHeaderIcons metadata-icons">
+<img src="../wp-content/themes/TechnologyComputerWordpressTheme/images/PostDateIcon.png" width="14" height="13" alt="PostDateIcon"/> 2015年9月4日
+</div>
+
+</div>
+<div class="PostContent">
+<p><img loading="lazy" src="../wp-content/uploads/2014/08/llmatsuri-ticket.png" alt="llmatsuri-ticket" width="126" height="224" class="alignright size-full wp-image-558" /><br />
+LLイベントではチケット販売にPeatixを利用しており、入場時もPeatixアプリのチェックイン機能を使用してチケットのチェックを行っています。しかし、チケットのQRコードを用意して来ていない人が多く、受付でのチェックに時間がかかる事例が多数見られます。そこで、チケットの用意について、ちょっと強調してお知らせしておきます。</p>
+<p><strong>チケットのQRコードをご用意ください</strong></p>
+<p>Peatixでは以下の3つの方法でQRコードを用意できます。いずれかの方法でご用意ください。</p>
+<ul>
+<li>iPhone、AndroidのPeatixアプリを利用して提示</li>
+<li>パソコンで表示した画面を印刷して提示</li>
+<li>スマートフォン以外の携帯電話で提示</li>
+</ul>
+<p>くわしくはPeatixのヘルプセンターの説明をご覧ください。<br />
+<a href="http://help.peatix.com/customer/portal/articles/1074222" target="_blank">「Peatixのチケットについて」</a></p>
+<p><strong>iPhone/AndroidのPeatixアプリでQRコードを表示する際の注意点</strong></p>
+<p>チケット表示のためにはPeatixアプリにてログインをする必要があります。事前にログインをしておいても会場受付にてアプリを立ち上げた際に再ログインが必要になる場合がありますので、Peatixのアカウント名とパスワードは忘れずにご用意ください。</p>
+<p>昨年はパスワードやアカウント名を思い出せなくて入場時に苦労なさっている方が多数いらっしゃったので、この点は特にご注意ください。</p>
+<p>ちょっとしたノウハウとしては、QRコードを表示した画面のスクリーンショットを事前に撮っておくといいと思います。</p>
+<p><strong>コンビニ/ATM支払にてご購入いただいた方への注意点</strong></p>
+<p>コンビニ/ATMでの支払明細や領収書にはPeatixの予約情報が記載されていません。そのため、これらをご提示いただいても照合できず入場できません。必ずQRコードをご用意ください。</p>
+<p>コンビニ/ATMでの入金後1〜2時間程度で、Peatixに登録されているメールアドレスにチケットお申し込み詳細のメールが届いているはずです。そのメールを確認し、上記「チケットのQRコードをご用意ください」にあります3つの方法のいずれかを利用してQRコードを忘れずにご用意ください。</p>
+<p><strong>それでもQRコードを忘れてきた人は</strong></p>
+<p>それでもQRコードの用意を忘れてくる人はいるので、その場合は受付で検索することになるのですが、これはかなり苦労するケースが多いです。というのは、チケット購入時に本名ではなくその場で思いついた仮名で登録していたり、どのSNSのアカウントでチケットを買ったか忘れた人などがいて、検索できないという事態に陥る事例が何度もあったのです。</p>
+<p>こういう事態を防ぐためにも、ぜひとも事前にQRコードをご用意の上、ご来場くださいますようお願いします。</p>
+
+</div>
+<div class="cleared"></div>
+<div class="PostMetadataFooter">
+<div class="PostFooterIcons metadata-icons">
+<img src="../wp-content/themes/TechnologyComputerWordpressTheme/images/PostCommentsIcon.png" width="18" height="18" alt="PostCommentsIcon"/> <span>コメントは受け付けていません。</span>
+</div>
+
+</div>
+
+</div>
+
+
+ </div>
+</div>
+
+<div class="Post">
+ <div class="Post-tl"></div>
+ <div class="Post-tr"><div></div></div>
+ <div class="Post-bl"><div></div></div>
+ <div class="Post-br"><div></div></div>
+ <div class="Post-tc"><div></div></div>
+ <div class="Post-bc"><div></div></div>
+ <div class="Post-cl"><div></div></div>
+ <div class="Post-cr"><div></div></div>
+ <div class="Post-cc"></div>
+ <div class="Post-body">
+<div class="Post-inner article">
+<h2 class="PostHeaderIcon-wrapper"> <span class="PostHeader"><a href="../index.html?p=616" rel="bookmark" title="LL Ring Recursive当日に関するお知らせ のパーマリンク">LL Ring Recursive当日に関するお知らせ</a></span>
+</h2>
+<div class="PostMetadataHeader">
+<div class="PostHeaderIcons metadata-icons">
+<img src="../wp-content/themes/TechnologyComputerWordpressTheme/images/PostDateIcon.png" width="14" height="13" alt="PostDateIcon"/> 2015年9月4日
+</div>
+
+</div>
+<div class="PostContent">
+<p><img loading="lazy" src="../wp-content/uploads/2015/09/llrr-t.jpg" alt="llrr-tshirts" width="240" height="180" class="aligncenter size-full wp-image-618" /></p>
+<p><a href="../../2015/index.html" target="_blank">LL Ring Recursive</a>の本番もいよいよ明日に迫りました。この記事では当日に関することをいくつかお伝えします。</p>
+<p><strong>チケットをお忘れなく</strong></p>
+<p>今回もPeatixのアプリでチケットのQRコードを読み取ることによる来場者チェックインを実施します。チケットを購入された方は、チケットのQRコードを必ずご用意ください。なお、QRコードの用意に関しては、<a href="../index.html?p=638">こちらの記事</a>もご覧ください。</p>
+<p><strong>当日券もあります</strong></p>
+<p>今年も残席に十分な余裕があるため、当日券を発売します。料金は3000円です。ちなみに<a href="http://llrr.peatix.com/" target="_blank">前売券も9/4(金)の24:30まで発売</a>しています。事前にチケットを購入できる方はこちらをご利用ください。</p>
+<p><strong>参加者向けの無線LANを提供します</strong></p>
+<p>LL Ring Recursiveでは参加者向けの無線LANを提供します。詳しくはWebサイトの<a href="../../2015/llrr/network.html" target="_blank">「会場ネットワーク」</a>をご覧ください。会場ネットワークの構築にご尽力いただいた企業・団体も掲載しています。この場を借りて深く感謝するとともに、皆さまからも賛辞をお送りいただければ幸いです。</p>
+<p><strong>バッテリーの充電をお忘れなく</strong></p>
+<p>ネットワークについては上述の通り充実した環境を用意していますが、電源コンセントの提供はありません。ご自身でモバイルバッテリーを用意するなどの方法でご対応ください。</p>
+<p><strong>開催記念Tシャツについて</strong></p>
+<p>Tシャツ付きチケットを購入された方へのTシャツの進呈は、今年は入場時に行います。また、当日のTシャツ販売は、Tシャツの残り状況を見ながら判断します。販売を行う際には場内にてアナウンスします。記事の冒頭に掲載したTシャツをぜひ入手してください。</p>
+<p><strong>エアクッションで尻対策を</strong></p>
+<p><a href="../../2006/index.html" target="_blank">9年前に新木場1stRINGでLLイベントを行った</a>際、アンケートでもっとも多い回答は「尻が痛い」でした。会場の椅子が全体的に硬く、そこに長時間座ってご観覧いただいたのが原因と推測しています。そこで今回は尻対策として、参加者全員にエアクッションをお配りします。エアといっても空気椅子ではありません。息を吹き込むとちゃんと物理的に膨らみます。尻に敷いてご活用ください。</p>
+<p><strong>昼食について</strong></p>
+<p><a href="https://www.google.co.jp/maps/search/新木場+飲食店/@35.6451761,139.8265668,18.27z" target="_blank">飲食店は新木場駅の周辺に数軒</a>あります。あるいは、今年はホール内での飲食ができますので、近くのコンビニで弁当などを買ってきて食事をしてもかまいません。ゴミは所定のゴミ箱に捨てるかお持ち帰りをお願いします。</p>
+<p><strong>書籍の販売と展示があります</strong></p>
+<p>今年もIT系出版各社にご協力をいただき、プログラミング関係を中心とする書籍の販売と展示を行います。参加する出版社はWebサイトの<a href="http://ll.jus.or.jp/2015/news/books/" target="_blank">「書籍販売＆見本誌展示を行います」</a>の記事をご覧ください。<br />
+また、展示に使用した書籍や、協賛社からいただいたグッズなどをプレゼントする抽選会を16:50ごろから行います。恒例のボール投げを行いますので、ぜひ受け取ってください。</p>
+<p><strong>懇親会について</strong></p>
+<p>スタッフにも「懇親会の費用っていつ払うんだっけ？」とか言う人がいて困るのですが(苦笑)、<strong>今年のチケット代は懇親会費込み</strong>です！イベントに参加したら、そのまま懇親会もお楽しみください。軽食と缶ビール/ジュース類程度ではありますが用意していますので、それらを召し上がりつつ、参加者や出演者との交流を深めてください。<br />
+なお、懇親会に先立ちまして、17時ごろからの休憩時間にレイアウト変更を行います。参加者の皆さんには、いったんホールの外に出てお待ちいただく可能性があります。あらかじめご了承ください。</p>
+<p><strong>LTにぜひご出場ください</strong></p>
+<p>懇親会の途中、18:30ぐらいから、本イベントの最終セッションとして<a href="../../2015/program/lt.html" target="_blank">「Lightning Talks」</a>を行います。<strong>LTの参加者は会場にて募集</strong>します。朝から受付にLT出場者受付コーナーを用意していますので、そちらにて応募用紙にご記入ください。先着で10名程度をお受けします。<br />
+LT出場者は、新木場1stRINGの花道をテーマ曲とともに入場し、リング上で発表するという経験ができます！</p>
+<p><strong>当日の天候について</strong></p>
+<p>当日の東京地方は曇ときどき晴れ、最低気温22度、最高気温は27度という予報が出ています(9月4日13時発表)。LLイベントは8月の暑い盛りに開催しているイメージがありますが、今年に限っては例年よりも多少涼しい中での開催となりそうです。気をつけてご来場ください。</p>
+<p>それでは明日、新木場1stRINGでお会いしましょう！</p>
+
+</div>
+<div class="cleared"></div>
+<div class="PostMetadataFooter">
+<div class="PostFooterIcons metadata-icons">
+<img src="../wp-content/themes/TechnologyComputerWordpressTheme/images/PostCommentsIcon.png" width="18" height="18" alt="PostCommentsIcon"/> <span>コメントは受け付けていません。</span>
+</div>
+
+</div>
+
+</div>
+
+
+ </div>
+</div>
+
+<div class="Post">
+ <div class="Post-tl"></div>
+ <div class="Post-tr"><div></div></div>
+ <div class="Post-bl"><div></div></div>
+ <div class="Post-br"><div></div></div>
+ <div class="Post-tc"><div></div></div>
+ <div class="Post-bc"><div></div></div>
+ <div class="Post-cl"><div></div></div>
+ <div class="Post-cr"><div></div></div>
+ <div class="Post-cc"></div>
+ <div class="Post-body">
+<div class="Post-inner article">
+<h2 class="PostHeaderIcon-wrapper"> <span class="PostHeader"><a href="../index.html?p=613" rel="bookmark" title="LL Ring Recursive全出演者確定 のパーマリンク">LL Ring Recursive全出演者確定</a></span>
+</h2>
+<div class="PostMetadataHeader">
+<div class="PostHeaderIcons metadata-icons">
+<img src="../wp-content/themes/TechnologyComputerWordpressTheme/images/PostDateIcon.png" width="14" height="13" alt="PostDateIcon"/> 2015年8月21日
+</div>
+
+</div>
+<div class="PostContent">
+<p>LL Ring Recursiveのプログラムのうち、未定だった出演者の交渉がすべて完了し、全出演者が決まりました。プログラムの一覧、時間割、出演者は、LL Ring Recursive公式Webサイトの<a href="../../2015/program.html">プログラムページ</a>をご覧ください。<br />
+新木場1stRINGのリング上で交わされる熱いトークバトルにご期待ください！</p>
+
+</div>
+<div class="cleared"></div>
+<div class="PostMetadataFooter">
+<div class="PostFooterIcons metadata-icons">
+<img src="../wp-content/themes/TechnologyComputerWordpressTheme/images/PostCommentsIcon.png" width="18" height="18" alt="PostCommentsIcon"/> <span>コメントは受け付けていません。</span>
+</div>
+
+</div>
+
+</div>
+
+
+ </div>
+</div>
+
+<div class="Post">
+ <div class="Post-tl"></div>
+ <div class="Post-tr"><div></div></div>
+ <div class="Post-bl"><div></div></div>
+ <div class="Post-br"><div></div></div>
+ <div class="Post-tc"><div></div></div>
+ <div class="Post-bc"><div></div></div>
+ <div class="Post-cl"><div></div></div>
+ <div class="Post-cr"><div></div></div>
+ <div class="Post-cc"></div>
+ <div class="Post-body">
+<div class="Post-inner article">
+<h2 class="PostHeaderIcon-wrapper"> <span class="PostHeader"><a href="../index.html?p=599" rel="bookmark" title="LL Ring Recursiveプログラム&#038;出演者発表 のパーマリンク">LL Ring Recursiveプログラム&#038;出演者発表</a></span>
+</h2>
+<div class="PostMetadataHeader">
+<div class="PostHeaderIcons metadata-icons">
+<img src="../wp-content/themes/TechnologyComputerWordpressTheme/images/PostDateIcon.png" width="14" height="13" alt="PostDateIcon"/> 2015年8月13日
+</div>
+
+</div>
+<div class="PostContent">
+<p><img loading="lazy" src="../wp-content/uploads/2015/08/ll2006.jpg" alt="ll2006" width="400" height="300" class="aligncenter size-full wp-image-609" /></p>
+<p><a href="../../2015/index.html">LL Ring Recursive</a>の全プログラムと時間割が確定しました。<a href="../../2015/program.html">プログラムのページ</a>をご覧ください。</p>
+<p>LLイベントはここ2年ほど複数トラックのプログラムを編成してきましたが、今年はプロレスのリングをステージとして使用する関係上、1トラック編成になっています。</p>
+<p>また、すでに登壇が決定している出演者の方々もプログラムに掲載しました。一部のプログラムは現在もまだ出演交渉を継続中ですが、それらにつきましても決まり次第、順次追加で掲載していきます。</p>
+<p>著名プログラマーたちが続々とリングインし、リング上で討論するさまは壮観です。当日を楽しみにしていてください。<a href="http://llrr.peatix.com/">チケットはPeaTiXにて発売中</a>です。</p>
+
+</div>
+<div class="cleared"></div>
+<div class="PostMetadataFooter">
+<div class="PostFooterIcons metadata-icons">
+<img src="../wp-content/themes/TechnologyComputerWordpressTheme/images/PostCommentsIcon.png" width="18" height="18" alt="PostCommentsIcon"/> <span>コメントは受け付けていません。</span>
+</div>
+
+</div>
+
+</div>
+
+
+ </div>
+</div>
+
+<div class="Post">
+ <div class="Post-tl"></div>
+ <div class="Post-tr"><div></div></div>
+ <div class="Post-bl"><div></div></div>
+ <div class="Post-br"><div></div></div>
+ <div class="Post-tc"><div></div></div>
+ <div class="Post-bc"><div></div></div>
+ <div class="Post-cl"><div></div></div>
+ <div class="Post-cr"><div></div></div>
+ <div class="Post-cc"></div>
+ <div class="Post-body">
+<div class="Post-inner article">
+<h2 class="PostHeaderIcon-wrapper"> <span class="PostHeader"><a href="../index.html?p=597" rel="bookmark" title="LL Ring Recursiveチケット発売開始＆協賛募集 のパーマリンク">LL Ring Recursiveチケット発売開始＆協賛募集</a></span>
+</h2>
+<div class="PostMetadataHeader">
+<div class="PostHeaderIcons metadata-icons">
+<img src="../wp-content/themes/TechnologyComputerWordpressTheme/images/PostDateIcon.png" width="14" height="13" alt="PostDateIcon"/> 2015年7月7日
+</div>
+
+</div>
+<div class="PostContent">
+<p>9月5日(土)に開催する<a href="../../2015/index.html" target="_blank">LL Ring Recursive</a>のチケットを発売開始しました。チケットは<a href="http://llrr.peatix.com" target="_blank">PeaTiX</a>にてお買い求めください。</p>
+<p>また、LL Ring Recursiveでは協賛を募集することにしました。ご支援いただける企業の方は、<a href="http://ll.jus.or.jp/2015/news/cfsponsor/" target="_blank">募集要項</a>をご覧の上、ご応募ください。</p>
+
+</div>
+<div class="cleared"></div>
+<div class="PostMetadataFooter">
+<div class="PostFooterIcons metadata-icons">
+<img src="../wp-content/themes/TechnologyComputerWordpressTheme/images/PostCommentsIcon.png" width="18" height="18" alt="PostCommentsIcon"/> <span>コメントは受け付けていません。</span>
+</div>
+
+</div>
+
+</div>
+
+
+ </div>
+</div>
+
+<div class="Post">
+ <div class="Post-tl"></div>
+ <div class="Post-tr"><div></div></div>
+ <div class="Post-bl"><div></div></div>
+ <div class="Post-br"><div></div></div>
+ <div class="Post-tc"><div></div></div>
+ <div class="Post-bc"><div></div></div>
+ <div class="Post-cl"><div></div></div>
+ <div class="Post-cr"><div></div></div>
+ <div class="Post-cc"></div>
+ <div class="Post-body">
+<div class="Post-inner article">
+<h2 class="PostHeaderIcon-wrapper"> <span class="PostHeader"><a href="../index.html?p=591" rel="bookmark" title="9月5日は「Lightweight Language Ring Recursive」の日 のパーマリンク">9月5日は「Lightweight Language Ring Recursive」の日</a></span>
+</h2>
+<div class="PostMetadataHeader">
+<div class="PostHeaderIcons metadata-icons">
+<img src="../wp-content/themes/TechnologyComputerWordpressTheme/images/PostDateIcon.png" width="14" height="13" alt="PostDateIcon"/> 2015年5月7日
+</div>
+
+</div>
+<div class="PostContent">
+<p>2015年のLLイベントの名称は「Lightweight Language Ring Recursive」に決定しました。熱きリングに返ってきた言語闘士の勇姿を2015年9月5日(土)、<a href="http://www.1st-ring.com/" target="_blank">新木場1stRING</a>でご覧ください。</p>
+<p>対戦カードやタイムテーブル、チケット販売などの情報は追って<a href="../../2015/index.html" target="_blank">公式ウェブサイト</a>で公開します。</p>
+<ul>
+<li>イベント名：Lightweight Language Ring Recursive (通称:LL Ring Recursive)</li>
+<li>日程：2015年9月5日(土)</li>
+<li>会場：新木場1stRing (東京都江東区新木場1-6-24)</li>
+<li>公式ウェブサイト： <a href="../../2015/index.html" target="_blank">http://ll.jus.or.jp/2015/</a></li>
+<li>公式タグ： llrr</li>
+</ul>
+<div id="attachment_576" style="width: 389px" class="wp-caption aligncenter"><a href="../wp-content/uploads/2015/02/15829671683_e6be617dc6_z.jpg"><img aria-describedby="caption-attachment-576" loading="lazy" class=" wp-image-576" src="../wp-content/uploads/2015/02/15829671683_e6be617dc6_z.jpg" alt="Lightweight Language Ring Recursiveの会場である新木場1stRING。" width="379" height="253" /></a><p id="caption-attachment-576" class="wp-caption-text">Lightweight Language Ring Recursiveの会場である新木場1stRING。</p></div>
+
+</div>
+<div class="cleared"></div>
+<div class="PostMetadataFooter">
+<div class="PostFooterIcons metadata-icons">
+<img src="../wp-content/themes/TechnologyComputerWordpressTheme/images/PostCommentsIcon.png" width="18" height="18" alt="PostCommentsIcon"/> <span>コメントは受け付けていません。</span>
+</div>
+
+</div>
+
+</div>
+
+
+ </div>
+</div>
+
+<div class="Post">
+ <div class="Post-tl"></div>
+ <div class="Post-tr"><div></div></div>
+ <div class="Post-bl"><div></div></div>
+ <div class="Post-br"><div></div></div>
+ <div class="Post-tc"><div></div></div>
+ <div class="Post-bc"><div></div></div>
+ <div class="Post-cl"><div></div></div>
+ <div class="Post-cr"><div></div></div>
+ <div class="Post-cc"></div>
+ <div class="Post-body">
+<div class="Post-inner article">
+<h2 class="PostHeaderIcon-wrapper"> <span class="PostHeader"><a href="../index.html?p=574" rel="bookmark" title="2015年のLLイベントは9.5新木場1stRINGで のパーマリンク">2015年のLLイベントは9.5新木場1stRINGで</a></span>
+</h2>
+<div class="PostMetadataHeader">
+<div class="PostHeaderIcons metadata-icons">
+<img src="../wp-content/themes/TechnologyComputerWordpressTheme/images/PostDateIcon.png" width="14" height="13" alt="PostDateIcon"/> 2015年2月6日
+</div>
+
+</div>
+<div class="PostContent">
+<p>今年もLLイベントの開催に向けて準備に入りました。まず日程と場所を確定させるべく奔走していましたが、このほど会場の予約ができましたので発表します。</p>
+<ul>
+<li>日程：2015年9月5日(土)</li>
+<li>場所：<a href="http://www.1st-ring.com/" target="_blank">新木場1stRING</a></li>
+</ul>
+<p><a href="../wp-content/uploads/2015/02/16423803186_1d6b22e168_z.jpg"><img loading="lazy" class=" size-full wp-image-575 alignnone" src="../wp-content/uploads/2015/02/16423803186_1d6b22e168_z.jpg" alt="logo" width="210" height="140" /></a><a href="../wp-content/uploads/2015/02/15829671683_e6be617dc6_z.jpg"><img loading="lazy" class=" size-full wp-image-576 alignnone" src="../wp-content/uploads/2015/02/15829671683_e6be617dc6_z.jpg" alt="ring" width="210" height="140" /></a></p>
+<p>会場名でも写真でもおわかりのように、普段は主にプロレスや格闘技の興行が行われる会場ですが、今回はここを1日お借りしてイベントを行います。もちろんリングもそのまま使います。</p>
+<p>実はこの会場での開催は2回目です。前回は2006年の<a href="../../2006/index.html" target="_blank">LL Ring</a>で利用しました。プロレス/格闘技用会場ならではの演出ができてとても楽しかったのですが、今回もさらにパワーアップした演出と、もちろん良質なプログラムを用意して、皆さんに楽しんでもらえたらと思っています。</p>
+<p>イベント名称やプログラムはこれから検討し、順次発表していきます。こちらのブログや、<a href="https://twitter.com/lljapan/" target="_blank">Twitter公式アカウント</a>、<a href="https://www.facebook.com/lljapan" target="_blank">facebookページ</a>などをチェックしてください。それから、皆さんの予定表の9月5日の欄に、LLイベントがあることをメモしていただければ幸いです。</p>
+<p>今年も熱いイベントをお見せします。ご期待ください！</p>
+<p><a href="../wp-content/uploads/2015/02/16263579279_020df51006_z.jpg"><img loading="lazy" class="aligncenter size-full wp-image-577" src="../wp-content/uploads/2015/02/16263579279_020df51006_z.jpg" alt="fight!" width="360" height="240" /></a></p>
+
+</div>
+<div class="cleared"></div>
+<div class="PostMetadataFooter">
+<div class="PostFooterIcons metadata-icons">
+<img src="../wp-content/themes/TechnologyComputerWordpressTheme/images/PostCommentsIcon.png" width="18" height="18" alt="PostCommentsIcon"/> <span>コメントは受け付けていません。</span>
+</div>
+
+</div>
+
+</div>
+
+
+ </div>
+</div>
+
+<div class="Post">
+ <div class="Post-tl"></div>
+ <div class="Post-tr"><div></div></div>
+ <div class="Post-bl"><div></div></div>
+ <div class="Post-br"><div></div></div>
+ <div class="Post-tc"><div></div></div>
+ <div class="Post-bc"><div></div></div>
+ <div class="Post-cl"><div></div></div>
+ <div class="Post-cr"><div></div></div>
+ <div class="Post-cc"></div>
+ <div class="Post-body">
+<div class="Post-inner article">
+<h2 class="PostHeaderIcon-wrapper"> <span class="PostHeader"><a href="../index.html?p=570" rel="bookmark" title="LL Diverアーカイブ公開 のパーマリンク">LL Diverアーカイブ公開</a></span>
+</h2>
+<div class="PostMetadataHeader">
+<div class="PostHeaderIcons metadata-icons">
+<img src="../wp-content/themes/TechnologyComputerWordpressTheme/images/PostDateIcon.png" width="14" height="13" alt="PostDateIcon"/> 2014年9月4日
+</div>
+
+</div>
+<div class="PostContent">
+<p>LL Diverの記録をWebサイトの<a href="http://ll.jus.or.jp/2014/archives" target="_blank">「アーカイブ」</a>ページにまとめて公開しました。内容は以下の通りです。</p>
+<ul>
+<li>発表資料：出演者により公開されたものを収録しています。</li>
+<li>写真：昼の部と夜の部に分けて公開しています。</li>
+<li>映像：公開可能なセッションをYouTubeに掲載し、再生リストを用意しました。</li>
+<li>音声：「mozaic.fm出張版」のみ、mozaic.fmにて公開しています。</li>
+<li>Twitter：当日のツイートをtogetterでまとめたものを公開しています。非常に量が多いので要約を作ってくださった方がいて、そちらも紹介しています。また、夜の部については会場スタッフの方がまとめてくださったので、そちらも掲載しています。</li>
+</ul>
+<p>ごゆっくりお楽しみください。</p>
+
+</div>
+<div class="cleared"></div>
+<div class="PostMetadataFooter">
+<div class="PostFooterIcons metadata-icons">
+<img src="../wp-content/themes/TechnologyComputerWordpressTheme/images/PostCommentsIcon.png" width="18" height="18" alt="PostCommentsIcon"/> <span>コメントは受け付けていません。</span>
+</div>
+
+</div>
+
+</div>
+
+
+ </div>
+</div>
+
+<div class="Post">
+ <div class="Post-tl"></div>
+ <div class="Post-tr"><div></div></div>
+ <div class="Post-bl"><div></div></div>
+ <div class="Post-br"><div></div></div>
+ <div class="Post-tc"><div></div></div>
+ <div class="Post-bc"><div></div></div>
+ <div class="Post-cl"><div></div></div>
+ <div class="Post-cr"><div></div></div>
+ <div class="Post-cc"></div>
+ <div class="Post-body">
+<div class="Post-inner article">
+<h2 class="PostHeaderIcon-wrapper"> <span class="PostHeader"><a href="../index.html?p=568" rel="bookmark" title="LL Diver来場御礼＆アンケートのお願い のパーマリンク">LL Diver来場御礼＆アンケートのお願い</a></span>
+</h2>
+<div class="PostMetadataHeader">
+<div class="PostHeaderIcons metadata-icons">
+<img src="../wp-content/themes/TechnologyComputerWordpressTheme/images/PostDateIcon.png" width="14" height="13" alt="PostDateIcon"/> 2014年8月25日
+</div>
+
+</div>
+<div class="PostContent">
+<p><a href="../../2014/index.html" target="_blank">LL Diver</a>は無事に終了しました。今年もたくさんの方にご来場いただきありがとうございました。</p>
+<p>実行委員会では、今後のLLイベントのためにアンケートを実施しております。いただいたご意見を反映し、次のLLイベントをより良いものにしたいと考えておりますので、LL Diverにご参加いただいた方はもちろん、残念ながらご参加いただけなかった方からのご意見もお待ちしております。ご協力よろしくお願いします。</p>
+<p><a href="http://ll.jus.or.jp/2014/enquete" target="_blank">LL Diverアンケート</a></p>
+
+</div>
+<div class="cleared"></div>
+<div class="PostMetadataFooter">
+<div class="PostFooterIcons metadata-icons">
+<img src="../wp-content/themes/TechnologyComputerWordpressTheme/images/PostCommentsIcon.png" width="18" height="18" alt="PostCommentsIcon"/> <span>コメントは受け付けていません。</span>
+</div>
+
+</div>
+
+</div>
+
+
+ </div>
+</div>
+
+
+<div class="Post">
+ <div class="Post-tl"></div>
+ <div class="Post-tr"><div></div></div>
+ <div class="Post-bl"><div></div></div>
+ <div class="Post-br"><div></div></div>
+ <div class="Post-tc"><div></div></div>
+ <div class="Post-bc"><div></div></div>
+ <div class="Post-cl"><div></div></div>
+ <div class="Post-cr"><div></div></div>
+ <div class="Post-cc"></div>
+ <div class="Post-body">
+<div class="Post-inner article">
+
+<div class="PostContent">
+
+<div class="navigation">
+			<div class="alignleft"><a href="3" >&laquo; 前ページへ</a></div>
+			<div class="alignright"><a href="../index.html" >次ページへ &raquo;</a></div>
+</div>
+
+</div>
+<div class="cleared"></div>
+
+
+</div>
+
+
+ </div>
+</div>
+
+
+
+</div>
+<div class="sidebar2">
+<div class="Block">
+ <div class="Block-tl"></div>
+ <div class="Block-tr"><div></div></div>
+ <div class="Block-bl"><div></div></div>
+ <div class="Block-br"><div></div></div>
+ <div class="Block-tc"><div></div></div>
+ <div class="Block-bc"><div></div></div>
+ <div class="Block-cl"><div></div></div>
+ <div class="Block-cr"><div></div></div>
+ <div class="Block-cc"></div>
+ <div class="Block-body">
+<div class="BlockContent">
+ <div class="BlockContent-body">
+			<div class="textwidget"><div style="padding-left: 8px;"><a href="https://twitter.com/lljapan" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @lljapan</a></div>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div>
+		
+ </div>
+</div>
+
+ </div>
+</div>
+<div class="Block">
+ <div class="Block-tl"></div>
+ <div class="Block-tr"><div></div></div>
+ <div class="Block-bl"><div></div></div>
+ <div class="Block-br"><div></div></div>
+ <div class="Block-tc"><div></div></div>
+ <div class="Block-bc"><div></div></div>
+ <div class="Block-cl"><div></div></div>
+ <div class="Block-cr"><div></div></div>
+ <div class="Block-cc"></div>
+ <div class="Block-body">
+<div class="BlockHeader">
+ <div class="header-tag-icon">
+  <div class="BlockHeader-text">カテゴリー</div>
+ </div>
+ <div class="l"></div>
+ <div class="r"><div></div></div>
+</div>
+<div class="BlockContent">
+ <div class="BlockContent-body">
+		<ul>
+			<li class="cat-item cat-item-3"><a href="../archives/category/アナウンス/index.html">アナウンス</a> (70)
+</li>
+	<li class="cat-item cat-item-15"><a href="../archives/category/ll2017">LL2017</a> (3)
+</li>
+	<li class="cat-item cat-item-17"><a href="../archives/category/ll2018">LL2018</a> (2)
+</li>
+	<li class="cat-item cat-item-14"><a href="../archives/category/llot-night">LLoT Night</a> (3)
+</li>
+	<li class="cat-item cat-item-13"><a href="../archives/category/llot">LL of Things</a> (5)
+</li>
+	<li class="cat-item cat-item-12"><a href="../archives/category/llrr" title="2015年9月5日（土）のイベント「Lightweight Language Ring Recursive」に関する記事">LL Ring Recursive</a> (8)
+</li>
+	<li class="cat-item cat-item-11"><a href="../archives/category/ll-diver">LL Diver</a> (10)
+</li>
+	<li class="cat-item cat-item-10"><a href="../archives/category/llまつり/index.html">LLまつり</a> (11)
+</li>
+	<li class="cat-item cat-item-8"><a href="../archives/category/ll-decade/index.html">LL Decade</a> (19)
+</li>
+	<li class="cat-item cat-item-7"><a href="../archives/category/ll-planets/index.html">LL Planets</a> (27)
+</li>
+	<li class="cat-item cat-item-5"><a href="../archives/category/ll-tiger/index.html">LL Tiger</a> (22)
+</li>
+		</ul>
+		
+ </div>
+</div>
+
+ </div>
+</div>
+<div class="Block">
+ <div class="Block-tl"></div>
+ <div class="Block-tr"><div></div></div>
+ <div class="Block-bl"><div></div></div>
+ <div class="Block-br"><div></div></div>
+ <div class="Block-tc"><div></div></div>
+ <div class="Block-bc"><div></div></div>
+ <div class="Block-cl"><div></div></div>
+ <div class="Block-cr"><div></div></div>
+ <div class="Block-cc"></div>
+ <div class="Block-body">
+<div class="BlockHeader">
+ <div class="header-tag-icon">
+  <div class="BlockHeader-text">今年のLLイベント</div>
+ </div>
+ <div class="l"></div>
+ <div class="r"><div></div></div>
+</div>
+<div class="BlockContent">
+ <div class="BlockContent-body">
+
+	<ul class='xoxo blogroll'>
+<li><a href="https://connpass.com/event/95443/" target="_blank">Learn Languages 2018 in ODC</a></li>
+
+	</ul>
+
+ </div>
+</div>
+
+ </div>
+</div>
+
+<div class="Block">
+ <div class="Block-tl"></div>
+ <div class="Block-tr"><div></div></div>
+ <div class="Block-bl"><div></div></div>
+ <div class="Block-br"><div></div></div>
+ <div class="Block-tc"><div></div></div>
+ <div class="Block-bc"><div></div></div>
+ <div class="Block-cl"><div></div></div>
+ <div class="Block-cr"><div></div></div>
+ <div class="Block-cc"></div>
+ <div class="Block-body">
+<div class="BlockHeader">
+ <div class="header-tag-icon">
+  <div class="BlockHeader-text">過去のLLイベント</div>
+ </div>
+ <div class="l"></div>
+ <div class="r"><div></div></div>
+</div>
+<div class="BlockContent">
+ <div class="BlockContent-body">
+
+	<ul class='xoxo blogroll'>
+<li><a href="../../lls2003/index.html">LL Saturday (2003)</a></li>
+<li><a href="../../llw2004/index.html">LL Weekend (2004)</a></li>
+<li><a href="../../2005/index.html">LL Day &amp; Night (2005)</a></li>
+<li><a href="../../2006/index.html">LL Ring (2006)</a></li>
+<li><a href="../../2007/index.html">LL魂 (2007)</a></li>
+<li><a href="../../2008/index.html">LL Future (2008)</a></li>
+<li><a href="../../2009/index.html" target="_top">LLTV (2009)</a></li>
+<li><a href="../../2010/data">LL Tiger (2010)</a></li>
+<li><a href="../../2011/ticket.html">LL Planets (2011)</a></li>
+<li><a href="../../2012/index.html">LL Decade (2012)</a></li>
+<li><a href="../../2013/index.html">LLまつり (2013)</a></li>
+<li><a href="../../2014/index.html" title="2014年8月23日(土)開催のLightweight Language Diver">LL Diver (2014)</a></li>
+<li><a href="../../2015/index.html">LL Ring Recursive (2015)</a></li>
+<li><a href="../../2016/index.html">LL of Things (2016)</a></li>
+<li><a href="../../2017/index.html">Learn Languages 2017 in ODC</a></li>
+
+	</ul>
+
+ </div>
+</div>
+
+ </div>
+</div>
+
+</div>
+
+</div>
+<div class="cleared"></div>
+
+<script type='text/javascript'>
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-4274904-1']);
+_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<div class="Footer">
+ <div class="Footer-inner">
+  <div class="Footer-text">&#169; 2010-2021 LL Blog<br/>All Rights Reserved.
+</div>
+ </div>
+ <div class="Footer-background"></div>
+</div>
+</div>
+</div>
+<p class="page-footer">Computer Theme supported by <a href="http://fixexe.com/">Fix Exe</a></p></div>
+<!-- 46個のクエリーと0.147秒を要しました。 -->
+<div><script type='text/javascript' src='../wp-includes/js/wp-embed.min.js?ver=5.6' id='wp-embed-js'></script>
+</div>
+</body>
+</html>

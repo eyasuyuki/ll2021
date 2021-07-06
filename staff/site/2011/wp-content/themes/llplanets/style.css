@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Theme Name: LLplanets
+   Description: LLplanets用
+   author:noday
+
+*/
+
+body  {
+	font: 100% "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+	background-color: #DCE0E4;
+	margin: 0;
+	padding: 0;
+	text-align: center; 
+	color: #000000;
+}
+
+a:link { text-decoration:none; color: #2A5E8D; }
+a:visited {
+	text-decoration:none;
+	color: #1D3F61;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+/* ＝＝＝＝＝＝＝＝＝＝＝＝コンテンツ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#content p {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 16px;
+	line-height: 150%;
+	}
+	
+#content h2 {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 24px;
+	line-height: 150%;
+	font-weight: bold;
+	color: #2A5E8C;
+	border-left-width: 8px;
+	border-left-style: solid;
+	border-left-color: #EABB00;
+	padding-left: 10px;
+	letter-spacing: -1px;
+}
+
+#content h3, #content #error404 p{
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 18px;
+	line-height: 150%;
+	font-weight: bold;
+	color: #1B3D5A;
+	padding-left: 10px;
+}
+
+#content ul li {
+	list-style-image: url(images/list-style.png);
+}
+
+#content p {
+	color: #000000;
+}
+
+#side ul {margin: 0;
+		padding: 0;
+}
+
+#side ul li {
+	list-style-type: none;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 15px;
+	line-height: 150%;
+	color: #2A5E8C;
+	padding-left: 10px;
+	}
+
+#head a {
+	font-size: 13px;
+	color: #FFFFFF;
+}
+
+#404 table {
+	background-color: #BED7ED;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-color: #285C8B;
+	border-right-color: #285C8B;
+	border-bottom-color: #285C8B;
+	border-left-color: #285C8B;
+	margin: 20px;
+	padding: 10px;
+	width: 480px;
+}
+
+/* ＝＝＝＝＝＝＝＝＝＝＝＝メニュー＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.menu li a {
+	list-style-type: none;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 15px;
+	line-height: 150%;
+	color: #2A5E8C;
+}
+
+.menu-item li a {
+	font-size: 13px;
+	line-height: 100%;
+}
+
+#side li#nav_menu-3 {
+	margin-top: 2em;
+}
+
+#side li.widget_nav_menu {
+	margin-right: 5px;
+	border-right: solid 5px #EABB00;
+	padding-top: 2px;
+	margin-bottom: 8px;
+}
+
+
+/* ＝＝＝＝＝＝＝＝＝＝＝＝パンくずリスト＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/	
+	
+
+/* ＝＝＝＝＝＝＝＝＝＝＝＝レイアウト＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#containar	{width:800px;
+		margin:auto;
+		background: #FFFFFF;
+		text-align: left; 
+}
+
+#head {
+	background-image: url(images/llp_top.png);
+	padding: 275px 0px 0px 5px;
+	font-size: 13px;
+	color: #FFFFFF;
+}
+
+#side {
+	float: right;
+	width:200px;
+	background: #FFFFFF;
+}
+
+#content {
+	float: left;
+	padding: 10px;
+	width: 580px;
+	background: #FFFFFF;
+	text-align: left;
+}
+
+#foot {
+	clear:both;
+	text-align: center;
+	padding: 10px; 
+}
+
+#foot p {
+	font-size: 12px;
+	margin: 0px 10px;
+}

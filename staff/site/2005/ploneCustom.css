@@ -1,0 +1,67 @@
+/*
+ *  This is the file where you put your CSS changes. 
+ *  You should preferrably use this and override the 
+ *  relevant properties you want to change here instead 
+ *  of customizing plone.css to survive upgrades. Writing
+ *  your own plone.css only makes sense for very heavy 
+ *  customizations. Useful variables from Plone are 
+ *  documented at the bottom of this file.
+ *
+ *  -- Alexander Limi, http://www.plonesolutions.com
+ */
+ 
+/* <!-- compression status: 0 --> (this is for http compression) */
+/*  (do not remove this :) */
+/*  (not this either :) */
+
+
+
+
+/* DELETE THIS LINE AND PUT YOUR CUSTOM STUFF HERE */
+
+
+
+
+/*  */
+
+
+.plate img {
+	margin: -1px;
+}
+
+.top-leftblock {
+	vertical-align: top;
+	align: left;
+	background-color: #cde;
+	border-top: 2px solid #444;
+        border-right: 1px solid #000;
+}
+
+.top-leftblock p {
+	font-size: 120%;
+    line-height: 1.5em;
+	margin: 0.5em 1em 0 1em;
+	color: #222;
+}
+
+
+.top-leftblock-blog {
+	vertical-align: top;
+	align: left;
+	background-color: #ecb;
+	border-top: 2px solid #444;
+        border-right: 1px solid #000;
+}
+
+.top-leftblock-blog p {
+	font-size: 120%;
+    line-height: 1.5em;
+	margin: 0.5em 1em 0 1em;
+	color: #222;
+}
+
+.global-border {
+	border-top: 2px solid #444;
+}
+
+

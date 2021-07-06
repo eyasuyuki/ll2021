@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+         xmlns="http://purl.org/rss/1.0/">
+
+
+
+
+    
+
+
+
+<channel rdf:about="http://ll.jus.or.jp/2006/blog/RSS">
+  <title>Blog</title>
+  <link>http://ll.jus.or.jp/2006</link>
+  
+  <description>
+    
+       
+       
+  </description>
+  
+  
+  
+            <syn:updatePeriod>hourly</syn:updatePeriod>
+            <syn:updateFrequency>1</syn:updateFrequency>
+            <syn:updateBase>2006-04-22T06:07:35Z</syn:updateBase>
+        
+  
+  <image rdf:resource="http://ll.jus.or.jp/2006/ll2006.gif"/>
+
+  <items>
+    <rdf:Seq>
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/janken-javascript-source"/>
+        
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/GaucheFest-16th"/>
+        
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/ll-ring306e52d5753b914d4fe1958b59cb"/>
+        
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/82f18a9eblog306bllring306e8a184e8b63b28f09"/>
+        
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/download"/>
+        
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/lost"/>
+        
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/ll-ring-questionaire"/>
+        
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/kakeibo"/>
+        
+    </rdf:Seq>
+  </items>
+
+</channel>
+
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/janken-javascript-source">        <title>じゃんけん2.0で優勝したJavaScriptのソースを公開しました</title>        <link>http://ll.jus.or.jp/2006/blog/janken-javascript-source</link>        <description>発表資料ページで、じゃんけん2.0で優勝したJavaScriptのソースコードを公開しました。</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>yasuyuki</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-10-02T03:46:43Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/GaucheFest-16th">        <title>第16回GaucheFestを開催します</title>        <link>http://ll.jus.or.jp/2006/blog/GaucheFest-16th</link>        <description> この場をお借りしてGaucheコミュニティから告知させていただきます。 みんなで集まってGaucheをHackする会、GaucheFestを10月も開催します。  GaucheFest:16th http://practical-scheme...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>yasuyuki</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-10-02T03:04:23Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/ll-ring306e52d5753b914d4fe1958b59cb">        <title>LL Ringの動画配信開始</title>        <link>http://ll.jus.or.jp/2006/blog/ll-ring306e52d5753b914d4fe1958b59cb</link>        <description> ソフトバンクのビジネス＋ITにて、LL Ringの動画が配信されています。【ストリーミング】 LightweightLanguage Ring －Blood Sweat &amp;amp; Code  皆様、ぜひご覧ください！...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>kahei</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-09-06T05:53:02Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/82f18a9eblog306bllring306e8a184e8b63b28f09">        <title>英語BlogにLLRingの記事掲載</title>        <link>http://ll.jus.or.jp/2006/blog/82f18a9eblog306bllring306e8a184e8b63b28f09</link>        <description> LL Ringの取材にきてくれたMatt Rosinさんが、英語の記事を執筆してくれました。 BOXING IN THE LLRING LLイベントも4年目に入って、国際的な注目を集めるようになってきたようです？！ 追記：さらに PerlMonks にも...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>kahei</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-09-06T06:07:40Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/download">        <title>発表資料を公開しました</title>        <link>http://ll.jus.or.jp/2006/blog/download</link>        <description>発表資料を公開しました。発表資料</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>yasuyuki</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-09-02T05:14:26Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/lost">        <title>落し物情報</title>        <link>http://ll.jus.or.jp/2006/blog/lost</link>        <description> 会場に参加者の落し物と思われるものがありましたので，お知らせします． LL RingのTシャツMサイズのものですNotePC用 ACアダプタDELTA ELECTRONICS, INC. 製MODEL: SADP-65KB AINPUT: 100-240...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>takano32</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-09-02T01:56:01Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/ll-ring-questionaire">        <title>LL Ringアンケート</title>        <link>http://ll.jus.or.jp/2006/blog/ll-ring-questionaire</link>        <description> LL Ringについて，簡単なアンケートを用意しました。今後の参考にさせていただきたく思います。下記リンクからお答え下さい。 LL Ringアンケート(来場者用)LL Ringアンケート(ご来場いただけなかった方用) ご協力のほどよろしくお願いいたします...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>ats</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-08-31T01:17:20Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/kakeibo">        <title>Web家計簿の試用版</title>        <link>http://ll.jus.or.jp/2006/blog/kakeibo</link>        <description> Kahua版Web家計簿がKahua実験サイトで公開されています。 http://www.kahua.org/cgi-bin/khead.cgi/kakei スクリーンショット:※クリックで拡大 (実験サイトという性格上、データ保存を...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>yasuyuki</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-08-29T10:11:37Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+
+
+
+
+</rdf:RDF>

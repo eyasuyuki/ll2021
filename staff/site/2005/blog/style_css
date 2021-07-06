@@ -1,0 +1,55 @@
+
+/* Entry box */
+.documentContent .coreblog-entry {
+	margin-top: 0.5em;
+}
+
+.documentContent .entry {
+	font-weight: normal;
+	whote-space: normal;
+	margin: 0 0.5em 0 0.5em;
+}
+
+/* Subtitle of entry*/
+.documentContent .subtitle {
+	font-size: x-small;
+	line-height: 110%;
+	padding-left: 0.2em;
+	margin: 0.1em 0.2em 0 0em;
+	border-left: 1em solid #dee7ec;
+}
+
+/* category of entry */
+.documentContent .category {
+	font-size: x-small;
+	line-height: 110%;
+	text-align:right;
+	margin: 0 0 2em 0;
+}
+
+/* date of entry*/
+.documentContent .blog-date {
+	background: #dee7ec;
+	color: #8cacbb;
+	line-height: 110%;
+	font-weight: normal;
+	padding: 3px 0;
+	margin-bottom: 4px;
+}
+
+.blog-date .day {
+	float: left;
+	font-size: xx-large;
+	line-height: 100%;
+	font-weight: normal;
+	letter-spacing: 0.02em;
+	margin-left: 4pt;
+	margin-right: 3pt;
+	padding-right: 3pt;
+	border-right: 4px solid #FFF;
+}
+
+.blog-date .monthyear {
+	font-size: small;
+	line-height: 100%;
+} 

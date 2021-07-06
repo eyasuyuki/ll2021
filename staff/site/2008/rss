@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+			<title>Lightweight Language Future RSS</title>
+			<link>http://ll.jus.or.jp/2008/rss</link>
+			<description></description>
+			<language>ja</language>
+			<copyright>Lightweight Language Future 2007</copyright>
+			<ttl>120</ttl>
+			<item>
+				<title>ビデオ集2</title>
+				<link>http://ll.jus.or.jp/2008/info/video2</link>
+				<description><![CDATA[ <p>ここでは実際のイベントの様子を紹介します。<a href="http://www.nicovideo.jp/mylist/8224180" target="_blank">リストはこちらになります（ニコニコ動画）</a></p>
+
+<h3>オープニング</h3>
+<p>
+<script type="text/javascript" src="http://ext.nicovideo.jp/thumb_watch/sm4481852"></script> 
+<iframe width="312" height="176" src="http://</p> ]]></description>
+				<pubDate>Sat, 30 Aug 2008 22:39:25 +0900</pubDate>
+				<guid isPermaLink="false">http://ll.jus.or.jp/2008/info/video2</guid>
+				<dc:creator>AKANO. Naoki</dc:creator>
+				
+			</item>
+		
+			<item>
+				<title>キミならどう書く？</title>
+				<link>http://ll.jus.or.jp/2008/program/doukaku</link>
+				<description><![CDATA[ <h2>セッション概要</h2>
+<p>
+「キミならどう書く？」では温故知新に重きを置き、高級なLLを低級言語のように使いこなし、地球に優しい短いコードでプログラミングする「LL Golf」というプログラムを企画しています。ぜひみなさんも「LL Golf」で未来に向けてエコプログラミングをしてみましょう！ 「LL Golf」の詳細やお題は下記をご覧下さい。
+</p>
+ ]]></description>
+				<pubDate>Wed, 02 Jul 2008 03:36:02 +0900</pubDate>
+				<guid isPermaLink="false">http://ll.jus.or.jp/2008/program/doukaku</guid>
+				<dc:creator>AKANO. Naoki</dc:creator>
+				
+			</item>
+		
+			<item>
+				<title>トラックバック</title>
+				<link>http://ll.jus.or.jp/2008/trackback</link>
+				<description><![CDATA[ <p>
+LL Future に関するコメント、トラックバックを<a href="http://ll.jus.or.jp/2008/blog/archives/35">コチラの blog エントリにて受け付けております</a>。
+</p>
+<p>
+皆さんの生の感想の声をお聞かせくださいませ。
+</p>
+
+
+<h3>トラックバック一覧</h3>
+
+[!NewsParserX?url=`http://ll.jus.or.jp/2008/blog/archives/35/feed`&amp;limit=40 ]]></description>
+				<pubDate>Wed, 03 Sep 2008 19:20:48 +0900</pubDate>
+				<guid isPermaLink="false">http://ll.jus.or.jp/2008/trackback</guid>
+				<dc:creator>AKANO. Naoki</dc:creator>
+				
+			</item>
+		
+			<item>
+				<title>写真集</title>
+				<link>http://ll.jus.or.jp/2008/info/photo</link>
+				<description><![CDATA[ <p>
+<a href="http://flickr.com/groups/llfuture/pool/" target="_blank">こちらの Flickr の pool に LL Future の写真が載っております。</a>
+</p>
+<p>
+ご自由に閲覧、ダウンロードして下さいませ。
+</p>
+<p>
+※ もし公開不都合な画像が掲載されている場合、<tt>info2008 [at] ll.jus.or.jp </tt>までご連絡下さい。
+</p>
+<h3>一部抜粋</h3>
+< ]]></description>
+				<pubDate>Mon, 01 Sep 2008 19:34:05 +0900</pubDate>
+				<guid isPermaLink="false">http://ll.jus.or.jp/2008/info/photo</guid>
+				<dc:creator>AKANO. Naoki</dc:creator>
+				
+			</item>
+		
+			<item>
+				<title>スタッフ紹介</title>
+				<link>http://ll.jus.or.jp/2008/summary/staff</link>
+				<description><![CDATA[ <ul>
+<li><a href="http://karetta.jp/" target="_blank">えんどうやすゆき</a>（Kahuaプロジェクト）</li>
+<li>岡松伸太郎（日本UNIXユーザ会）</li>
+<li><a href="http://www.suplex.gr.jp/~hourin/" target="_blank">法林浩之</a>（日本UNIXユーザ会）</li>
+<li><a href="http://asciimw.jp/" target="_blank">鈴木嘉平</a>（株式会社アスキー・メ</li></ul> ]]></description>
+				<pubDate>Wed, 06 Aug 2008 09:07:14 +0900</pubDate>
+				<guid isPermaLink="false">http://ll.jus.or.jp/2008/summary/staff</guid>
+				<dc:creator>AKANO. Naoki</dc:creator>
+				
+			</item>
+		
+			<item>
+				<title>資料集</title>
+				<link>http://ll.jus.or.jp/2008/info/slide</link>
+				<description><![CDATA[ <p>このページでは、イベントで発表した資料を公開できる範囲で公開していきます（敬称略）。</p>
+<h3>LL で未来を発明する</h3>
+<ul>
+<li>住井英二郎（<a href="http://ll.jus.or.jp/2008//2008/slides/1/sumii.ppt" target="_blank">ppt</a> <a href="http://ll.jus.or.jp/2008//2008/slides/1/sumii.pdf" target="_blank">pdf</a>）</li>
+</ul>
+
+ ]]></description>
+				<pubDate>Sat, 30 Aug 2008 22:48:17 +0900</pubDate>
+				<guid isPermaLink="false">http://ll.jus.or.jp/2008/info/slide</guid>
+				<dc:creator>AKANO. Naoki</dc:creator>
+				
+			</item>
+		
+			<item>
+				<title>公式タグ</title>
+				<link>http://ll.jus.or.jp/2008/publictag</link>
+				<description><![CDATA[ <p>
+このイベントの公式タグは　<span style="font-weight: bold; font-size: large">llfuture</span>　です。
+</p>
+<p>
+このイベントに関する質問、参戦表明、感想、苦情、もしくはイベントそのものには直接関係のない軽量言語に関する様々な話題を
+ソーシャルブックマーク等で共有できればと思っております。
+</p>
+<h3>はてなブックマーク（<a hr</h3> ]]></description>
+				<pubDate>Sun, 23 Mar 2008 23:23:31 +0900</pubDate>
+				<guid isPermaLink="false">http://ll.jus.or.jp/2008/publictag</guid>
+				<dc:creator>Default admin account</dc:creator>
+				
+			</item>
+		
+			<item>
+				<title>ビデオ集1</title>
+				<link>http://ll.jus.or.jp/2008/info/video1</link>
+				<description><![CDATA[ <h3>オープニングビデオ</h3>
+<p><div style="border: 3px solid #cccccc;  width:425px;"><object width="425" height="350"> <param name="movie" value="http://www.youtube.com/v/VqoxyUYEWNs"> </param> <embed src="http://www.youtube.com/v/VqoxyUYEWNs" type="application/x-shockwave-flash" width="425" height="350"> </embed> </object></di</div></p> ]]></description>
+				<pubDate>Wed, 27 Aug 2008 14:32:33 +0900</pubDate>
+				<guid isPermaLink="false">http://ll.jus.or.jp/2008/info/video1</guid>
+				<dc:creator>AKANO. Naoki</dc:creator>
+				
+			</item>
+		
+			<item>
+				<title>LLFuture×gihyo.jp</title>
+				<link>http://ll.jus.or.jp/2008/info/xgihyo</link>
+				<description><![CDATA[ <p>
+今年度 Lightweight Language Future は、<a href="http://gihyo.jp/" target="_blank">gihyo.jp</a> とコラボレート致しまして、今年のイベントへの意気込み、注目点等を<a href="http://gihyo.jp/dev/serial/01/ll-future" target="_blank">随時お届け致します</a>。このサイトと併せてご覧いただけますと幸いです。
+</p>
+<p>
+連載スケジュール</p> ]]></description>
+				<pubDate>Fri, 11 Jul 2008 21:53:27 +0900</pubDate>
+				<guid isPermaLink="false">http://ll.jus.or.jp/2008/info/xgihyo</guid>
+				<dc:creator>AKANO. Naoki</dc:creator>
+				
+			</item>
+		
+			<item>
+				<title>開催前トップ</title>
+				<link>http://ll.jus.or.jp/2008/oldtop</link>
+				<description><![CDATA[ <script src="http://ll.jus.or.jp/2008/js/etc/jqueryCustom.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+<!--
+jQuery.noConflict();
+window.onload = function () {
+jQuery('#h2oldtop').fadeIn('slow');
+}
+//-->
+</script>
+<div align="center" style="padding-top: 30px">
+<!--
+<a href="http://ll.jus.or.jp</div> ]]></description>
+				<pubDate>Wed, 30 Apr 2008 15:32:53 +0900</pubDate>
+				<guid isPermaLink="false">http://ll.jus.or.jp/2008/oldtop</guid>
+				<dc:creator>Default admin account</dc:creator>
+				
+			</item>
+			</channel>
+</rss>

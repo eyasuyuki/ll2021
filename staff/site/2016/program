@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="Last-Modified" content="Fri, 07 Apr 2017 06:42:18 GMT">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<title>PROGRAM &#8211; LLoT</title>
+<link rel='dns-prefetch' href="http://netdna.bootstrapcdn.com/" />
+<link rel='dns-prefetch' href="http://fonts.googleapis.com/" />
+<link rel='dns-prefetch' href="http://s.w.org/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/ll.jus.or.jp\/2016\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.3"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='tkss-style-css'  href="wp-content/plugins/tk-social-share/css/style.css?ver=4.7.3" type='text/css' media='all' />
+<link rel='stylesheet' id='tkss-cl-css-css'  href="wp-content/plugins/tk-social-share/css/colored-icons.css?ver=4.7.3" type='text/css' media='all' />
+<link rel='stylesheet' id='pirate_forms_front_styles-css'  href="wp-content/plugins/pirate-forms/css/front.css?ver=4.7.3" type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href="wp-content/plugins/revslider/rs-plugin/css/settings.css?ver=4.6.5" type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}
+</style>
+<link rel='stylesheet' id='tk-shortcodes-fap-css'  href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css?ver=2.0.0" type='text/css' media='all' />
+<link rel='stylesheet' id='tk-shortcodes-css'  href="wp-content/plugins/tk-shortcodes/public/css/tk-shortcodes-public.css?ver=2.0.0" type='text/css' media='all' />
+<link rel='stylesheet' id='onepress-fonts-css'  href='https://fonts.googleapis.com/css?family=Raleway%3A400%2C500%2C600%2C700%2C300%2C100%2C800%2C900%7COpen+Sans%3A400%2C300%2C300italic%2C400italic%2C600%2C600italic%2C700%2C700italic&#038;subset=latin%2Clatin-ext&#038;ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='onepress-animate-css'  href="wp-content/themes/onepress/assets/css/animate.min.css?ver=1.0.0" type='text/css' media='all' />
+<link rel='stylesheet' id='onepress-fa-css'  href="wp-content/themes/onepress/assets/css/font-awesome.min.css?ver=4.7.0" type='text/css' media='all' />
+<link rel='stylesheet' id='onepress-bootstrap-css'  href="wp-content/themes/onepress/assets/css/bootstrap.min.css?ver=1.0.0" type='text/css' media='all' />
+<link rel='stylesheet' id='onepress-style-css'  href="wp-content/themes/onepress/style.css?ver=4.7.3" type='text/css' media='all' />
+<style id='onepress-style-inline-css' type='text/css'>
+#main .video-section section.hero-slideshow-wrapper{background:transparent}.hero-slideshow-wrapper:after{position:absolute;top:0px;left:0px;width:100%;height:100%;background-color:rgba(0,0,0,0.3);display:block;content:""}.body-desktop .parallax-hero .hero-slideshow-wrapper:after{display:none!important}.parallax-hero .parallax-mirror:after{position:absolute;top:0px;left:0px;width:100%;height:100%;background-color:rgba(0,0,0,0.3);display:block;content:""}.body-desktop .parallax-hero .hero-slideshow-wrapper:after{display:none!important}.parallax-hero .parallax-mirror:after{position:absolute;top:0px;left:0px;width:100%;height:100%;background-color:rgba(0,0,0,0.3);display:block;content:""}.gallery-carousel .g-item{padding:0px 10px}.gallery-carousel{margin-left:-10px;margin-right:-10px}.gallery-grid .g-item,.gallery-masonry .g-item .inner{padding:10px}.gallery-grid,.gallery-masonry{margin:-10px}
+</style>
+<link rel='stylesheet' id='onepress-gallery-lightgallery-css'  href="wp-content/themes/onepress/assets/css/lightgallery.css?ver=4.7.3" type='text/css' media='all' />
+<link rel='stylesheet' id='onepress-child-style-css'  href="wp-content/themes/onepress-child/style.css?ver=4.7.3" type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var onepress_js_settings = {"onepress_disable_animation":"1","onepress_disable_sticky_header":"1","onepress_vertical_align_menu":"","hero_animation":"flipInX","hero_speed":"5000","is_home":"","gallery_enable":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src="wp-includes/js/jquery/jquery.js?ver=1.12.4"></script>
+<script type='text/javascript' src="wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pirateFormsObject = {"errors":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src="wp-content/plugins/pirate-forms/js/scripts-general.js?ver=4.7.3"></script>
+<script type='text/javascript' src="wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.tools.min.js?ver=4.6.5"></script>
+<script type='text/javascript' src="wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?ver=4.6.5"></script>
+<script type='text/javascript' src="wp-includes/js/jquery/ui/core.min.js?ver=1.11.4"></script>
+<script type='text/javascript' src="wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4"></script>
+<script type='text/javascript' src="wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4"></script>
+<script type='text/javascript' src="wp-content/plugins/tk-shortcodes/public/js/tk-shortcodes-public.js?ver=2.0.0"></script>
+<link rel='https://api.w.org/' href="wp-json/index.html" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.7.3 with StaticPress ver.0.4.5" />
+<link rel="canonical" href="program" />
+<link rel="alternate" type="application/json+oembed" href="http://ll.jus.or.jp/2016/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fll.jus.or.jp%2F2016%2Fprogram" />
+<link rel="alternate" type="text/xml+oembed" href="http://ll.jus.or.jp/2016/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fll.jus.or.jp%2F2016%2Fprogram&amp;format=xml" />
+		<script type="text/javascript">
+			jQuery(document).ready(function() {
+				// CUSTOM AJAX CONTENT LOADING FUNCTION
+				var ajaxRevslider = function(obj) {
+				
+					// obj.type : Post Type
+					// obj.id : ID of Content to Load
+					// obj.aspectratio : The Aspect Ratio of the Container / Media
+					// obj.selector : The Container Selector where the Content of Ajax will be injected. It is done via the Essential Grid on Return of Content
+					
+					var content = "";
+
+					data = {};
+					
+					data.action = 'revslider_ajax_call_front';
+					data.client_action = 'get_slider_html';
+					data.token = 'de94a3bc3b';
+					data.type = obj.type;
+					data.id = obj.id;
+					data.aspectratio = obj.aspectratio;
+					
+					// SYNC AJAX REQUEST
+					jQuery.ajax({
+						type:"post",
+						url:"http://ll.jus.or.jp/2016/wp-admin/admin-ajax.php",
+						dataType: 'json',
+						data:data,
+						async:false,
+						success: function(ret, textStatus, XMLHttpRequest) {
+							if(ret.success == true)
+								content = ret.data;								
+						},
+						error: function(e) {
+							console.log(e);
+						}
+					});
+					
+					 // FIRST RETURN THE CONTENT WHEN IT IS LOADED !!
+					 return content;						 
+				};
+				
+				// CUSTOM AJAX FUNCTION TO REMOVE THE SLIDER
+				var ajaxRemoveRevslider = function(obj) {
+					return jQuery(obj.selector+" .rev_slider").revkill();
+				};
+
+				// EXTEND THE AJAX CONTENT LOADING TYPES WITH TYPE AND FUNCTION
+				var extendessential = setInterval(function() {
+					if (jQuery.fn.tpessential != undefined) {
+						clearInterval(extendessential);
+						if(typeof(jQuery.fn.tpessential.defaults) !== 'undefined') {
+							jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});   
+							// type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
+							// func: the Function Name which is Called once the Item with the Post Type has been clicked
+							// killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
+							// openAnimationSpeed: how quick the Ajax Content window should be animated (default is 0.3)
+						}
+					}
+				},30);
+			});
+		</script>
+		<!-- BEGIN: WP Social Bookmarking Light -->
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<style type="text/css">
+.wp_social_bookmarking_light{
+    border: 0 !important;
+    padding: 10px 0 20px 0 !important;
+    margin: 0 !important;
+}
+.wp_social_bookmarking_light div{
+    float: left !important;
+    border: 0 !important;
+    padding: 0 !important;
+    margin: 0 5px 0px 0 !important;
+    min-height: 30px !important;
+    line-height: 18px !important;
+    text-indent: 0 !important;
+}
+.wp_social_bookmarking_light img{
+    border: 0 !important;
+    padding: 0;
+    margin: 0;
+    vertical-align: top !important;
+}
+.wp_social_bookmarking_light_clear{
+    clear: both !important;
+}
+#fb-root{
+    display: none;
+}
+.wsbl_twitter{
+    width: 100px;
+}
+.wsbl_facebook_like iframe{
+    max-width: none !important;
+}
+.wsbl_pinterest a{
+    border: 0px !important;
+}</style>
+<!-- END: WP Social Bookmarking Light -->
+<!-- OGP -->
+<meta property="fb:app_id" content="1897892650437562">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@lljapan">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Lightweight Language of Things (LLoT)">
+<meta property="og:url" content="http://ll.jus.or.jp/2016/">
+<meta property="og:site_name" content="LLoT - Lightweight Language of Things">
+<meta property="og:image" content="http://ll.jus.or.jp/2016/wp-content/uploads/2016/05/head.jpg">
+
+</head>
+
+<body class="page-template-default page page-id-55 wp-custom-logo no-sticky-header">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="program#content">コンテンツへスキップ</a>
+            <header id="masthead" class="site-header" role="banner">
+            <div class="container">
+                <div class="site-branding">
+                <div class="site-brand-inner has-logo-img no-desc"><div class="site-logo-div"><a href="index.html" class="custom-logo-link" rel="home" itemprop="url"><img width="1104" height="312" src="wp-content/uploads/2016/05/head.jpg" class="custom-logo" alt="" itemprop="logo" /></a></div></div>                </div>
+                <!-- .site-branding -->
+
+                <div class="header-right-wrapper">
+                    <a href="program#0" id="nav-toggle">メニュー<span></span></a>
+                    <nav id="site-navigation" class="main-navigation" role="navigation">
+                        <ul class="onepress-menu">
+                            <li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-35"><a href="index.html">ABOUT</a></li>
+<li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-55 current_page_item menu-item-59"><a href="program">PROGRAM</a></li>
+<li id="menu-item-58" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58"><a href="ticket">TICKET</a></li>
+<li id="menu-item-120" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120"><a href="sponsors">SPONSORS</a></li>
+<li id="menu-item-102" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-102"><a href="../blog/index.html">BLOG</a></li>
+<li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="archives">ARCHIVES</a></li>
+<li id="menu-item-99" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99"><a href="history">HISTORY</a></li>
+<li id="menu-item-228" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-228"><a href="enquete">ENQUETE</a></li>
+                        </ul>
+                    </nav>
+                    <!-- #site-navigation -->
+                </div>
+            </div>
+        </header><!-- #masthead -->
+        
+	<div id="content" class="site-content">
+
+		<div class="page-header">
+			<div class="container">
+				<h1 class="entry-title">PROGRAM</h1>			</div>
+		</div>
+
+		
+		<div id="content-inside" class="container right-sidebar">
+			<div id="primary" class="content-area">
+				<main id="main" class="site-main" role="main">
+
+					
+						
+<article id="post-55" class="post-55 page type-page status-publish hentry">
+	<header class="entry-header">
+			</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<div class='wp_social_bookmarking_light'><div class="wsbl_hatena_button"><a href="http://b.hatena.ne.jp/entry/http://ll.jus.or.jp/2016/program" class="hatena-bookmark-button" data-hatena-bookmark-title="PROGRAM" data-hatena-bookmark-layout="simple-balloon" title="このエントリーをはてなブックマークに追加"> <img src="http://b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async="async"></script></div><div class="wsbl_facebook_like"><div id="fb-root"></div><fb:like href="/2016/program" layout="button_count" action="like" width="100" share="false" show_faces="false" ></fb:like></div><div class="wsbl_twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://ll.jus.or.jp/2016/program" data-text="PROGRAM">Tweet</a></div></div><br class='wp_social_bookmarking_light_clear' /><p>プログラムは予告なく変更されることがあります。</p>
+<h2 id="time_table">タイムテーブル</h2>
+<ul>
+<li>10:00-11:00 <a href="program#session_update">Language Update</a></li>
+<li>11:10-12:30 <a href="program#session_keyboard">キーボードにこだわろう</a></li>
+<li>12:30-13:50 昼休み</li>
+<li>13:50-15:10 <a href="program#session_type">Dynamic Typing再考</a></li>
+<li>15:30-16:30 <a href="program#session_mobile">Kotlin vs Swift</a></li>
+<li>16:30-16:40 抽選会&amp;昼の部クロージング</li>
+<li>18:00-18:40 <a href="program#session_frontend">フロントエンドだめ自慢</a></li>
+<li>18:50-19:30 <a href="program#session_demo">帰ってきたデモ自慢</a></li>
+</ul>
+<h2 id="llot_day">昼の部</h2>
+<p>会場：<a href="http://www.jec.ac.jp/access/" target="_blank">日本電子専門学校 9号館 メディアセンター</a><br />
+チケット: <a href="https://llot.peatix.com/" target="_blank">https://llot.peatix.com/</a></p>
+<h3 id="session_update">Language Update</h3>
+<p>たくさんの種類がある軽量言語ですが、今年のLanguage UPDATEでは、6言語(予定)を選びました。<br />
+このセッションでは 普段は、他の言語を使われる方にも楽しんでもらえるように、最近のリリース情報だけでなく、最近の話題を含めて、広く語ってもらう予定にしております。きっと普段から気になっている他の言語についても情報を得る良い機会になることと考えております。</p>
+<p>出演:<br />
+<a href="https://twitter.com/boochnich"><img src="wp-content/uploads/2017/04/t_boochnich.jpg" alt="" width="100" height="100" /></a><br />
+高橋 徹 (Java) <a href="https://twitter.com/boochnich">@boochnich</a></p>
+<p><a href="https://twitter.com/hnw"><img src="wp-content/uploads/2017/04/t_hnw.jpg" alt="" width="100" height="100" /></a><br />
+hnw (PHP) <a href="https://twitter.com/hnw">@hnw</a></p>
+<p><a href="https://twitter.com/charsbar"><img src="wp-content/uploads/2017/04/t_charsbar.jpg" alt="" width="100" height="100" /></a><br />
+石垣 憲一 (Perl) <a href="https://twitter.com/charsbar">@charsbar</a></p>
+<p><a href="https://twitter.com/hirokiky"><img src="wp-content/uploads/2017/04/t_hirokiky.jpg" alt="" width="100" height="100" /></a><br />
+清原 弘貴 (Python) <a href="https://twitter.com/hirokiky">@hirokiky</a></p>
+<p><a href="https://twitter.com/teppeis"><img src="wp-content/uploads/2017/04/t_teppeis.png" alt="" width="100" height="100" /></a><br />
+佐藤 鉄平　(JavaScript)<a href="https://twitter.com/teppeis">@teppeis</a></p>
+<p><a href="https://twitter.com/takahashim"><img src="wp-content/uploads/2017/04/t_takahashim.jpg" alt="" width="100" height="100" /></a><br />
+高橋征義 (Ruby) <a href="https://twitter.com/takahashim">@takahashim</a></p>
+<h3 id="session_keyboard">キーボードにこだわろう</h3>
+<p>日々の文字入力でフリックを活用することが多くなってきた、あるいは、音声入力を結構使ってるよ、という人も増えてきている昨今です。しかし、プログラミングや、まとまった量の文書書きでは、まだまだキーボードに勝るものはないでしょう。<br />
+エンジニアが仕事をする時間の多くを、文字通り手先となって支えてくれるキーボード、皆さんはどのくらいの情熱を(あるいはお金を)かけて選んでいますか？<br />
+このセッションでは、エンジニアに特に人気のあるHHK、Realforceシリーズのメーカーの方、またErgoDoxやKinesisという「こだわりのキーボード」使いの方々をお呼びして、キーボードへの熱い思いを語っていただきます。</p>
+<p>出演:<br />
+<a href="https://twitter.com/nippondanji"><img src="wp-content/uploads/2017/04/t_nippondanji.jpg" alt="" width="100" height="100" /></a><br />
+奥野 幹也 (おくの・みきや) <a href="https://twitter.com/nippondanji">@nippondanji</a></p>
+<p><img src="wp-content/uploads/2016/04/matsumoto100.jpg" width="100" height="100" /><br />
+松本 秀樹 (まつもと・ひでき) PFU</p>
+<p><img src="wp-content/uploads/2016/04/mochida100.jpg" width="100" height="100" /><br />
+持田 智彦	(もちだ・ともひこ) 東プレ</p>
+<p><img src="wp-content/uploads/2016/04/kobayashi100.jpg"width="100" height="100" /><br />
+小林 充 (こばやし・みつる) 東プレ</p>
+<p>司会:<br />
+<a href="https://twitter.com/mad_p"><img src="wp-content/uploads/2017/04/t_mad_p.jpg" alt="" width="100" height="100" /></a><br />
+前田 薫 (まえだ・かおる) <a href="https://twitter.com/mad_p">@mad_p</a></p>
+<h3 id="session_type">Dynamic Typing再考</h3>
+<p>LLと動的型付け(Dynamic Typing)言語は切っても切れない関係があります。LLイベントで当初から扱われていたPerl、Python、PHP、Rubyといった言語は動的型付け言語で、これはスクリプト言語の大きな特長と言っても過言ではありませんでした。<br />
+しかしながら、最近は静的型付け言語の方が注目を集めています。LLoTの隣のセッションで扱われているKotlinやSwiftといった言語も、動的型付け言語の良さを取り入れた静的型付け言語、と言うべき言語です。また、LLの中でも、PHPやPythonのように型ヒントを取り入れるなど、動的な特性に制限をかける方向で対応している言語もあります。<br />
+この「逆風」とも言える中、これからの動的型付け言語はどうなっていくのでしょうか。本セッションでは、あくまで動的のままで発展している言語としてRuby、JavaScript、そしてSmalltalkに着目し、各言語の識者の方をお招きして、動的型付け言語の今とこれからを考えます。</p>
+<p>出演:<br />
+<a href="https://twitter.com/yukihiro_matz"><img src="wp-content/uploads/2017/04/t_yukihiro_matz.jpg" alt="" width="100" height="100" /></a><br />
+まつもと ゆきひろ <a href="https://twitter.com/yukihiro_matz">@yukihiro_matz</a></p>
+<p><a href="https://twitter.com/umejava"><img src="wp-content/uploads/2017/04/t_umejava.png" alt="" width="100" height="100" /></a><br />
+梅澤 真史 (うめざわ・まさし) <a href="https://twitter.com/umejava">@umejava</a></p>
+<p><a href="https://twitter.com/teppeis"><img src="wp-content/uploads/2017/04/t_teppeis.png" alt="" width="100" height="100" /></a><br />
+佐藤 鉄平　(さとう・てっぺい)<a href="https://twitter.com/teppeis">@teppeis</a></p>
+<p>司会:<br />
+<a href="https://twitter.com/takahashim"><img src="wp-content/uploads/2017/04/t_takahashim.jpg" alt="" width="100" height="100" /></a><br />
+高橋征義（たかはしまさよし） <a href="https://twitter.com/takahashim">@takahashim</a></p>
+<h3 id="session_mobile" style="text-transform: none;">Kotlin vs Swift 〜新言語はモバイル開発をどう変えるか？〜</h3>
+<p>2010年代以降に生まれた新しい言語がモバイル開発を席巻しています。Objective-Cに代わり、iOS開発の主役になったSwift。Androidの世界ではJavaに代わってKotlinが使われ始めています。これら新言語はモバイル開発をどう変えるのでしょうか?<br />
+このセッションではまず言語仕様にフォーカスし、KotlinやSwiftの特徴や利点を探ります。また、開発での注意点や今後のバージョンアップについても取り上げます。</p>
+<p>出演:<br />
+<a href="https://twitter.com/ngsw_taro"><img src="wp-content/uploads/2017/04/t_ngsw_taro.jpg" alt="" width="100" height="100" /></a><br />
+長澤 太郎 (ながさわ・たろう) <a href="https://twitter.com/ngsw_taro">@ngsw_taro</a><br />
+所属: エムスリー<br />
+自称Kotlinエバンジェリストで日本Kotlinユーザグループの代表を務める。著書に「Kotlinスタートブック」（リックテレコム）</p>
+<p><a href="https://twitter.com/k_katsumi"><img src="wp-content/uploads/2017/04/t_k_katsumi.jpg" alt="" width="100" height="100" /></a><br />
+岸川 克己 (きしかわ・かつみ) <a href="https://twitter.com/k_katsumi">@k_katsumi</a><br />
+OS X/iOS application developer at <a href="https://twitter.com/realm">@realm</a></p>
+<p>司会:<br />
+<a href="https://twitter.com/eyasuyuki"><img src="wp-content/uploads/2017/04/t_eyasuyuki.jpg" alt="" width="100" height="100" /></a><br />
+えんどう やすゆき <a href="https://twitter.com/eyasuyuki">@eyasuyuki</a><br />
+GoとApp EngineとAnsibleとDockerを愛するプログラマー。つい最近KotlinとSwiftを同時に使って修羅場を切り抜けた。</p>
+<h2 id="llot_night" style="text-transform: none;">夜の部 LLoT Night</h2>
+<p>会場: <a href="http://r.gnavi.co.jp/e781300/map/" target="_blank">watford新宿店</a><br />
+チケット: <a href="https://llot-night.peatix.com/" target="_blank">https://llot-night.peatix.com/</a></p>
+<h3 id="session_frontend">フロントエンドだめ自慢</h3>
+<p>注目を集めるJavaScriptフレームワーク<s>AngularJS、</s>React.js、Riot.jsのエンスージアストが一堂に介しフロントエンド開発の暗黒面をぶちまける戦慄の一夜。(※ AngularJSは出演を断られました&#8230;)<br />
+君はフロントエンド開発を生き延びることができるか?<br />
+出演：<br />
+<img src="wp-content/uploads/2017/04/t_tomoya.png" alt="" width="100" height="100" /><br />
+大竹 智也 (おおたけ・ともや) <a href="http://d.hatena.ne.jp/tomoya/">id:tomoya</a><br />
+ブロガー、起業家、及びフロントエンドからバックエンドまで幅広くカバーするWebエンジニア。著書に『Emacs実践入門』と『Atom実践入門』（共に技術評論社）の2つのエディタ本を持つ。Atom本の執筆を機にJavaScriptアプリケーションにはまっている。</p>
+<p><img src="wp-content/uploads/2017/04/t_cognitom.png" alt="" width="100" height="100" /><br />
+河村 奨 (かわむら・つとむ) <a href="https://twitter.com/cognitom">@cognitom</a> / <a href="https://github.com/cognitom">github.com/cognitom</a> / <a href="https://facebook.com/cognitom">facebook.com/cognitom</a><br />
+プログラマ兼デザイナで、カフェのマスター。リブライズ合同会社共同代表、コンクリートファイブジャパン株式会社CMO、東京都市大学非常勤講師。仕事のかたわら、下北沢オープンソースCafeを5年前にオープンし、その近辺に棲息。最近はもっぱらフロントエンドとNodeをいじっています。Riot.jsのコアコミッタのひとり。</p>
+<p>司会:<br />
+<a><img src="wp-content/uploads/2017/04/t_koyhoge.jpg" alt="" width="100" height="100" /></a><br />
+小山 哲志 (こやま・てつじ） <a>@koyhoge</a><br />
+Webアプリ開発者。 PHP, JavaScript, ActionScript, Android。日本UNIXユーザ会幹事、合同会社ほげ技研代表社員</p>
+<h3 id="session_demo">帰ってきたデモ自慢</h3>
+<p>2005年のLL Nightから11年、デモ自慢が歌舞伎町に帰って来た!<br />
+&#8220;Demo or Die&#8221;、デモかさもなくば死か。どんなに素晴らしいプロダクトも他人に見せなければ死んでいるも同然なのだ。<br />
+5分のトークよりも5分のデモを。自慢のソフトウエア、ハードウェアが今夜デモされる。</p>
+<p>出演:<br />
+<a href="https://twitter.com/goya813"><img src="https://pbs.twimg.com/profile_images/576058778610601984/N7Kt4AQC.jpeg" width="100" height="100" /></a><br />
+「5分で出来るIoT」呉屋寛裕(ニフティ) <a href="https://twitter.com/goya813">@goya813</a><br />
+みどころ「超簡単かつ短時間でIoTに必要なセンサデータを蓄積・可視化・活用ができる」</p>
+<p><a href="https://twitter.com/ja1bnu"><img src="wp-content/uploads/2017/04/t_ja1bnu.jpg" alt="" width="100" height="100" /></a><br />
+「プロジェクト°D ﾂﾜﾓﾉどもが夢の跡」海老原 寛之(サイタスマネジメント) <a href="https://twitter.com/ja1bnu">@ja1bnu</a><br />
+みどころ「昨年のプロジェクト℃の続編、raspberryPIを使ったリモコンのお話し」</p>
+<p><a href="https://twitter.com/hotu_ta"><img src="wp-content/uploads/2017/04/t_hotu_ta.jpg" alt="" width="100" height="100" /></a><br />
+「Googleカレンダーで図書館の貸出予約状況を管理するLiblendrsv(Ruby)」堀田ほつた(東海大学) <a href="https://twitter.com/hotu_ta">@hotu_ta</a><br />
+みどころ「図書館の貸出予約状況が見づらくつい延滞してしまっていた自分がこのままではダメだとRubyで管理するスクリプトを作った結果、Googleカレンダーで返却日や予約取り置き日を手軽に見ることが出来るようになり、見事に延滞しなくなった。また、いつまでに読まなければならないと読書が捗るようになった。ソースコードがかなり酷い(レガシーだ)と思っている。Seleniumを使って動くため、おそらくデモを見てて物凄く面白いと思う。」</p>
+			</div><!-- .entry-content -->
+</article><!-- #post-## -->
+
+
+						
+					
+				</main><!-- #main -->
+			</div><!-- #primary -->
+
+                            
+<div id="secondary" class="widget-area sidebar" role="complementary">
+	<aside id="text-6" class="widget widget_text"><h2 class="widget-title">SPONSORS</h2>			<div class="textwidget"><p><a href="http://dwango.co.jp/" target="_blank"><img src="wp-content/uploads/2016/05/dwango_logo.jpg" ></a></p>
+<p><a href="https://www.sorabito.com/" target="_blank"><img src="wp-content/uploads/2016/05/logo-SORABITO-color.png" width="200" height="34"></a></p>
+<p><a href="https://www.sakura.ad.jp/" target="_blank"><img src="wp-content/uploads/2016/05/sakura.png" width="209" height="41"></a></p>
+<p><a href="http://www.recruit-mp.co.jp/" target="_blank"><img src="wp-content/uploads/2016/06/RMP1.jpg" width="204" height="60"></a></p>
+<p><a href="http://www.nik-prt.co.jp/" target="_blank"><img src="wp-content/uploads/2016/06/nik-prt.png"></a></p>
+<p><a href="http://cybozu.co.jp" target="_blank"><img src="wp-content/uploads/2016/07/cybozu_a_e_logo4c_y.png" width="232" height="61"></a></p>
+<p><a href="http://www.jus.or.jp" target="_blank"><img src="wp-content/uploads/2016/05/sponsorlogo_jus.jpg" ></a></p>
+<p><a href="http://www.local.or.jp" target="_blank"><img src="wp-content/uploads/2016/06/local_logo2.gif" ></a></p>
+</div>
+		</aside></div><!-- #secondary -->
+            
+		</div><!--#content-inside -->
+	</div><!-- #content -->
+
+    <footer id="colophon" class="site-footer" role="contentinfo">
+        
+        <div class="site-info">
+            <div class="container">
+                                    <div class="btt">
+                        <a class="back-top-top" href="program#page" title="ページトップへ戻る"><i class="fa fa-angle-double-up wow flash" data-wow-duration="2s"></i></a>
+                    </div>
+                                        Copyright &copy; 2017 LLoT        <span class="sep"> &ndash; </span>
+        <a href="https://www.famethemes.com/themes/onepress">OnePress</a> テーマ by FameThemes                    </div>
+        </div>
+        <!-- .site-info -->
+
+    </footer><!-- #colophon -->
+</div><!-- #page -->
+
+<!-- BEGIN: WP Social Bookmarking Light -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<!-- END: WP Social Bookmarking Light -->
+<script type='text/javascript' src="wp-content/themes/onepress/assets/js/plugins.js?ver=1.0.0"></script>
+<script type='text/javascript' src="wp-content/themes/onepress/assets/js/bootstrap.min.js?ver=1.0.0"></script>
+<script type='text/javascript' src="wp-content/themes/onepress/assets/js/lightgallery.js?ver=1.0.0"></script>
+<script type='text/javascript' src="wp-content/themes/onepress/assets/js/theme.js?ver=1.0.0"></script>
+<script type='text/javascript' src="wp-includes/js/wp-embed.min.js?ver=4.7.3"></script>
+
+</body>
+</html>

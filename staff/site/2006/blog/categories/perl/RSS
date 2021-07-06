@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+         xmlns="http://purl.org/rss/1.0/">
+
+
+
+
+    
+
+
+
+<channel rdf:about="http://ll.jus.or.jp/2006/blog/categories/perl/RSS">
+  <title>Perl</title>
+  <link>http://ll.jus.or.jp/2006</link>
+  
+  <description>
+    
+       
+       
+  </description>
+  
+  
+  
+            <syn:updatePeriod>hourly</syn:updatePeriod>
+            <syn:updateFrequency>1</syn:updateFrequency>
+            <syn:updateBase>2006-04-22T06:07:35Z</syn:updateBase>
+        
+  
+  <image rdf:resource="http://ll.jus.or.jp/2006/ll2006.gif"/>
+
+  <items>
+    <rdf:Seq>
+    </rdf:Seq>
+  </items>
+
+</channel>
+
+
+
+
+
+</rdf:RDF>

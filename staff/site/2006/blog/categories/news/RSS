@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+         xmlns="http://purl.org/rss/1.0/">
+
+
+
+
+    
+
+
+
+<channel rdf:about="http://ll.jus.or.jp/2006/blog/categories/news/RSS">
+  <title>ニュース</title>
+  <link>http://ll.jus.or.jp/2006</link>
+  
+  <description>
+    
+       LLのニュース
+       
+  </description>
+  
+  
+  
+            <syn:updatePeriod>hourly</syn:updatePeriod>
+            <syn:updateFrequency>1</syn:updateFrequency>
+            <syn:updateBase>2006-04-22T06:07:35Z</syn:updateBase>
+        
+  
+  <image rdf:resource="http://ll.jus.or.jp/2006/ll2006.gif"/>
+
+  <items>
+    <rdf:Seq>
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/ll-ring306e52d5753b914d4fe1958b59cb"/>
+        
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/82f18a9eblog306bllring306e8a184e8b63b28f09"/>
+        
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/download"/>
+        
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/30833093305130932-051fa5834800552df96c6306e304a77e53089305b"/>
+        
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/gong2fighter"/>
+        
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/llgongapply"/>
+        
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/morellgong"/>
+        
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/ticketstatus"/>
+        
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/sessionupdate3"/>
+        
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/sessionupdated2"/>
+        
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/sessionupdated"/>
+        
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/sessionannouncement"/>
+        
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/rwikivulnerability"/>
+        
+    </rdf:Seq>
+  </items>
+
+</channel>
+
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/ll-ring306e52d5753b914d4fe1958b59cb">        <title>LL Ringの動画配信開始</title>        <link>http://ll.jus.or.jp/2006/blog/ll-ring306e52d5753b914d4fe1958b59cb</link>        <description> ソフトバンクのビジネス＋ITにて、LL Ringの動画が配信されています。【ストリーミング】 LightweightLanguage Ring －Blood Sweat &amp;amp; Code  皆様、ぜひご覧ください！...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>kahei</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-09-06T05:53:02Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/82f18a9eblog306bllring306e8a184e8b63b28f09">        <title>英語BlogにLLRingの記事掲載</title>        <link>http://ll.jus.or.jp/2006/blog/82f18a9eblog306bllring306e8a184e8b63b28f09</link>        <description> LL Ringの取材にきてくれたMatt Rosinさんが、英語の記事を執筆してくれました。 BOXING IN THE LLRING LLイベントも4年目に入って、国際的な注目を集めるようになってきたようです？！ 追記：さらに PerlMonks にも...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>kahei</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-09-06T06:07:40Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/download">        <title>発表資料を公開しました</title>        <link>http://ll.jus.or.jp/2006/blog/download</link>        <description>発表資料を公開しました。発表資料</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>yasuyuki</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-09-02T05:14:26Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/30833093305130932-051fa5834800552df96c6306e304a77e53089305b">        <title>じゃんけん2.0出場者募集のお知らせ</title>        <link>http://ll.jus.or.jp/2006/blog/30833093305130932-051fa5834800552df96c6306e304a77e53089305b</link>        <description> じゃんけんポンで楽しもう！LL Saturdayで盛り上がったゃんけんがじゃんけん2.0になって帰ってきました！参加資格:     LLでじゃんけん2.0を実装すること応募人数:     6人(または6組)プレゼンテーション制限時間:5分締め切り:   ...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>tomo</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-08-02T04:59:20Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/gong2fighter">        <title>LL Gong二次募集の審査結果発表</title>        <link>http://ll.jus.or.jp/2006/blog/gong2fighter</link>        <description> LL Gong二次募集の審査結果を発表しました。LL Gong二次募集：審査結果発表 全体ではGauche=3、Python=1、Perl=1、Haskell=1、C=1、Plagger=1となりました。来年はRuby、PHP、JavaScriptなどの...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>yasuyuki</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-07-26T04:00:01Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/llgongapply">        <title>LL Gong二次募集締め切り迫る</title>        <link>http://ll.jus.or.jp/2006/blog/llgongapply</link>        <description>いよいよ明日締め切りです。ふるってご応募ください！LL Gong審査結果発表と二次募集のお知らせ傾向と対策:Gauche/Python/Perl以外の言語求む: Ruby on Railsでのご応募は「どう書く」セッションに移っていただきました。Rubyの...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>yasuyuki</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-07-13T04:29:30Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/morellgong">        <title>LL Gong審査結果と二次募集のお知らせ</title>        <link>http://ll.jus.or.jp/2006/blog/morellgong</link>        <description>LLR Blogに書くのが遅くなりましたが、LL Gongの審査結果を24日に発表しました。LL Gong審査結果発表と二次募集のお知らせ二次募集は7月14日まで受け付けています。ふるってご応募ください。 LL Gongのみどころ参戦が決まっているデモから...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>yasuyuki</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-07-06T12:48:51Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/ticketstatus">        <title>チケット予約数が予定枚数に達しました</title>        <link>http://ll.jus.or.jp/2006/blog/ticketstatus</link>        <description>6月28日現在、チケット予約数が予定枚数に達しました。 予約されたチケットが全て引き換えられますと売り切れとなります指定の期間内に引き換えられなかった場合はキャンセル扱いとなり、再度購入できるようになりますいつ何枚キャンセルになるのかは明確に分かりませんの...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>yasuyuki</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-06-29T15:05:52Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/sessionupdate3">        <title>Launguage Updateセッション内容を更新しました</title>        <link>http://ll.jus.or.jp/2006/blog/sessionupdate3</link>        <description>Squeak、Haskell、OCaml、PHP、Rubyの参戦者を追加しました。&lt;br /&gt;&lt;br /&gt;毎年参戦のSqueak、PHP、Ruby、Haskellに加え、今年は関数型言語が熱い!ということで初参戦のOCamlには要注目です。&lt;br /&gt;&lt;b...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>yasuyuki</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-06-23T02:59:26Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/sessionupdated2">        <title>Language UpdateセッションにPythonを追加しました</title>        <link>http://ll.jus.or.jp/2006/blog/sessionupdated2</link>        <description>セッション内容のLanguage UpdateセッションにPythonを追加しました。また、JavaScript、PHP、Rubyの参戦者がほぼ決まり、記載事項を確認中です。Language Updateセッションの参戦者は6月26日のチケット発売前にほぼ...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>yasuyuki</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-06-20T04:57:04Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/sessionupdated">        <title> セッション内容をアップデートしました</title>        <link>http://ll.jus.or.jp/2006/blog/sessionupdated</link>        <description> セッション内容のLanguage Updateをアップデートしました。 まず、"Scripting for Java Platform"は題名をシンプルにし、参戦者である櫻庭祐一氏のお名前と所属を公開しました。 つぎに、Gaucheは処理系名であり言語名...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>yasuyuki</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-06-20T04:58:53Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/sessionannouncement">        <title>セッション内容を発表しました</title>        <link>http://ll.jus.or.jp/2006/blog/sessionannouncement</link>        <description> http://ll.jus.or.jp/2006/event/session Language Updateセッションは徐々に参戦者が決まりつつあります。JavaScriptをはじめ、FORTH、Ocamlなど新規参戦の言語にご期待ください。また、Jav...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>yasuyuki</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-06-15T01:38:35Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/rwikivulnerability">        <title>RWikiに脆弱性が発見されました</title>        <link>http://ll.jus.or.jp/2006/blog/rwikivulnerability</link>        <description> Rubyで記述されたWikiエンジン，RWikiに任意の命令が実行可能な脆弱性が発見されました． 2.0.1以前のバージョンを利用しているユーザはバージョンアップしましょう． [ruby-list:42213] RWiki-2.1.0 / RWiki...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>takano32</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-07-12T08:38:13Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+
+
+
+
+</rdf:RDF>

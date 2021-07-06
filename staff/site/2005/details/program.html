@@ -1,0 +1,792 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja"
+      lang="ja">
+
+
+  <head>
+    <meta http-equiv="Content-Type"
+          content="text/html;charset=utf-8" />
+
+    <title>LLDN - プログラム</title>
+
+    
+      
+        <base href="" />
+      
+    
+
+    <meta name="generator" content="Plone - http://plone.org" />
+
+    <meta content="軽量プログラミング言語に関するイベントとして多くの方に、参加、注目いただいているLightweight Languageカンファレンスですが、今年はLLDN(Lightweight Language Day and Night)として開催します。今年は1日を少し長く利用し、昼の部と夜の部に分けての開催となります。昼の部は少しアカデミックに、夜の部はお祭り的な要素を増幅させたものを企画しました。&lt;p&gt;
+このほど、各セッションの概要がまとまりましたので、お知らせします。発表者につきましては決まり次第、随時LLDNのWebサイトに掲載します。
+
+&lt;/p&gt;
+"
+          name="description" />
+    <meta content="軽量プログラミング言語に関するイベントとして多くの方に、参加、注目いただいているLightweight Languageカンファレンスですが、今年はLLDN(Lightweight Language Day and Night)として開催します。今年は1日を少し長く利用し、昼の部と夜の部に分けての開催となります。昼の部は少しアカデミックに、夜の部はお祭り的な要素を増幅させたものを企画しました。&lt;p&gt;
+このほど、各セッションの概要がまとまりましたので、お知らせします。発表者につきましては決まり次第、随時LLDNのWebサイトに掲載します。
+
+&lt;/p&gt;
+"
+          name="DC.description" />
+    <meta content="ats" name="DC.creator" />
+    <meta content="2005-07-21 21:24:48"
+          name="DC.date.created" />
+    <meta content="2005-09-01 13:02:43"
+          name="DC.date.modified" />
+    <meta content="Core Wiki Entry" name="DC.type" />
+    <meta content="en" name="DC.language" />
+
+    <!-- Basic crude style for Netscape4.x - This can be removed
+         if you don't want the special NS4 look - it will still work,
+         just be plain text instead. Column layout for Netscape4.x included -->
+    <link rel="Stylesheet" type="text/css"
+          href="../ploneNS4.css" />
+
+    <!-- Column style sheet. -->
+    <style type="text/css" media="all">@import url(../ploneColumns.css);</style>
+
+    <!-- Main style sheets for CSS2 capable browsers -->
+    <style type="text/css" media="screen"> @import url(../plone.css);</style>
+
+    <!-- Old style sheet from Plone 1.0, remove tal:condition="nothing" if you need to use the old styles.
+         Will be removed in Plone 2.1. -->
+    
+
+    <!-- Alternate style sheets for the bigger/smaller text switcher -->
+    <link rel="alternate stylesheet" type="text/css"
+          media="screen"
+          href="../ploneTextSmall.css"
+          title="Small Text" />
+    <link rel="alternate stylesheet" type="text/css"
+          media="screen"
+          href="../ploneTextLarge.css"
+          title="Large Text" />
+
+    <!-- Custom style sheet if available -->
+    <style type="text/css" media="all">@import url(../ploneCustom.css);</style>
+
+    <!-- Style sheet used for printing -->
+    <link rel="stylesheet" type="text/css" media="print"
+          href="../plonePrint.css" />
+
+    <!-- Style sheet used for presentations (Opera is the only browser supporting this at the moment) -->
+    <link rel="stylesheet" type="text/css"
+          media="projection"
+          href="../plonePresentation.css" />
+
+    <!-- Internet Explorer CSS Fixes -->
+    <!--[if IE]>
+    <style type="text/css" media="all">@import url(http://ll.jus.or.jp/2005/ploneIEFixes.css);</style>
+    <![endif]-->
+
+    <link rel="shortcut icon"
+          href="../favicon.ico"
+          type="image/x-icon" />
+
+    <link rel="search"
+          href="http://ll.jus.or.jp/2005/search_form"
+          title="Search this site" />
+
+    
+    <link rel="up" href="http://ll.jus.or.jp/2005/details"
+          title="Up one level" />
+    <link rel="copyright" href="http://ll.jus.or.jp/2005/details/copyright"
+          title="Copyright information" />
+    <link rel="author" href="http://ll.jus.or.jp/2005/details/author"
+          title="Author information" />
+
+    
+
+    <!-- Disable IE6 image toolbar -->
+    <meta http-equiv="imagetoolbar" content="no" />
+
+    
+      <!-- A slot where you can insert CSS in the header from a template -->
+      
+      
+    
+
+    
+
+      
+    
+    
+    
+    
+    
+
+
+      
+      <!-- A slot where you can insert elements in the header from a template -->
+    
+
+    
+      <!-- A slot where you can insert javascript in the header from a template -->
+      
+    
+
+    <!-- Common Plone ECMAScripts -->
+
+    <!-- Pull-down ECMAScript menu, only active if logged in -->
+    
+
+    <!-- Define dynamic server-side variables for javascripts in this one  -->
+    <script type="text/javascript"
+            src="../plone_javascript_variables.js">
+    </script>
+
+    <script type="text/javascript"
+            src="../plone_javascripts.js">
+    </script>
+
+    
+
+      <!-- Old JS from Plone 1.0, remove tal:condition="nothing" if you need to use the old pop-ups.
+           Will be removed in Plone 2.1 -->
+      
+
+    
+  </head>
+
+<!--
+<tal:block condition="python:request.response.setHeader('Expires', here.ZopeTime(here.ZopeTime().timeTime() + 3600).toZone('GMT').rfc822())" />
+<tal:block condition="python: request.response.setHeader('Last-Modified', here.bobobase_modification_time().toZone('GMT').rfc822())" />
+-->
+
+  <body class="section-details">
+
+    <div id="visual-portal-wrapper">
+		   <tr>
+		       <!-- logo/nav/breadclumb -->
+			   <td valign="top">
+
+      <div id="portal-top">
+      <a class="hiddenStructure"
+         href="program.html#documentContent">Skip to content</a>
+
+      <table id="portal-columns" cellspacing="0" cellspacing="0">
+        <tbody>
+		   <tr valign="bottom">
+		        <td>
+		           <h1 id="portal-logo">
+    <a href="http://ll.jus.or.jp/2005">LLDN</a>
+</h1>
+			    </td>
+		        <td>
+		           
+    <h5 class="hiddenStructure">Sections</h5>
+
+    <ul id="portal-globalnav">
+        
+        <li id="portaltab-index_html" class="plain">
+            <a href="http://ll.jus.or.jp/2005" accesskey="t">Home</a>
+        </li>
+        
+        
+        <li id="portaltab-details" class="selected">
+            <a href="http://ll.jus.or.jp/2005/details"
+               accesskey="t">イベント情報</a>
+        </li>
+        
+        
+        <li id="portaltab-blog" class="plain">
+            <a href="../blog"
+               accesskey="t">Blog</a>
+        </li>
+        
+        
+        <li id="portaltab-files" class="plain">
+            <a href="../files"
+               accesskey="t">発表資料</a>
+        </li>
+        
+    </ul>
+
+		
+			      <div class="visualClear"></div>
+		
+		           <div id="portal-breadcrumbs">
+
+     
+
+    You are here:
+    
+            <a href="../index.html">Home</a>
+            <span class="breadcrumbSeparator">&raquo;</span>
+    
+    
+    <span>
+        
+            <a href="index.html"
+               accesskey="accesskeys-breadcrumbs">イベント情報</a>
+            <span class="breadcrumbSeparator"> &raquo; </span>
+            
+         
+    </span>
+    <span>
+        
+            
+            
+            <span>プログラム</span>
+         
+    </span>
+</div>
+			    </td>
+		   </tr>
+		   <tr class="plate">
+		       <!-- info/plate -->
+			   <td class="top-leftblock">
+			   <img src="../information.gif" alt="" title="" longdesc="" height="36" width="240" />
+			   
+			   <br />
+			   <p>
+<b>開催日</b>:2005年8月27日(土)<br />
+　　　 イベントは終了しました<br />
+<b>場　所</b>:[昼の部]<a href="http://www.city.shinjuku.tokyo.jp/division/261300yotsuya/kuminhall/index.html">四谷区民ホール</a><br />
+　　　 [夜の部]<a href="http://www.loft-prj.co.jp/PLUSONE/">ロフト・プラスワン</a><br />
+</p>
+<hr width="90%">
+<p>
+<b>問い合わせ</b>:LLDN 実行委員会<br />
+<b>E-Mail</b>:info2005 [at] ll.jus.or.jp<br />
+</p>
+
+			   
+				</td>
+			   <td valign="top" class="global-border">
+			   <img src="plate.jpg" alt="" title="" longdesc="" height="200" width="500" />
+				</td>
+		   </tr>
+		   
+          <tr>
+            <!-- start of the left (by default at least) column -->
+            <td id="portal-column-one">
+              <div class="visualPadding">
+                
+                  
+
+    
+
+        
+            
+
+    <div class="portlet">
+
+    <div class="padding">
+
+        <h5>ナビゲーション</h5>
+        <div class="portletBody">
+
+            
+
+                <div class="portletContent odd">
+
+<div omit-tag="">
+                    <a href="index.html" class="navItem "
+                       title="Lightweight Language Day and Night 開催のお知らせ">
+                        Lightweight Language Day and Night 開催のお知らせ
+                    </a>
+
+                    <div class="portletDetails">
+                        2006-05-09
+                    </div>
+</div>
+                </div>
+
+            
+            
+
+                <div class="portletContent odd">
+
+<div omit-tag="">
+                    <a href="detail.html" class="navItem "
+                       title="開催概要">
+                        開催概要
+                    </a>
+
+                    <div class="portletDetails">
+                        2006-05-09
+                    </div>
+</div>
+                </div>
+
+            
+            
+
+                <div class="portletContent odd">
+
+<div omit-tag="">
+                    <a href="program.html"
+                       class="navItem currentNavItem"
+                       title="プログラム">
+                        プログラム
+                    </a>
+
+                    <div class="portletDetails">
+                        2006-05-09
+                    </div>
+</div>
+                </div>
+
+            
+            
+
+                <div class="portletContent odd">
+
+<div omit-tag="">
+                    <a href="corporates.html"
+                       class="navItem " title="後援">
+                        後援
+                    </a>
+
+                    <div class="portletDetails">
+                        2006-05-09
+                    </div>
+</div>
+                </div>
+
+            
+            
+
+                <div class="portletContent odd">
+
+
+                </div>
+
+            
+            
+
+                <div class="portletContent odd">
+
+<div omit-tag="">
+                    <a href="demojiman.html"
+                       class="navItem "
+                       title="デモ自慢募集要綱">
+                        デモ自慢募集要綱
+                    </a>
+
+                    <div class="portletDetails">
+                        2006-05-09
+                    </div>
+</div>
+                </div>
+
+            
+            
+
+                <div class="portletContent odd">
+
+<div omit-tag="">
+                    <a href="doukaku.html" class="navItem "
+                       title="君ならどう書く">
+                        君ならどう書く
+                    </a>
+
+                    <div class="portletDetails">
+                        2006-05-09
+                    </div>
+</div>
+                </div>
+
+            
+            
+
+                <div class="portletContent odd">
+
+<div omit-tag="">
+                    <a href="press.html" class="navItem "
+                       title="取材をご希望の方へ">
+                        取材をご希望の方へ
+                    </a>
+
+                    <div class="portletDetails">
+                        2006-05-09
+                    </div>
+</div>
+                </div>
+
+            
+            
+
+                <div class="portletContent odd">
+
+
+                </div>
+
+            
+            
+
+                <div class="portletContent odd">
+
+<div omit-tag="">
+                    <a href="questionnaire1.html"
+                       class="navItem "
+                       title="Lightweight Language Day 2005アンケート集計(1)">
+                        Lightweight Language Day 2005アンケート集計(1)
+                    </a>
+
+                    <div class="portletDetails">
+                        2006-05-09
+                    </div>
+</div>
+                </div>
+
+            
+            
+
+                <div class="portletContent odd">
+
+<div omit-tag="">
+                    <a href="questionnaire2.html"
+                       class="navItem "
+                       title=" Lightweight Language Day 2005アンケート集計(2)">
+                         Lightweight Language Day 2005アンケート集計(2)
+                    </a>
+
+                    <div class="portletDetails">
+                        2006-05-09
+                    </div>
+</div>
+                </div>
+
+            
+            
+
+                <div class="portletContent odd">
+
+<div omit-tag="">
+                    <a href="questionnaire3.html"
+                       class="navItem "
+                       title="Lightweight Language Day 2005アンケート集計(3)">
+                        Lightweight Language Day 2005アンケート集計(3)
+                    </a>
+
+                    <div class="portletDetails">
+                        2006-05-09
+                    </div>
+</div>
+                </div>
+
+            
+            
+
+                <div class="portletContent odd">
+
+<div omit-tag="">
+                    <a href="questionnaire4.html"
+                       class="navItem "
+                       title="Lightweight Language Day 2005アンケート集計(4)">
+                        Lightweight Language Day 2005アンケート集計(4)
+                    </a>
+
+                    <div class="portletDetails">
+                        2006-05-09
+                    </div>
+</div>
+                </div>
+
+            
+            
+
+                <div class="portletContent odd">
+
+<div omit-tag="">
+                    <a href="questionnaire5.html"
+                       class="navItem "
+                       title="Lightweight Language Day 2005アンケート集計(5)">
+                        Lightweight Language Day 2005アンケート集計(5)
+                    </a>
+
+                    <div class="portletDetails">
+                        2006-05-09
+                    </div>
+</div>
+                </div>
+
+            
+            
+
+                <div class="portletContent odd">
+
+<div omit-tag="">
+                    <a href="questionnaire6.html"
+                       class="navItem "
+                       title="Lightweight Language Day 2005アンケート集計(6)">
+                        Lightweight Language Day 2005アンケート集計(6)
+                    </a>
+
+                    <div class="portletDetails">
+                        2006-05-09
+                    </div>
+</div>
+                </div>
+
+            
+
+        </div>
+
+    </div>
+
+</div>
+
+
+        
+
+        
+    
+
+                
+                &nbsp;
+              </div>
+            </td>
+            <!-- end of the left (by default at least) column -->
+
+            <!-- start of main content block -->
+            <td id="portal-column-content">
+
+              
+                <div id="content" class="">
+
+                  
+
+                  <div class="documentContent" id="region-content">
+
+                    <a name="documentContent"></a>
+
+                    
+
+                    
+
+                    <div>
+      
+        <h1 class="documentFirstHeading">プログラム</h1>
+	<div class="documentDescription">軽量プログラミング言語に関するイベントとして多くの方に、参加、注目いただいているLightweight Languageカンファレンスですが、今年はLLDN(Lightweight Language Day and Night)として開催します。今年は1日を少し長く利用し、昼の部と夜の部に分けての開催となります。昼の部は少しアカデミックに、夜の部はお祭り的な要素を増幅させたものを企画しました。<p>
+このほど、各セッションの概要がまとまりましたので、お知らせします。発表者につきましては決まり次第、随時LLDNのWebサイトに掲載します。
+
+</p>
+</div>
+
+	<div class="plain">
+	<span><h2> Lightweight Language Day</h2>
+<h3> Language Update</h3>
+<p>
+<div align="right">(10:00-12:00)</div>
+</p>
+<p>
+この一年、LL界でも様々な動きがありました。「Language Update」では、各言語の第一人者がこの一年間の振り返り、その変化をご報告いたします。
+</p>
+<p>
+ここしばらくはあまり使っていなかったあの言語も、見違えるほど大きく変わっているかもしれませんよ。
+</p>
+<h4> 発表者一覧(言語名のアルファベット順)</h4>
+<dl>
+<dt>awk</dt>
+<dd>斉藤博文(xmlgawk developer) <a href="http://www.gnu.org/software/gawk/gawk.html">言語サイト</a> (<a href="http://home.vrweb.de/~juergen.kahrs/gawk/XML/">xgawk</a>) / <a href="http://ll.jus.or.jp/2005/files/lldn_awk_2005.pdf/file_view">事前資料</a> / <a href="http://ll.jus.or.jp/2005/files/lldn_awk_2005.zip/file_view">発表資料</a></dd>
+<dt>Curl</dt>
+<dd>大谷卓弥(株式会社カール) <a href="http://www.curlap.com/">言語サイト</a> / <a href="http://ll.jus.or.jp/2005/files/lldn_Curl.zip/file_view">発表資料</a></dd>
+<dt>Gauche</dt>
+<dd>伊東勝利(Kahuaプロジェクト/タイムインターメディア) <a href="http://www.shiro.dreamhost.com/scheme/gauche/index-j.html">言語サイト</a> / <a href="http://www.kahua.org/cgi-bin/khead.fcgi/presen/">発表資料</a></dd>
+<dt>Haskell</dt>
+<dd>山下伸夫(タイムインターメディア) <a href="http://www.haskell.org/">言語サイト</a> / <a href="http://www.kahua.org/lldn2005/haskell/">発表資料</a></dd>
+<dt>ML</dt>
+<dd>上野雄大(北陸先端科学技術大学院大学) <a href="http://www.smlnj.org/">言語サイト</a> / <a href="http://ll.jus.or.jp/2005/files/ll2005_ml.pdf/file_view">発表資料</a></dd>
+<dt>Perl</dt>
+<dd>小飼 弾 <a href="http://www.perl.org/">言語サイト</a> / <a href="http://www.dan.co.jp/~dankogai/lldn2005/perl-2005.html">発表資料</a></dd>
+<dt>PHP</dt>
+<dd>廣川類(日本PHPユーザ会) <a href="http://www.php.net/">言語サイト</a> / <a href="http://ll.jus.or.jp/2005/files/php-llm05.pdf/file_view">発表資料</a></dd>
+<dt>Python</dt>
+<dd>森若和雄(日本Pythonユーザ会/ことらぐ) <a href="http://www.python.org/">言語サイト</a> / <a href="http://ll.jus.or.jp/2005/files/lldn_python.tar.gz/file_view">発表資料</a></dd>
+<dt>Ruby</dt>
+<dd>ささだ　こういち(日本Rubyの会/東京農工大学大学院) <a href="http://www.ruby-lang.org/">言語サイト</a> / <a href="http://ll.jus.or.jp/2005/files/RubyLanguageUpdate.pdf/file_view">発表資料</a></dd>
+<dt>Squeak</dt>
+<dd>山宮隆(squeak-ja) <a href="http://www.squeakland.jp/">言語サイト</a> / <a href="http://ll.jus.or.jp/2005/files/SqueakUpdate2005.zip/file_view">発表資料</a></dd>
+</dl>
+<h3> 昼休み、書籍販売</h3>
+<p>
+<div align="right">(12:00-13:00)</div>
+</p>
+<h3> フレームワーク対決</h3>
+<p>
+<div align="right">(13:00-14:30)</div>
+</p>
+<p>
+LLにとって、手軽なCGIはその普及の大きな要因の一つとして無視できないものではありますが、最近のLLによるWebアプリケーションではそれなりの規模のフレームワークが使用されることが多くなってきました。そこで本企画では、LLの特徴的なフレームワークをいくつかピックアップし、その特長をご紹介します。Javaなどのフレームワークとも一味違ったLLの世界をお楽しみください。
+</p>
+<h4> 発表者一覧</h4>
+<dl>
+<dt>Ruby on Rails</dt>
+<dd> 高橋征義(日本Rubyの会) <a href="http://ll.jus.or.jp/2005/files/lldn2005-rails.pdf/file_view">事前資料</a> / <a href="../files/lldn2005-rails.zip">発表資料</a></dd>
+<dt>Kahua</dt>
+<dd> 柴田知久(タイムインターメディア) <a href="http://ll.jus.or.jp/2005/files/kahua-lldn.zip/file_view">発表資料</a></dd>
+<dt>Sledge</dt>
+<dd> 池邉智洋(ライブドア)<a href="http://ll.jus.or.jp/2005/files/LLDN-sledge.zip/file_view">発表資料</a></dd>
+<dt>司会</dt>
+<dd> 小山哲志(日本PHPユーザ会) <a href="http://ll.jus.or.jp/2005/files/webappframework.zip/file_view">発表資料</a></dd>
+</dl>
+<h3> 休憩、書籍販売</h3>
+<p>
+<div align="right">(14:30-15:00)</div>
+</p>
+<h3> キミならどう書く</h3>
+<p>
+<div align="right">(15:00-16:30)</div>
+</p>
+<p>
+お待たせしました。LL*名物、「キミならどう書く」が今年もやってきました。
+</p>
+<p>
+与えられたお題を、各言語ごとに選ばれた方々が実装します。エレガントに実現するのか、はたまたありえない超絶技を炸裂させるのか。ご期待ください。
+</p>
+<h4> 発表者一覧</h4>
+<dl>
+<dt>Haskell</dt>
+<dd> 酒井政裕(慶応義塾大学) <a href="../files/lldn_haskell_calc.zip">規程演技/自由演技</a></dd>
+<dt>Perl</dt>
+<dd>川合孝典(Kansai.pm/Tokyo.pm) <a href="http://ll.jus.or.jp/2005/files/LL2005_KB_perl.zip/file_view">規程演技</a> / 自由演技</dd>
+<dt>Python</dt>
+<dd></dd>
+</dl>
+
+<ul>
+<li>安達真(早稲田大学/グルコース) <a href="http://ll.jus.or.jp/2005/files/kalc_python.zip/file_view">規程演技</a></li>
+<li>西尾泰和(奈良先端科学技術大学院大学/アントラッド) <a href="http://ll.jus.or.jp/2005/files/lldn_python_freestyle.zip/file_view">自由演技</a></li>
+</ul>
+
+<dl>
+<dt>Ruby</dt>
+<dd></dd>
+</dl>
+
+<ul>
+<li>青木峰郎(日本Rubyの会)<a href="http://ll.jus.or.jp/2005/files/lldn-calc-ruby.zip/file_view">規程演技</a></li>
+<li>志村弘之(日本Rubyの会) <a href="http://ll.jus.or.jp/2005/files/IlluCalc-LLDN2005a.zip/file_view">自由演技</a></li>
+</ul>
+
+<dl>
+<dt>sf</dt>
+<dd>小林憲次(kVerifier Lab) <a href="http://www.nasuinfo.or.jp/FreeSpace/kenji/sf/fastTour/llDemo.htm">自由演技</a></dd>
+<dt>Squeak</dt>
+<dd> 鷲見正人(squeak-ja) <a href="http://ll.jus.or.jp/2005/files/KanjiDentakuSqueak.2.zip/file_view">規程演技/自由演技</a></dd>
+</dl>
+<h2> Lightweight Language Night</h2>
+<h3> だめ自慢</h3>
+<p>
+口外厳禁! 昼のイベントではできなかった禁断の企画の登場です。各言語を自在に操る猛者たちが、その言語の触れてはいけない暗黒面を暴露します。今までせっかく他言語ユーザには隠してきたのに……と後悔してももはや手遅れ。
+</p>
+<p>
+明日からLLを使う気がしなくなったとしても、当方は一切関知いたしませんのでご了承ください。ダメな言語は、ダメだよー!
+</p>
+<h4> 出場者一覧</h4>
+<dl>
+<dt>Perl</dt>
+<dd>早川真也(Tokyo Perl Mongers)</dd>
+<dt>PHP</dt>
+<dd>小山哲志(日本PHPユーザ会) <a href="http://ll.jus.or.jp/2005/files/phpbad.zip/file_view">発表資料</a></dd>
+<dt>Python</dt>
+<dd>うらごうけいすけ(日本Pythonユーザ会) <a href="http://ll.jus.or.jp/2005/files/python-dame.zip/file_view">発表資料</a></dd>
+<dt>Ruby</dt>
+<dd>卜部 昌平(日本Rubyの会) <a href="http://ll.jus.or.jp/2005/files/Ruby_dame.zip/file_view">発表資料</a></dd>
+<dt>モデレータ</dt>
+<dd>Masafumi Otsune(フリー/ウォッチャー/アニメ会社システム管理者)</dd>
+</dl>
+<h3> デモ自慢</h3>
+<p>
+百聞は一見に如かず。プログラムは動かしてなんぼ。夜の部企画第二弾は、各言語からよりすぐりのデモを発表いたします。今まで馴染みのなかったあの言語も、「こんなことができたのか……」とすぐに使いたくなるかもしれません。
+</p>
+<h4> 出場者一覧</h4>
+<dl>
+<dt>Gaucheで3次元プレゼンテーション</dt>
+<dd>久井 亨 <a href="http://ll.jus.or.jp/2005/files/lldn2005-mephisto-demo.zip/file_view">発表資料</a> / <a href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/mephisto/demo-2005-lldn/lldn2005-mephisto-demo/">リポジトリ</a></dd>
+<dt>aWebアノテーションツール alog (Ruby)</dt>
+<dd>沢田洋平 <a href="http://ll.jus.or.jp/2005/files/LLDN2005_sawada.zip/file_view">発表資料</a></dd>
+<dt>Rabbit (Ruby)</dt>
+<dd>須藤功平(COZMIXNG) <a href="http://ll.jus.or.jp/2005/files/lldn-rabbit.pdf/file_view">発表資料</a></dd>
+<dt>SNSエンジン OpenPNE (PHP)</dt>
+<dd>手嶋 守(OpenPNEプロジェクト) <a href="http://ll.jus.or.jp/2005/files/lldn_SNS.zip/file_view">発表資料</a></dd>
+<dt>RubyでApacheを拡張しよう</dt>
+<dd>かずひこ(日本Rubyの会/ネットワーク応用通信研究所) <a href="http://ll.jus.or.jp/2005/files/lldn-demo-ruby.pdf/file_view">発表資料</a></dd>
+<dt>ppencode (Perl)</dt>
+<dd>竹迫良範(Shibuya Perl Mongers/ドリームアーツ) <a href="http://namazu.org/~takesako/ppencode/">発表資料</a></dd>
+</dl>
+<h3> プレゼント大会</h3>
+<p>
+イベントの最後に、協賛各社からご提供いただいた書籍やグッズをプレゼントする抽選会を予定しています。お楽しみに。
+</p>
+</span>
+	</div>
+        <div class="documentByLine">
+
+  
+
+  <span>
+    Created by
+  </span>
+
+  ats
+
+  
+
+  <br />
+
+  
+
+  
+
+  <span>
+    Last modified
+  </span>
+  2005-09-01 01:02 PM
+
+  
+
+</div>
+      
+    </div>
+
+                    
+                      <div class="discussion">
+
+    
+
+</div>
+                    
+
+                  </div>
+
+                </div>
+
+              
+            </td>
+            <!-- end of main content block -->
+
+            <!-- start of right (by default at least) column -->
+            
+            <!-- end of the right (by default at least) column -->
+          </tr>
+      <!-- end column wrapper -->
+	  <tr>
+	     <td colspan="2">
+      
+	<div id="portal-footer">
+
+<br />
+      <a href="http://plone.org">
+	<img src="../plone_powered.gif"
+      height="15" width="80" alt="Powered by Plone"
+      title="This Plone site was built using the Plone Content Management System. Click for more information." />
+      </a>
+
+</div>
+
+      </td>
+
+	     <td colspan="2"></td></tr>
+	  <tr></tr>
+    </tbody></table></div></td></tr>
+
+  </div></body>
+</html>

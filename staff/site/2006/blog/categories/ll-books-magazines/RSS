@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+         xmlns="http://purl.org/rss/1.0/">
+
+
+
+
+    
+
+
+
+<channel rdf:about="http://ll.jus.or.jp/2006/blog/categories/ll-books-magazines/RSS">
+  <title>LL関連書籍・雑誌</title>
+  <link>http://ll.jus.or.jp/2006</link>
+  
+  <description>
+    
+       
+       
+  </description>
+  
+  
+  
+            <syn:updatePeriod>hourly</syn:updatePeriod>
+            <syn:updateFrequency>1</syn:updateFrequency>
+            <syn:updateBase>2006-04-22T06:07:35Z</syn:updateBase>
+        
+  
+  <image rdf:resource="http://ll.jus.or.jp/2006/ll2006.gif"/>
+
+  <items>
+    <rdf:Seq>
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/65e57d4csystems-7670853f7"/>
+        
+    </rdf:Seq>
+  </items>
+
+</channel>
+
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/65e57d4csystems-7670853f7">        <title>日経SYSTEMS 7月号</title>        <link>http://ll.jus.or.jp/2006/blog/65e57d4csystems-7670853f7</link>        <description> 日経SYSTEMS 7月号に 「特集2 次世代フレームワークの登場で活気づくライトウェイト・ランゲージを活用する」 という記事が掲載されています。 8ページほどの記事のなかで、まずはLLの代表言語として、Perl、PHP、Python、Rubyを紹介し、...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>kahei</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-06-27T23:46:56Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+
+
+
+
+</rdf:RDF>

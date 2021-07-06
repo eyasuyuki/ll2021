@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+         xmlns="http://purl.org/rss/1.0/">
+
+
+
+
+    
+
+
+
+<channel rdf:about="http://ll.jus.or.jp/2006/blog/categories/misc/RSS">
+  <title>その他</title>
+  <link>http://ll.jus.or.jp/2006</link>
+  
+  <description>
+    
+       
+       
+  </description>
+  
+  
+  
+            <syn:updatePeriod>hourly</syn:updatePeriod>
+            <syn:updateFrequency>1</syn:updateFrequency>
+            <syn:updateBase>2006-04-22T06:07:35Z</syn:updateBase>
+        
+  
+  <image rdf:resource="http://ll.jus.or.jp/2006/ll2006.gif"/>
+
+  <items>
+    <rdf:Seq>
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/GaucheFest-16th"/>
+        
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/kakeibo"/>
+        
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/oneline"/>
+        
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/questionnaire-about-t-shirt"/>
+        
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/rss-reader-reserch"/>
+        
+    </rdf:Seq>
+  </items>
+
+</channel>
+
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/GaucheFest-16th">        <title>第16回GaucheFestを開催します</title>        <link>http://ll.jus.or.jp/2006/blog/GaucheFest-16th</link>        <description> この場をお借りしてGaucheコミュニティから告知させていただきます。 みんなで集まってGaucheをHackする会、GaucheFestを10月も開催します。  GaucheFest:16th http://practical-scheme...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>yasuyuki</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-10-02T03:04:23Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/kakeibo">        <title>Web家計簿の試用版</title>        <link>http://ll.jus.or.jp/2006/blog/kakeibo</link>        <description> Kahua版Web家計簿がKahua実験サイトで公開されています。 http://www.kahua.org/cgi-bin/khead.cgi/kakei スクリーンショット:※クリックで拡大 (実験サイトという性格上、データ保存を...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>yasuyuki</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-08-29T10:11:37Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/oneline">        <title>勝手にどう書く0.0</title>        <link>http://ll.jus.or.jp/2006/blog/oneline</link>        <description>手前味噌ですが今日の一行というコーナーを2004年からやっていて、「どう書く」的なネタがかなり溜まっています。たとえば、7/10には、  各要素が「0または1をとる乱数」から成る長さnのリストを得よ。 ex.  gosh&amp;gt; (make-bin...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>yasuyuki</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-07-27T01:38:43Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/questionnaire-about-t-shirt">        <title>Tシャツサイズアンケート</title>        <link>http://ll.jus.or.jp/2006/blog/questionnaire-about-t-shirt</link>        <description> LL Ringでは，例年に習い来場者にTシャツを配る予定です。そこで，Tシャツのサイズ(日本サイズ)に関するアンケートをお願い致します。Tシャツを作成する際の参考にさせて頂きます。 追記:7月26日(水)をもってアンケートを締め切ります。 さらに追記:ア...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>ats</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-08-16T05:06:18Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/rss-reader-reserch">        <title>L.L.Ring Blogの購読に利用されているRSSリーダ</title>        <link>http://ll.jus.or.jp/2006/blog/rss-reader-reserch</link>        <description>このBlogのRSS取得に利用されている「RSSリーダ」の割合を調べてみました。Webサーバのログに記載される購読者数(Subscriber)から，各サービスが占める割合を計算してみました。あくまでも現時点，かつこのBlogで配信しているRSSに限定したデ...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>ats</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-06-02T12:14:42Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+
+
+
+
+</rdf:RDF>

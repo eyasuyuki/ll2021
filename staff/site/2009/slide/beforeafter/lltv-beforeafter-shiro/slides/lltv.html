@@ -1,0 +1,469 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+
+<head>
+<title>Real Macro Metaprogramming on C</title>
+<!-- metadata -->
+<meta name="generator" content="S5" />
+<meta name="version" content="S5 1.1" />
+<meta name="presdate" content="20090829" />
+<meta name="author" content="Shiro Kawai" />
+<meta name="company" content="Scheme Arts, LLC" />
+<!-- configuration parameters -->
+<meta name="defaultView" content="slideshow" />
+<meta name="controlVis" content="hidden" />
+<!-- style sheet links -->
+<link rel="stylesheet" href="ui/default/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/default/outline.css" type="text/css" media="screen" id="outlineStyle" />
+<link rel="stylesheet" href="ui/default/print.css" type="text/css" media="print" id="slidePrint" />
+<link rel="stylesheet" href="ui/default/opera.css" type="text/css" media="projection" id="operaFix" />
+<!-- S5 JS -->
+<script src="ui/default/slides.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div class="layout">
+<div id="controls"><!-- DO NOT EDIT --></div>
+<div id="currentSlide"><!-- DO NOT EDIT --></div>
+<div id="header"></div>
+<div id="footer">
+<h1>劇的ビフォーアフター @ LLTV</h1>
+<h2>Real Macro Metaprogramming on C</h2>
+</div>
+
+</div>
+
+
+<div class="presentation">
+
+<div class="slide">
+<h1><i>Real</i> Macro Metaprogramming<br> on C</h1>
+<h3>Shiro Kawai</h3>
+<h4>Scheme Arts, LLC</h4>
+</div>
+
+<div class="slide">
+<h1>C言語</h1>
+<p>システムプログラミングでは依然として主流</p>
+
+<ul style="list-style-type:none">
+  <li><p><img src="Thumb_up_icon.png" align="middle"/ /> 豊富なライブラリ、ABI</p></li>
+  <li><p><img src="Thumb_up_icon.png" align="middle"/ />「薄い/どこにでもある」ランタイム</p></li>
+  <li><p><img src="Thumb_up_icon.png" align="middle"/ /> on the bare metalなセマンティクス</p></li>
+  <li><p><img src="Thumb_down_icon.png" align="middle"/ /> 抽象化機能が貧弱</p></li>
+</ul>
+</div>
+
+<div class="slide">
+<h1></h1>
+<p style="text-align: center; font-size: 200%;"><b>本物の</b>マクロで抽象化限界突破</p><p style="text-align: center; font-size: 200%;">(!cppの偽マクロ)</p>
+</div>
+
+<div class="slide">
+<h1>題材</h1>
+<div style="float:right">
+<table border=1>
+ <tr><th>File</th><th>LOC</th></tr>
+ <tr><td><tt>ls.h</tt></td><td align="right">38</td></tr>
+ <tr><td><tt>extern.h</tt></td><td align="right">21</td></tr>
+ <tr><td><tt>ls.c</tt></td><td align="right">526</td></tr>
+ <tr><td><tt>cmp.c</tt></td><td align="right">73</td></tr>
+ <tr><td><tt>print.c</tt></td><td align="right">319</td></tr>
+ <tr><td><tt>util.c</tt></td><td align="right">164</td></tr>
+ <tr><td>計</td><td align="right">1141</td></tr>
+</table>
+</div>
+<ul>
+  <li><p>誰もが知ってる<span style="font-size:200%">ls(1)</span>コマンド</p></li>
+  <li><p>ソースはFreeBSDから (simple, no-dependency)</p></li>
+  <li><p>素直で読みやすいコード</p></li>
+  <li><p><b>C言語ソースとしては</b>優等</p></li>
+</ul>
+<p style="font-size:200%; text-align:center">しかし…</p>
+</div>
+
+<div class="slide">
+<h1></h1>
+<p style="text-align: center; font-size: 200%;">3つの問題点</p></div>
+
+
+<div class="slide">
+<h1>問題点1 - 冗長なコード</h1>
+<p><tt>cmp.c</tt></p>
+<pre>
+int namecmp(const FTSENT *a, const FTSENT *b)
+{
+    return (strcoll(a->fts_name, b->fts_name));
+}
+
+int revnamecmp(const FTSENT *a, const FTSENT *b)
+{
+    return (strcoll(b->fts_name, a->fts_name));
+}
+</pre>
+</div>
+
+<div class="slide">
+<h1>問題点1 - 冗長なコード (cont'd)</h1>
+<p><tt>util.c</tt></p>
+
+<ul>
+  <li>同じ構造の4つの関数
+<pre>
+while ((clen = mbrtowc(&wc, ...)) != 0) {
+    if (clen == (size_t)-1) { ... }
+    else if (clen == (size_t)-2)) { ... }
+    if (iswprint(wc)) { ... }
+    else { ... }
+}
+</pre>
+  </li>
+  <li>Cでは共通構造を括り出すのが困難
+    <ul>
+      <li><tt>while</tt>の中から外の環境を参照する必要あり</li>
+      <li>でもクロージャが使えない!</li>
+    </ul>
+  </li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>問題点2 - 非本質的な情報</h1>
+<pre style="background-color:#dfd">
+int i;
+   :
+for (i = 0; i < (int)clen; i++)
+    putchar((unsigned char)s[i]);
+</pre>
+
+<p><tt>for (int i = [0..clen]) { putchar(...) }</tt> とか書けたらなあ</p>
+<pre style="background-color:#dfd">
+FTSENT *p;
+   :
+for (p = dp->list; p; p = p->fts_link) {
+   :
+}
+</pre>
+<p><tt>foreach (FTSENT *p in dp->list) { ... }</tt> とか書けたらなあ</p>
+</div>
+
+
+<div class="slide">
+<h1>問題点3 - 情報の分散</h1>
+<p><tt>ls.h</tt></p>
+<pre>
+extern int f_accesstime; /* use time of last access */
+</pre>
+<p><tt>ls.c (decl)</tt></p>
+<pre>
+int f_accesstime; /* use time of last access */
+</pre>
+<p><tt>ls.c (main)</tt></p>
+<pre>
+case 'c':
+    f_statustime = 1;
+    f_accesstime = 0;
+case 'u':
+    f_accesstime = 1;
+    f_statustime = 0;
+</pre>
+</div>
+
+
+<div class="slide">
+<h1>匠の方針</h1>
+
+<p>リフォームのポイント：構文なんて飾りです</p>
+
+<ul class="incremental">
+  <li><tt>printf("%d:%s\n", n, msg);</tt></li>
+  <li><tt>(printf "%d:%s\n" n msg)</tt></li>
+</ul>
+<ul class="incremental">
+  <li><tt>if (is_foo(x)) { do_foo(x); } else { do_bar(x); }</tt></li>
+  <li><tt>(if (is_foo x) (do_foo x) (do_bar x))</tt></li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>CiSE (C in S-Expression)</h1>
+
+<pre>
+int
+main(int argc, char *argv[])
+{
+    static char dot[] = ".", *dotav[] = {dot, NULL};
+    struct winsize win;
+    int ch, fts_options, notused;
+    char *p;
+
+    (void)setlocale(LC_ALL, "");
+    if (isatty(STDOUT_FILENO)) {
+        termwidth = 80;
+        if ((p = getenv("COLUMNS")) != NULL && *p != '\0')
+            termwidth = atoi(p);
+        else if (ioctl(STDOUT_FILENO, TIOCGWINSZ, &win) != -1 &&
+                 win.ws_col > 0)
+            termwidth = win.ws_col;
+        f_nonprint = 1;
+</pre>
+</div>
+
+<div class="slide">
+<h1>CiSE (C in S-Expression)</h1>
+
+<pre>
+(define-cfn main (argc::int argv::char**) ::int
+  (setlocale LC_ALL "")
+  (cond [(isatty STDOUT_FILENO)
+         (= termwidth 80)
+         (let* ([p::char* (getenv "COLUMNS")]
+                [win::(struct winsize)])
+           (cond [(and p (!= (* p) #\null)) (= termwidth (atoi p))]
+                 [(and (!= (ioctl STDOUT_FILENO TIOCGWINSZ (& win)) -1)
+                       (> (ref win ws_col) 0))
+                  (= termwidth (ref win ws_col))])
+           (= f_nonprint 1))]
+</pre>
+</div>
+
+<div class="slide">
+<h1>CiSE (C in S-Expression) (cont'd)</h1>
+<ul class="incremental">
+  <li>CのABI、セマンティクスはそのまま
+     <ul>
+       <li>ランタイムがそのまま使える</li>
+       <li>on the bare metal</li>
+       <li>見た目が多少変わっただけ</li>
+     </ul>
+  </li>
+  <li>本物のマクロが使える
+     <ul>
+       <li>コンパイル前に任意のソースコード変換が可能
+       </li>
+     </ul>
+  </li>
+  <li>Gaucheでunofficial support
+  </li>
+</ul>
+</div>
+
+
+<div class="slide">
+<h1>マクロ</h1>
+
+<p>構文木置換</p>
+
+<pre>
+(define-cise-stmt (when test . body)
+  `(if ,test (begin ,@body)))
+
+  :
+
+(when (is_foo x) (do_this) (do_that))
+   ↓
+(if (is_foo x) (begin (do_this) (do_that)))
+
+;; if (is_foo(x)) { do_this(); do_that(); }
+</pre>
+</div>
+
+<div class="slide">
+<h1>マクロ (cont'd)</h1>
+
+<p>パターンの抽出/隠蔽</p>
+
+<pre>
+(dotimes [i (strlen s)] (printf "%02x" (aref s i)))
+   ↓
+(let* ([i::int 0] [cise__213::int (strlen s)])
+  (for [() (< i cise__213) (inc! i)]
+    (printf "%02x" (aref s i))))
+
+;; {
+;;    int i = 0; int cise__213 = strlen(s);
+;;    for (; i < cise__213; i++) {
+;;      printf("%02x", s[i]);
+;;    }
+;; }
+</pre>
+</div>
+
+<div class="slide">
+<h1>マクロ (cont'd)</h1>
+<p>グローバルなコンパイル時計算</p>
+
+<pre>
+(define-enum FooMode (MODE_X MODE_Y))
+  :
+(gen-printer FooMode)
+</pre>
+<p>↓</p>
+<pre>
+enum FooMode { MODE_X, MODE_Y };
+  :
+void FooMode_print(enum FooMode m)
+{
+  switch (m) {
+    case MODE_X: puts("MODE_X"); break;
+    case MODE_Y: puts("MODE_Y"); break;
+  }
+}
+</pre>
+</div>
+
+
+<div class="slide">
+<h1>改造1 - 繰り返しパターンの除去</h1>
+<p><tt>cmp.sc</tt></p>
+
+<pre>
+(define-cmpfn namecmp
+  (return (strcoll (-> a fts_name) (-> b fts_name))))
+(define-cmpfn-stat modcmp  st_mtime)
+(define-cmpfn-stat acccmp  st_atime)
+(define-cmpfn-stat statcmp st_ctime)
+(define-cmpfn-stat sizecmp st_size)
+</pre>
+
+</div>
+
+<div class="slide">
+<h1>改造1 - 繰り返しパターンの除去 (cont'd)</h1>
+
+<pre style="background-color:#dfd">
+FTSENT *p;
+   :
+for (p = dp->list; p; p = p->fts_link) {
+   ...
+}
+</pre>
+ 
+<p>↓</p>
+
+<pre style="background-color:#dfd">
+(do-ftsent [p (-> dp list)] ...)
+</pre>
+</div>
+
+<div class="slide">
+<h1>改造2 - 本質の括り出し</h1>
+<p><tt>util.sc</tt></p>
+
+<pre>
+(define-cfn prn_normal (s::(const char*)) ::int
+  (let* ([n::int 0])
+    (make-printer
+     (putchar (cast (unsigned char) (* s)))       ; ilseq (clen == -1)
+     (+= n (printf "%s" s))                       ; incomplete (clen == -2)
+     (default-print)                              ; nonprintable
+     (begin (default-print) (+= n (wcwidth wc)))) ; printable
+    (return n)))
+</pre>
+
+<p>元のC関数: 29LOC</p>
+</div>
+
+<div class="slide">
+<h1>改造2 - 本質の括り出し (cont'd)</h1>
+<p><tt>util.sc</tt></p>
+
+<pre>
+(define-cfn prn_octal (s::(const char*)) ::int
+  (let* ([len::int 0]
+         [esc::(.array (static const char) (())) "\\\\\"\"\aa\bb\ff\nn\rr\tt\vv"])
+    (make-printer
+     (octal-print 1)                    ; ilseq (clen == -1)
+     (octal-print (strlen s))           ; incomplete (clen == -2)
+     (esc-print)                        ; nonprint
+     (if (and (!= wc (cast wchar_t #\&quot;))  ;print
+              (!= wc (cast wchar_t #\\)))
+       (begin (default-print) (+= len (wcwidth wc)))
+       (esc-print)))
+    (return len)))
+</pre>
+
+<p>元のC関数: 50LOC</p>
+</div>
+
+<div class="slide">
+<h1>改造3 - DSL</h1>
+
+<pre>
+(define-flag int f_accesstime "u" "cU")  ; use time of last access
+(define-flag int f_statustime "c" "uU")  ; use time of last mode change
+(define-flag int f_longform   "l" "1Cxm"); long listing format
+(define-flag int f_nonprint   "q" "Bbw") ; show unprintables as ?
+</pre>
+
+<ul>
+  <li>その場で変数定義を生成</li>
+  <li>オプションパーザ内にオプションハンドラを生成</li>
+  <li>別ファイルに変数宣言を生成</li>
+  <li>マクロコードは13行</li>
+</ul>
+</div>
+
+
+<div class="slide">
+<h1>比較</h1>
+
+<table border=1 style="float:right">
+ <tr><th></th><th>Before</th><th>After</th></tr>
+ <tr><td>cmp.c</td><td align="right">73</td><td align="right">15</td>
+ <tr><td>ls.c</td><td align="right">526</td><td align="right">277</td>
+ <tr><td>print.c</td><td align="right">319</td><td align="right">183</td>
+ <tr><td>util.c</td><td align="right">164</td><td align="right">73</td>
+ <tr><td>計</td><td align="right">1082</td><td align="right">548</td>
+</table>
+
+<ul>
+ <li>コードは約半分 (元コードがより大きいと効果up)</li>
+ <li>意味の集約 → 同系統の機能追加が容易</li>
+ <li>パターンの再利用性</li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>CAUTION</h1>
+<p style="font-size:200%; text-align:center; color:#f00">!!注意!!</p>
+
+<ul class="incremental">
+<li>「CiSE/マクロを使え」という話ではない</li>
+<li>マクロは劇薬→使いどころをわきまえて</li>
+<li>CiSEは実験段階</li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>CAUTION (cont'd)</h1>
+<p style="font-size:120%">``Macro Club has two rules, plus one exception''</p>
+
+<ol class="incremental">
+  <li>マクロは書くな</li>
+  <li>それがパターンをカプセル化する唯一の方法ならば、マクロを書け</li>
+  <li>同等の関数に比べて、呼び出し側が楽になるならば、マクロを書いても構わない</li>
+</ol>
+
+<p style="text-align:right"><i>Stuart Halloway ("Programming Clojure")</i></p>
+</div>
+
+<div class="slide">
+<h1>匠のメッセージ</h1>
+
+
+<p style="font-size:200%; text-align:center;">
+プログラマであるあなたは<br>
+万能の神<br>
+言語に使われるのではなく<br>
+言語を使い<br>
+言語と戯れよう
+</div>
+</div>
+
+
+</body>
+</html>

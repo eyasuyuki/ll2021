@@ -1,0 +1,377 @@
+/* all */
+
+body {
+	margin: 0px;
+	font-family: 'Helvetica' san-serif;
+	color: #333;
+	background: #E3E3E3;
+}
+
+a {
+	outline: none;
+	border: none;
+}
+
+a img {
+	outline: none;
+	border: none;
+}
+
+#container {
+	padding: 0px 0px;
+	width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* banner */
+
+#banner_background {
+	background: url(../../uploads/banner_background.png) repeat-x;
+	height: 341px;
+	width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#banner {
+	background: url(../../uploads/banner.png) no-repeat;
+	height: 341px;
+	width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#banner_border {
+	height: 10px;
+	background: #660000;
+	width: 100%;
+}
+
+/* banner_small */
+
+#banner_background_small {
+	background: url(../../uploads/banner_small_background.png) repeat-x;
+	height: 113px;
+	width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#banner_small {
+	background: url(../../uploads/banner_small.png) no-repeat;
+	height: 113px;
+	width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* header */
+
+#header_background {
+	background: url(../../uploads/header_background.png) repeat-x;
+	height: 50px;
+	width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#header {
+	background: url(../../uploads/header.png) no-repeat;
+	height: 50px;
+	width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#header img {
+	float: right;
+	margin-top: 10px;
+}
+
+/* breadcrumbs */
+
+#breadcrumbs_background {
+	background: url(../../uploads/breadcrumbs.png) repeat-x;
+	height: 30px;
+	width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#breadcrumbs {
+	color: #333;
+	text-align: left;
+	height: 30px;
+	width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+	line-height: 32px;
+}
+
+#breadcrumbs a {
+	color: #666;
+	text-decoration: none;
+}
+
+/* content */
+
+#content {
+	background: #FFF;
+	text-align: left;
+	width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+	padding: 25px 25px 20px 25px;
+	border-bottom: 2px solid #CCC;
+}
+
+#content table {
+	border-collapse: collapse;
+}
+
+#content:after {
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	content: ".";
+}
+
+/* content_side */
+
+#content_side {
+	width: 200px;
+	float: right;
+}
+
+#content_side a {
+	color: #CC0000;
+	text-decoration: none;
+}
+
+#content_side li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#content_side .page_item {
+	font-weight: normal !important;
+	border-bottom: 1px dotted #E0E0E0 !important;
+	padding: 6px 0px 6px 0px !important;
+}
+
+#content_side .td_pages {
+	border-bottom: none !important;
+}
+
+#content_side .td_posts {
+	border-bottom: none !important;
+}
+
+#content_side .td_posts li {
+	font-weight: normal !important;
+	border-bottom: 1px dotted #E0E0E0 !important;
+	padding: 6px 0px 6px 0px !important;
+}
+
+#content_side ul {
+	margin: 0px;
+	list-style: none;
+	padding: 0px;
+}
+
+#content_side table {
+	width: 200px;
+}
+
+#content_side th {
+	font-size: 14px;
+	border-bottom: 2px solid #E0E0E0;
+	padding-bottom: 5px;
+	padding-left: 2px;
+}
+
+#content_side .content_side_b {
+	padding-top: 20px;
+}
+
+#content_side td {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-bottom: 1px dotted #E0E0E0;
+	padding-left: 2px;
+	line-height: 1.4em;
+}
+
+/* content_main */
+
+#content_main {
+	float: left;
+	width: 555px;
+	padding-right: 25px;
+	border-right: 1px dotted #E0E0E0;
+}
+
+#content_main table {
+	width: 555px;
+}
+
+#content_main .post_title {
+	font-size: 20px;
+	border-bottom: 1px solid #E0E0E0;
+	padding-bottom: 10px;
+	font-weight: normal;
+	padding-left: 30px;
+	background: url(../../uploads/th_icon.jpg) no-repeat;
+	color: #333;
+	vertical-align: text-bottom;
+}
+
+#content_main .post_date {
+	text-align: right;
+	font-size: 12px;
+	color: #660000;
+	border-bottom: 1px solid #E0E0E0;
+	padding-bottom: 0px;
+}
+
+*html #content_main td {
+	padding-top: 10px;
+}
+
+*:first-child+html #content_main td {
+	padding-top: 10px;
+}
+
+#content_main td {
+	padding-top: 0px;
+	line-height: 1.5em;
+	padding-bottom: 15px;
+}
+
+.timetable td {
+	padding-top: 0px;
+	line-height: 1.5em;
+	padding-bottom: 0px;
+        margin-bottom: 0px;
+}
+
+.timetable td a {
+	font-weight: bold;
+}
+
+
+h2 {
+	border-bottom: 1px dotted #E0E0E0;
+	font-weight: normal;
+	margin-top: 30px;
+	padding-bottom: 5px;
+	color: #999;
+	font-size: 20px;
+}
+
+/* footer */
+
+#footer {
+	text-align: center;
+	width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+	padding: 20px 0px 20px 0px;
+	color: #999;
+}
+
+/* hs section */
+
+.highslide {
+	cursor: url(http://ll.jus.or.jp/2009/wp-content/themes/default/scripts/graphics/zoomin.cur), pointer;
+    outline: none;
+}
+.highslide img {
+	border: 2px solid gray;
+}
+.highslide:hover img {
+	border: 2px solid white;
+}
+
+.highslide-image {
+    border: 2px solid white;
+}
+.highslide-image-blur {
+}
+.highslide-caption {
+    display: none;
+    
+    border: 2px solid white;
+    border-top: none;
+    font-family: Verdana, Helvetica;
+    font-size: 10pt;
+    padding: 5px;
+    background-color: white;
+}
+.highslide-loading {
+    display: block;
+	color: white;
+	font-size: 9px;
+	font-weight: bold;
+	text-transform: uppercase;
+    text-decoration: none;
+	padding: 3px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+    background-color: black;
+    /*
+    padding-left: 22px;
+    background-image: url(scripts/graphics/loader.gif);
+    background-repeat: no-repeat;
+    background-position: 3px 1px;
+    */
+}
+a.highslide-credits,
+a.highslide-credits i {
+display:none;
+    padding: 2px;
+    color: silver;
+    text-decoration: none;
+	font-size: 10px;
+}
+a.highslide-credits:hover,
+a.highslide-credits:hover i {
+    color: white;
+    background-color: gray;
+}
+
+.highslide-move {
+    cursor: move;
+}
+.highslide-display-block {
+    display: block;
+}
+.highslide-display-none {
+    display: none;
+}
+.control {
+	float: right;
+    display: block;
+    position: relative;
+	margin: 0 5px;
+	font-size: 9pt;
+    font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.control:hover {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.control, .control * {
+	color: #666;
+}

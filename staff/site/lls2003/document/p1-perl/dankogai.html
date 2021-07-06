@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+<style type="text/css">
+BODY { font-size: 150% }
+H1,H2,H3,H4,H5,H6 { background-color: #ff7300; padding-left: 1em; }
+PRE { background-color: #cccccc; width: auto; display: table; }
+DL,UL,OL { margin-left: 2em; display: compact; }
+DT { display: compact; }
+.slide{ border: double;  width: 800px; height: 600px; margin: 32px; }
+.footer{ position: fixed; width: 100%; top: 90%; bottom: 0;}
+.center{ text-align: center }
+.right{ text-align: right }
+.caption{ text-align: center; text-size: 100%; }
+</style>
+<title>LL Saturday: P1 : Perl</title>
+</head>
+<body>
+<div class="footer">
+<table width="80%" class="center">
+<tr>
+	<td><a href="dankogai.html#history">目次</a></td>
+	<td align="right"><a href="../../../index.html">LL Saturday</a></td>
+</tr>
+</table>
+</div>
+<div class="slide">
+<h1>Perlの現在、過去、未来</h1>
+<p class="center"><img src="dan-180x240.png" width="180" height="240" alt="Dan"></img><br></br>
+Dan Kogai <a href="mailto:dankogai@dan.co.jp">dankogai@dan.co.jp</a><br></br>
+<a href="../../../index.html">LL Saturday 2003</a>
+</p>
+<p class="center">
+	<a href="http://validator.w3.org/check/referer">
+	<img src="http://www.w3.org/Icons/valid-xhtml10"
+	alt="Valid XHTML 1.0!" height="31" width="88"></img></a>
+</p>
+</div>
+<div class="slide">
+<h1><a name="history">A Brief History of time()</a></h1>
+<table>
+<tr><td>1987</td><td>Perl 1.000</td></tr>
+<tr><td>1994</td><td>Perl 5.000</td></tr>
+<tr><td>2002</td><td><a href="dankogai.html#580">Perl 5.8.0</a></td></tr>
+<tr><td>2003</td><td><a href="dankogai.html#cpan">CPANのひみつ</a></td></tr>
+<tr>	<td></td><td><a href="dankogai.html#581">Perl 5.8.1</a></td></tr>
+<tr><td>200[3-9]</td><td><a href="dankogai.html#parrot">Parrot</a>/<a href="dankogai.html#ponie">Ponie</a>/<a href="dankogai.html#perl6">Perl6</a></td></tr>
+</table>
+</div>
+<div class="slide">
+<h1><a name="580">Perl 5.8</a></h1>
+<ul>
+<li>スクリプト界最強の Unicode Support</li>
+<li>スクリプト界最強の 文字コードサポート (via Encode)
+	<ul><li>Kiss Jperl good-bye</li></ul></li>
+<li>PerlIO</li>
+<li>標準モジュールの大幅増強
+	<ul>
+	<li>基本的に外部依存なしに CPAN を使うため<br></br>
+  	libnet, Time::HiRes...</li>
+	</ul>
+</li>
+</ul>
+</div>
+<div class="slide">
+<h1><a name="cpan">CPANのひみつ</a></h1>
+<p class="center">
+<img src="cpan.jpg" width="480" height="360" alt="cpan"></img>
+</p>
+<p class="caption">
+<a href="http://www.perl.org/oscon/2003/movies/truth/">(c) Ask Bjoern Hansen</a> @ <a href="http://conferences.oreillynet.com/os2003/">OSCON 2003</a>
+</p>
+</div>
+<div class="slide">
+<h1><a name="581">Perl 5.8.1</a></h1>
+<ul>
+<li>さらなるBugfix</li>
+<li>特に Unicode まわり
+	<ul><li>use encoding "shiftjis"; # 今度は大丈夫！</li></ul>
+</li>
+<li>MacOS X 10.3 に標準搭載(?)
+	<ul><li>弾、蒼くなる</li></ul>
+</li>
+</ul>
+</div>
+<div class="slide">
+<h1><a name="ponie">Ponie</a></h1>
+<ul>
+<li>== Perl 5.10 on Parrot</li>
+<li># Parrot って何?</li>
+</ul>
+<p class="center">
+<img src="ponie.jpg" width="480" height="360" alt="ponie"></img>
+</p>
+<p class="caption">
+<a href="http://www.perl.org/oscon/2003/movies/truth/">(c) Ask Bjoern Hansen</a> @ <a href="http://conferences.oreillynet.com/os2003/">OSCON 2003</a>
+</p>
+</div>
+<div class="slide">
+<h1><a name="parrot">Parrot</a></h1>
+<ul>
+<li>スクリプト言語のためのVM
+<pre>
+Parser -> Lexer -> (optimizer) -> parrotcode
+</pre>
+</li>
+</ul>
+<p class="center">
+<img src="parrot-comb.jpg" width="499" height="375" alt="comb"></img>
+</p>
+<p class="caption">
+<a href="http://www.perl.com/pub/a/2003/07/16/soto2003.html">(C) Larry Wall</a> @ <a href="http://conferences.oreillynet.com/os2003/">OSCON 2003</a>
+</p>
+</div>
+<div class="slide">
+<h1><a name="perl6">Perl6</a></h1>
+<ul>
+<li>Apoc 6</li>
+<li>Perl 6 Essentials<br></br>
+<a href="http://www.oreilly.com/catalog/perl6es/">http://www.oreilly.com/catalog/perl6es/</a></li>
+</ul>
+</div>
+<div class="slide">
+<h1>結び</h1>
+<p class="center">ご清聴ありがとうございました。</p>
+<p><a href="mailto:dankogai@dan.co.jp">ご質問は？</a></p>
+</div>
+</body>
+</html>

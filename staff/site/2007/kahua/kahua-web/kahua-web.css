@@ -1,0 +1,221 @@
+/* style sheet for kahua-web */
+/* $Id: kahua-web.css,v 1.28 2007/06/12 04:59:40 bizenn Exp $ */
+
+* {
+  color: black;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+body { margin: 10px; }
+div { clear: both; }
+hr { clear: both; }
+strong {
+  font-weight: bolder;
+  font-style: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+em {
+  font-weight: inherit;
+  font-style: italic;
+  font-size: inherit;
+  color: inherit;
+}
+
+div#body-container {
+  width: 720px;
+  margin: 0 auto;
+}
+div#head-container {
+  width: 100%;
+}
+div#main-container {
+  width: 100%;
+  float: none;
+}
+div#title-pane {
+  width: 700px;
+  text-align: left;
+  color: #ffffff;
+  margin: 0;
+  padding: 10px 0 10px 20px;
+  background-color: #49B52F;
+}
+div#naviation-pane {
+  width: 100%;
+}
+div#side-pane {
+  float: left;
+  clear: none;
+  width: 180px;
+  height: 100%;
+  background-color: #ccffff;
+  padding: 5px;
+  font-size: 80%;
+}
+div#main-pane {
+  float: left;
+  clear: none;
+  width:  525px;
+  height: 100%;
+  padding: 5px 0 5px 5px;
+}
+div#bottom-pane {
+  width: 100%;
+  border-width: 1px 0 0 0;
+  border-color: #777777;
+  border-style: solid;
+}
+div#bottom-pane p {
+  font-size: 90%;
+  color: #999999;
+  text-align: center;
+}
+
+div#edit-menu {
+  text-align: right;
+  font-size: 90%;
+  color: #777777;
+}
+
+div#page-footer {
+  padding-top: 1em;
+  text-align: right;
+  font-size: 80%;
+  line-height: 0.9;
+  color: #777777;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   text-align: left;
+   color: #29661a;
+   font-weight: bold;
+}
+h1 { font-size: 190%; color: white; font-style: oblique; }
+h2 { font-size: 150%; padding: .5em 0; }
+h3 { font-size: 130%; padding: .3em 0; }
+h4 { font-size: 120%; padding: .2em 0; }
+h5 { font-size: 110%; padding: .2em 0; }
+h6 { font-size: 100%; padding: .2em 0; font-style: italic; }
+
+div#main-pane p {
+  padding: .2em 0;
+}
+
+div#side-pane > h2 {
+  font-size: 130%; text-align: center;
+  margin: 0 -5px;  padding: .5ex 0;
+  background: solid; background-color: #ccffcc;
+}
+
+div#side-pane > h3 { font-size: 120%; padding: .1em 0; }
+div#side-pane > h4 { font-size: 110%; padding: .1em .5em; }
+div#side-pane > h5 { font-size: 100%; padding: .1em 1.0em; }
+div#side-pane > h6 { font-size: 100%; padding: .1em 1.5em; }
+
+ol { margin: .5em 0 .5em 2.5em; }
+ul { margin: .5em 0 .5em 2em; }
+dl { margin: .5em 0 .5em 1em; }
+dt { font-weight: bold; color: #333333; }
+dt * { font-weight: bold; color: #333333; }
+dd { margin-left: 1em; }
+
+a > img { border-style: solid; border-width; 1px; border-color: #cccccc; }
+
+div#navigation-pane table {
+  width: 100%;
+}
+td#navigation-pane-left {
+  text-align: left;
+  font-size: 90%;
+}
+
+td#navigation-pane-right {
+  text-align: right;
+  font-size: 90%;
+}
+
+hr {
+  padding: 0pt; margin: 0pt;
+  border-width: 1px 0px 0px 0px;
+  border-style: solid;
+  border-color: #729669;
+}
+
+pre {
+  background-color: #ffffee;
+  border-color: #bbccbb;
+  border-width: 1px;
+  border-style: solid;
+  padding: 0.5em;
+  font-family: monospace;
+  overflow: auto;
+}
+
+p.warning {
+  color: #ff0000;
+}
+
+table.user-form th {
+  text-align: right;
+  padding-right: 5pt;
+}
+
+form.search input {
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: thin;
+}
+form.search input[type="text"]{ padding: 1px; }
+form.inline-object-upload { display: inline; }
+form.page-editor textarea {
+  width: 465px;
+}
+
+.macro-error { background-color: #ee5555; }
+div.commentform textarea { width: 100%; }
+.highlight { background-color: yellow; }
+
+table.version-info th {
+  font-weight: bold;
+  text-align: left;
+}
+
+table.user-list {
+  border-collapse: collapse;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #999999;
+}
+
+table.user-list th {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #999999;
+  background-color: #cccccc;
+  padding: 2px;
+}
+
+table.user-list td {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #999999;
+  padding: 2px;
+}
+
+blockquote {
+  border: 2px dotted #808000;
+  background-color: #f5f5dc;
+  width: 90%;
+  padding: .5em;
+  margin: .5em auto;
+}
+
+ul.page-set span.page-update-time {
+  color: #666666;
+}

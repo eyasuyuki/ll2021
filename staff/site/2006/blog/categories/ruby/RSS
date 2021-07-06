@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+         xmlns="http://purl.org/rss/1.0/">
+
+
+
+
+    
+
+
+
+<channel rdf:about="http://ll.jus.or.jp/2006/blog/categories/ruby/RSS">
+  <title>Ruby</title>
+  <link>http://ll.jus.or.jp/2006</link>
+  
+  <description>
+    
+       
+       
+  </description>
+  
+  
+  
+            <syn:updatePeriod>hourly</syn:updatePeriod>
+            <syn:updateFrequency>1</syn:updateFrequency>
+            <syn:updateBase>2006-04-22T06:07:35Z</syn:updateBase>
+        
+  
+  <image rdf:resource="http://ll.jus.or.jp/2006/ll2006.gif"/>
+
+  <items>
+    <rdf:Seq>
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/rails-benkyo200609"/>
+        
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/rubyist-magazine-0014"/>
+        
+        
+            <rdf:li rdf:resource="http://ll.jus.or.jp/2006/blog/rwikivulnerability"/>
+        
+    </rdf:Seq>
+  </items>
+
+</channel>
+
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/rails-benkyo200609">        <title>「初心者のためのRuby on Railsチュートリアル」のお知らせ</title>        <link>http://ll.jus.or.jp/2006/blog/rails-benkyo200609</link>        <description> 日本UNIXユーザ会では定期的に勉強会を開催しています． 次回，9月2日の勉強会のテーマは「初心者のためのRuby on Railsチュートリアル」ということで，講師に高橋征義さんをお迎えし，Railsについて講義していただきます． デモを中心とした，R...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>takano32</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-08-29T02:46:23Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/rubyist-magazine-0014">        <title>Rubyist Magazine 0014 号 リリース</title>        <link>http://ll.jus.or.jp/2006/blog/rubyist-magazine-0014</link>        <description>　日本Rubyの会有志によるウェブ雑誌、Rubyist Magazine、通称『るびま』の0014号をリリースしましたのでお知らせします。 http://jp.rubyist.net/magazine/?0014...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>takano32</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-05-16T13:24:04Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+    <item rdf:about="http://ll.jus.or.jp/2006/blog/rwikivulnerability">        <title>RWikiに脆弱性が発見されました</title>        <link>http://ll.jus.or.jp/2006/blog/rwikivulnerability</link>        <description> Rubyで記述されたWikiエンジン，RWikiに任意の命令が実行可能な脆弱性が発見されました． 2.0.1以前のバージョンを利用しているユーザはバージョンアップしましょう． [ruby-list:42213] RWiki-2.1.0 / RWiki...</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>takano32</dc:creator>        <dc:rights></dc:rights>                <dc:date>2006-07-12T08:38:13Z</dc:date>        <dc:type>COREBlog Entry</dc:type>    </item>
+
+
+
+
+</rdf:RDF>

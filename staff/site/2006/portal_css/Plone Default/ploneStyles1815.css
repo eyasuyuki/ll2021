@@ -1,0 +1,230 @@
+
+/* ----- ploneCustom.css ----- */
+@media all {
+/*  (do not remove this :) */
+/*  (not this either :) */
+
+body {
+	background-color: #444;
+}
+
+#visual-portal-wrapper {
+	margin: auto;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	padding: 0;
+	width: 760px;
+	background-color: white;
+}
+
+#portal-logo {
+    margin: 1em 0em 0.3em 1.5em;
+    padding: 0;
+}
+
+#portal-searchbox {
+    margin: 0.2em 0 0 0;
+}
+
+#portal-personaltools {
+    background-color: white;
+    border-top-style: none;
+    border-top-width: 0px;
+    border-bottom-color: GainsBoro;
+    border-bottom-style: nonw;
+    border-bottom-width: 0px;
+    line-height: 1.6em;
+    color: Black;
+    padding: 0em 3em 0em 3em;
+    margin: 0;
+    text-align: right;
+    text-transform: none;
+    list-style: none;
+}
+
+
+#portal-globalnav {
+    margin: 0 1em 0 1em;
+    padding: 0;
+    height: 32px;
+    background: White url(http://ll.jus.or.jp/2006/menubar-bg) repeat-x;
+}
+
+#portal-globalnav ul {
+    float: left;
+}
+
+#portal-globalnav li {
+	line-height: 20px;
+}
+
+#portal-globalnav li a {
+    /* The normal, unselected tabs. They are all links */
+    border-style: none;
+    border-left: 3px solid #222;
+    color: #ccc !important;
+    font-size: 9pt !important;
+    margin-left: 0em;
+    margin-right: 2em;
+    padding: 0em 0.2em;
+}
+
+#portal-globalnav li.selected a {
+    background-color: transparent;
+    border-style: none;
+    color: #fff;
+    border-left: 3px solid #FFF; 
+}
+
+#portal-globalnav li a:hover {
+    border-left: 3px solid #EEE;
+    color: #333 !important;
+}
+
+#portal-breadcrumbs {
+	border-bottom-style: none;
+    margin: 0 1em 0 1em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	line-height: 1.6em;
+    background-color: #eee;
+}
+
+#portal-column-one .visualPadding {
+    padding: 1em 0em 0em 2em;
+}
+
+#portal-column-two .visualPadding {
+    padding: 1em 2.5em 0em 0em;
+}
+
+#content {
+    margin-bottom: 0em;
+}
+
+.documentContent {
+    font-size: 120%;
+    padding: 0em 1em 2em 1.5em !important;
+    background: White;
+}
+
+#portal-colophon {
+    margin: 0em 0em 0em 0em;
+    padding: 0.5em 0em 0em 0em;
+    background-color: #444;
+}
+
+#portal-colophon ul li {
+    margin: 0 0.25em;
+    padding: 0.1em 0.5em;
+}
+
+#portal-footer {
+    background-color: #444;
+    border-top: 0px none White;
+    border-bottom: 0px none White;
+    line-height: 1em;
+    margin: 0.2em 0 0.2em 0;
+    padding: 0;
+}
+
+
+h1.documentFirstHeading { 
+	font-size: 14pt;
+	height: 24px;
+	color: Black;
+	padding-left: 0.3em;
+} 
+
+/* portlets */
+
+
+.portletHeader {
+    background-color: White;
+    border: 0px none;
+    border-top: 1px dotted gray;
+    border-bottom: 1px dotted gray;
+    padding: 0em 1em;
+    text-transform: none;
+    font-weight: bold;
+    line-height: 1.7em;
+    color: DimGray;
+    padding: 0em 0.5em;
+    font-size: 110%;
+    height: auto;
+}
+
+.portletHeaderNB {
+    border-top: none;
+    border-bottom: none;
+}
+
+
+.portletHeader a {
+    color: DimGray;
+}
+
+dd.portletFooter {
+    background-color: White;
+    margin: 0;
+    padding: 0em 0.25em;
+    border: 0px none GainsBoro;
+    border-style: dotted;
+    text-align: right;
+    border-bottom: 1px dotted GainsBoro;
+}
+
+dl.portlet {
+    margin: 1px 0 1em 0;
+    border-bottom: 0px none;
+}
+
+.portletItem {
+    padding: 0.1em 0.25em;
+    border-left: 0px none;
+    border-right: 0px none;
+    border-bottom: 1px dotted GainsBoro;
+}
+
+.navTreeItem {
+    border-bottom: 1px dotted GainsBoro;
+}
+
+.navTreeItem a:hover,
+dd.portletItem .navTreeItem a:hover {
+    background-color: LightGray;
+    color: #333333;
+    border: 1px solid GainsBoro;
+}
+
+.navTreeCurrentItem {
+    border: 0px none GainsBoro !important;
+}
+
+
+/* CSS for top page */
+
+/* plate */
+
+#portal-top-plate {
+    position: relative;
+    width: 577px;
+    height: 576px;
+    border: 0px;
+    padding: 0px;
+    margin: auto;
+}
+
+#portal-top-plate2 {
+    position: relative;
+    width: 414px;
+    height: 596px;
+    border: 0px;
+    padding: 0px;
+    margin: auto;
+}
+/*  */
+
+
+}
+
