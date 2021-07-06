@@ -3,7 +3,7 @@ Learn Languages 2021 公式リポジトリ(仮)
 
 2021年8月28日(土)にオンラインで開催するLearn Langages 2021の公式ドキュメントや発表資料を管理するためのリポジトリです。
 
-- 公式サイト: [https://ll.jus.or.jp/2021/](https://ll.jus.or.jp/2021/)
+- 公式サイト(作成中): [https://ll.jus.or.jp/2021/](https://ll.jus.or.jp/2021/)
 - 公式ハッシュタグ: [#ll2021jp](https://twitter.com/search?q=ll2021jp)
 
 # このリポジトリの目的
