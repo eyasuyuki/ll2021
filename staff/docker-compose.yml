@@ -1,0 +1,11 @@
+version: '3'
+services:
+  apache:
+    image: httpd:2.4.48-alpine
+    container_name: apache
+    volumes:
+      - ./site:/usr/local/apache2/htdocs
+      - ./develop_apache_conf/httpd.conf:/usr/local/apache2/conf/httpd.conf
+    ports:
+      - "8080:80"
+
