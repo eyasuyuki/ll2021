@@ -9,7 +9,9 @@ const inputContent = fs.readFileSync(inFile, 'utf8')
 const renderer = new marked.Renderer();
 const heading = renderer.heading.bind(renderer)
 renderer.heading = (text, level, raw, slugger) => {
-    return heading(text, level, raw, slugger).replace(/>/i, 'class="matter-h${level}">')
+    console.log("level="+level)
+    let cls = (level == 1) ? ` class="matter-h${level} matter-primary">` : ` class="matter-h${level}">`
+    return heading(text, level, raw, slugger).replace(/>/i, cls)
 }
 const link = renderer.link.bind(renderer);
 renderer.link = (href, title, text) => {
