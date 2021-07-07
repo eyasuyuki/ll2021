@@ -1,7 +1,7 @@
 Learn Languages 2021
 ====
 
-# About
+## About
 
 Learn Languagesは様々なプログラミング言語について学びたい技術者のためのイベントです。2003年からほぼ毎年開催しています。
 
@@ -14,13 +14,13 @@ Learn Languagesは様々なプログラミング言語について学びたい�
 - 参加登録: ODC([https://event.ospn.jp/odc2021-online/](https://event.ospn.jp/odc2021-online/)) ページで行っています
 - 参加費: 無料
 
-# Session
+## Session
 
 準備中
 
-# History
+## History
 
-このイベントは2003年に*LL Saturday*として開始しました。LLはLightweight Languageの略で、スクリプト言語であるPerl, PHP, Python, Rubyについて取り上げました。
+このイベントは2003年に*LL Saturday*として開始しました。LLはLightweight Languageの略で、*LL Saturday*ではスクリプト言語であるPerl, PHP, Python, Rubyについて取り上げました。
 
 2017年には**様々な言語を学ぼう**という主旨で、**Learn Languages**という名称にリニューアルしました。2020年は新型コロナウイルス感染拡大のため開催を中止しました。
 
