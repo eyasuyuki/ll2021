@@ -38,7 +38,19 @@ Learn Languagesは様々なプログラミング言語について学びたい�
 
 ##### Session
 
-準備中
+###### Language Update
+
+様々なプログラミング言語の最新動向を素早く把握できるセッションです。今回は以下の言語を取り上げます。(順不同)
+
+- Dart
+- Go
+- Java
+- PHP
+- Perl
+- Python
+- Ruby
+- Rust
+- Swift
 
 </div></div><!-- end Session -->
 
