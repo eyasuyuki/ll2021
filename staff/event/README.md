@@ -27,7 +27,7 @@ Learn Languagesは様々なプログラミング言語について学びたい�
 | 日付 |  2021年8月28日(土) |
 | 時間 |  10:00 - 18:00 (予定) |
 | 形態 |  オンライン(Zoom, [YouTube Live](https://www.youtube.com/c/OSPNjp))  |
-| 参加登録 |  ODC([https://event.ospn.jp/odc2021-online/](https://event.ospn.jp/odc2021-online/)) ページで行っています(予定) |
+| 参加登録 |  ODC([https://event.ospn.jp/odc2021-online/](https://event.ospn.jp/odc2021-online/)) ページで行っています |
 | 参加費 |  無料 |
 
 </div></div><!-- end About -->
