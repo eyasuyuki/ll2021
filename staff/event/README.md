@@ -12,26 +12,29 @@
 
 <div class="col s12 m4"><div class="icon-block"><!-- start About -->
 
-<h2 class="center light-blue-text"><i class="material-icons">people</i></h2><!-- people icon -->
+<h2 class="center green-text darken-1"><i class="material-icons">people</i></h2><!-- people icon -->
 
 ##### About
 
 Learn Languagesは様々なプログラミング言語について学びたい技術者のためのイベントです。2003年からほぼ毎年開催しています。
 
-- イベントURL(作成中): [https://ll.jus.or.jp/2021/](https://ll.jus.or.jp/2021/)
-- 公式ハッシュタグ: [#ll2021jp](https://twitter.com/search?q=ll2021jp)
-- 開催日: 2021年8月28日(土)
-- 開催時間(予定): 10:00 - 18:00
-- 開催形態: オンライン(Zoom, [YouTube Live](https://www.youtube.com/c/OSPNjp))
-    - ※ [Open Developers Conference (ODC) 2021 Online](https://event.ospn.jp/odc2021-online/) のトラックとして開催します
-- 参加登録: ODC([https://event.ospn.jp/odc2021-online/](https://event.ospn.jp/odc2021-online/)) ページで行っています
-- 参加費: 無料
+今年も [Open Developers Conference (ODC) 2021 Online](https://event.ospn.jp/odc2021-online/) のトラックとして開催します
+
+| | |
+| ---:         |     ---      |
+| URL | [https://ll.jus.or.jp/2021/](https://ll.jus.or.jp/2021/) (作成中) |
+| ハッシュタグ |  [#ll2021jp](https://twitter.com/search?q=ll2021jp) |
+| 日付 |  2021年8月28日(土) |
+| 時間 |  10:00 - 18:00 (予定) |
+| 形態 |  オンライン(Zoom, [YouTube Live](https://www.youtube.com/c/OSPNjp))  |
+| 参加登録 |  ODC([https://event.ospn.jp/odc2021-online/](https://event.ospn.jp/odc2021-online/)) ページで行っています(予定) |
+| 参加費 |  無料 |
 
 </div></div><!-- end About -->
 
 <div class="col s12 m4"><div class="icon-block"><!-- start Session -->
 
-<h2 class="center light-blue-text"><i class="material-icons">event</i></h2><!-- event icon -->
+<h2 class="center green-text darken-1"><i class="material-icons">event</i></h2><!-- event icon -->
 
 ##### Session
 
@@ -41,7 +44,7 @@ Learn Languagesは様々なプログラミング言語について学びたい�
 
 <div class="col s12 m4"><div class="icon-block"><!-- start History -->
 
-<h2 class="center light-blue-text"><i class="material-icons">watch_later</i></h2><!-- watch_later icon -->
+<h2 class="center green-text darken-1"><i class="material-icons">watch_later</i></h2><!-- watch_later icon -->
 
 ##### History
 
