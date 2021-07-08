@@ -1,28 +1,56 @@
-Learn Languages 2021
-====
+<div class="section no-pad-bot" id="index-banner"><div class="container"><!-- start Index banner -->
 
-## About
+<br><br>
+      
+# Learn Languages 2021
+
+<br><br>
+
+</div></div><!-- end Index banner -->
+
+<div class="container"><div class="section"><div class="row"><!-- start main -->
+
+<div class="col s12 m4"><div class="icon-block"><!-- start About -->
+
+<h2 class="center green-text darken-1"><i class="material-icons">people</i></h2><!-- people icon -->
+
+##### About
 
 Learn Languagesは様々なプログラミング言語について学びたい技術者のためのイベントです。2003年からほぼ毎年開催しています。
 
-- イベントURL(作成中): [https://ll.jus.or.jp/2021/](https://ll.jus.or.jp/2021/)
-- 公式ハッシュタグ: [#ll2021jp](https://twitter.com/search?q=ll2021jp)
-- 開催日: 2021年8月28日(土)
-- 開催時間(予定): 10:00 - 18:00
-- 開催形態: オンライン(Zoom, [YouTube Live](https://www.youtube.com/c/OSPNjp))
-    - ※ [Open Developers Conference (ODC) 2021 Online](https://event.ospn.jp/odc2021-online/) のトラックとして開催します
-- 参加登録: ODC([https://event.ospn.jp/odc2021-online/](https://event.ospn.jp/odc2021-online/)) ページで行っています
-- 参加費: 無料
+[Open Developers Conference (ODC) 2021 Online](https://event.ospn.jp/odc2021-online/) のトラックとして開催します。
 
-## Session
+| | |
+| ---:         |     ---      |
+| URL | [https://ll.jus.or.jp/2021/](https://ll.jus.or.jp/2021/) |
+| ハッシュタグ |  [#ll2021jp](https://twitter.com/search?q=ll2021jp) |
+| 日付 |  2021年8月28日(土) |
+| 時間 |  10:00 - 18:00 (予定) |
+| 形態 |  オンライン(Zoom, [YouTube Live](https://www.youtube.com/c/OSPNjp))  |
+| 参加登録 |  ODC([https://event.ospn.jp/odc2021-online/](https://event.ospn.jp/odc2021-online/)) ページで行っています(予定) |
+| 参加費 |  無料 |
+
+</div></div><!-- end About -->
+
+<div class="col s12 m4"><div class="icon-block"><!-- start Session -->
+
+<h2 class="center green-text darken-1"><i class="material-icons">event</i></h2><!-- event icon -->
+
+##### Session
 
 準備中
 
-## History
+</div></div><!-- end Session -->
+
+<div class="col s12 m4"><div class="icon-block"><!-- start History -->
+
+<h2 class="center green-text darken-1"><i class="material-icons">watch_later</i></h2><!-- watch_later icon -->
+
+##### History
 
 このイベントは2003年に*LL Saturday*として開始しました。LLはLightweight Languageの略で、*LL Saturday*ではスクリプト言語であるPerl, PHP, Python, Rubyについて取り上げました。
 
-2017年には**様々な言語を学ぼう**という主旨で、**Learn Languages**という名称にリニューアルしました。2020年は新型コロナウイルス感染拡大のため開催を中止しました。
+2017年には**様々な言語を学ぼう**という主旨で、**Learn Languages**という名称にリニューアルしました。2020年は新型コロナウイルス感染拡大のため開催を断念しましたg。
 
 今までのアーカイブは以下を参照してください。
 
@@ -43,3 +71,7 @@ Learn Languagesは様々なプログラミング言語について学びたい�
 - [LLDN (2005)](https://ll.jus.or.jp/2005/)
 - [LL Weekend (2004)](https://ll.jus.or.jp/llw2004/)
 - [LL Saturday (2003)](https://ll.jus.or.jp/lls2003/)
+
+</div></div><!-- end History -->
+
+</div></div></div><!-- end main -->
