@@ -1,4 +1,4 @@
-<div class="section no-pad-bot" id="index-banner"><div class="container"><!--- start Index banner --->
+<div class="section no-pad-bot" id="index-banner"><div class="container"><!-- start Index banner -->
 
 <br><br>
       
@@ -6,15 +6,15 @@
 
 <br><br>
 
-</div></div><!--- end Index banner --->
+</div></div><!-- end Index banner -->
 
-<div class="container"><div class="section"><div class="row"><!--- start main --->
+<div class="container"><div class="section"><div class="row"><!-- start main -->
 
-<div class="col s12 m4"><div class="icon-block"><!--- start About --->
+<div class="col s12 m4"><div class="icon-block"><!-- start About -->
 
-<h2 class="center light-blue-text"><i class="material-icons">people</i></h2><!--- people icon --->
+<h2 class="center light-blue-text"><i class="material-icons">people</i></h2><!-- people icon -->
 
-## About
+##### About
 
 Learn Languagesは様々なプログラミング言語について学びたい技術者のためのイベントです。2003年からほぼ毎年開催しています。
 
@@ -27,23 +27,23 @@ Learn Languagesは様々なプログラミング言語について学びたい�
 - 参加登録: ODC([https://event.ospn.jp/odc2021-online/](https://event.ospn.jp/odc2021-online/)) ページで行っています
 - 参加費: 無料
 
-</div></div><!--- end About --->
+</div></div><!-- end About -->
 
-<div class="col s12 m4"><div class="icon-block"><!--- start Session --->
+<div class="col s12 m4"><div class="icon-block"><!-- start Session -->
 
-<h2 class="center light-blue-text"><i class="material-icons">event</i></h2><!--- event icon --->
+<h2 class="center light-blue-text"><i class="material-icons">event</i></h2><!-- event icon -->
 
-## Session
+##### Session
 
 準備中
 
-</div></div><!--- end Session --->
+</div></div><!-- end Session -->
 
-<div class="col s12 m4"><div class="icon-block"><!--- start History --->
+<div class="col s12 m4"><div class="icon-block"><!-- start History -->
 
-            <h2 class="center light-blue-text"><i class="material-icons">watch_later</i></h2>
+<h2 class="center light-blue-text"><i class="material-icons">watch_later</i></h2><!-- watch_later icon -->
 
-## History
+##### History
 
 このイベントは2003年に*LL Saturday*として開始しました。LLはLightweight Languageの略で、*LL Saturday*ではスクリプト言語であるPerl, PHP, Python, Rubyについて取り上げました。
 
@@ -69,6 +69,6 @@ Learn Languagesは様々なプログラミング言語について学びたい�
 - [LL Weekend (2004)](https://ll.jus.or.jp/llw2004/)
 - [LL Saturday (2003)](https://ll.jus.or.jp/lls2003/)
 
-</div></div><!--- end History --->
+</div></div><!-- end History -->
 
-</div></div></div><!--- end main --->
+</div></div></div><!-- end main -->
