@@ -18,11 +18,11 @@
 
 Learn Languagesは様々なプログラミング言語について学びたい技術者のためのイベントです。2003年からほぼ毎年開催しています。
 
-今年も [Open Developers Conference (ODC) 2021 Online](https://event.ospn.jp/odc2021-online/) のトラックとして開催します
+[Open Developers Conference (ODC) 2021 Online](https://event.ospn.jp/odc2021-online/) のトラックとして開催します。
 
 | | |
 | ---:         |     ---      |
-| URL | [https://ll.jus.or.jp/2021/](https://ll.jus.or.jp/2021/) (作成中) |
+| URL | [https://ll.jus.or.jp/2021/](https://ll.jus.or.jp/2021/) |
 | ハッシュタグ |  [#ll2021jp](https://twitter.com/search?q=ll2021jp) |
 | 日付 |  2021年8月28日(土) |
 | 時間 |  10:00 - 18:00 (予定) |
@@ -50,7 +50,7 @@ Learn Languagesは様々なプログラミング言語について学びたい�
 
 このイベントは2003年に*LL Saturday*として開始しました。LLはLightweight Languageの略で、*LL Saturday*ではスクリプト言語であるPerl, PHP, Python, Rubyについて取り上げました。
 
-2017年には**様々な言語を学ぼう**という主旨で、**Learn Languages**という名称にリニューアルしました。2020年は新型コロナウイルス感染拡大のため開催を中止しました。
+2017年には**様々な言語を学ぼう**という主旨で、**Learn Languages**という名称にリニューアルしました。2020年は新型コロナウイルス感染拡大のため開催を断念しましたg。
 
 今までのアーカイブは以下を参照してください。
 
