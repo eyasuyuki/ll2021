@@ -1,71 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
-<head>
-    <meta name="description" content="HTML5 Draft RecommendationDatabase storageClient side database storage 実際にアプリケーションを作って見えた未来  発表資料 for LL Future LT  株式会社イーフロンティア Evangelist 藤井太洋 30. Aug. 2008 HTML5 Client Side database storage note from development of [-] dashmark Client side database storage HTMLで永続的なデータを保存する仕組み Cookieよりも大量に構造化データを保存 SQLでデータを取り扱う      現時点で最新のドラフト Editor's Draft 29 August 2008 発表者の試行錯誤 Underconstruction by Taiyo @ はてなダイアリー[dashmark]  SQL HTML5 Client Side database storage note from development of [-] dashmark とにかく遊んでみたかった [-]:dashmark パーソナル・ブックマーク・アプリケーション http://t_trace.wed.macserver.jp/dashmark-j.html 動作環境 Safari 3.1 / WebKit and other WebKit based Web browsers DEMONSTRATION HTML5 Client Side database storage note from development of [-] dashmark [-]:dashmark の作成を通して クライアントコンピュータへのデータ保存 basic of Client side database storage インクリメンタルサーチと非同期処理 Asynchronous SQL statement execution 検索範囲の絞り込み Simple, Quick and Flexible database handling バージョンアップ処理 Database Version Domain basedセキュリティ Cookie並みかそれ以下か？ HTML5 Client Side database storage note from development of [-] dashmark クライアントコンピュータへのデータ保存inside [-]dashmark #1 データベースの作成／読み込み   SQLの実行 openDatabase(	[db名], 	[dbのバージョン], 	&quot;[dbの説明]&quot;, 	[dbの容量(bytes)] ); db.transaction(function(tx){
-	tx.executeSql( 	&quot;SELECT uid ...AND tag NOT LIKE ?)&quot;,	//SQLステートメント
-	[search_string],		//ステートメント変数を配列で記述
-	function(tx, result){	//ステートメントのコールバック
-		remove_searched_elements(result);
-		},
-	function(tx, err){	//ステートメントのエラーコールバック
-		alert(&quot;ERROR:&quot; + err)
-		} 	);
-}); HTML5 Client Side database storage note from development of [-] dashmark インクリメンタルサーチと非同期処理 inside [-]dashmark #2 検索は早いが非同期処理 再描画処理の衝突（存在しないObjectへの処理）の可能性 スレッド処理のように キータイプごとに検索キューをpseudo uidで発行 検索キューで再描画処理を制御 再描画処理 my.current_search  検索1 検索2 HTML5 Client Side database storage note from development of [-] dashmark 富豪的SQL -絞り込みにviewを使い捨てる- inside [-]dashmark #3 たった一人でSqliteを使うのだから…… TableもViewも使い放題だ full TABLE HTML5 Client Side database storage note from development of [-] dashmark バージョンアップinside [-]dashmark #4 dbのバージョンアップ？ 手元のdbだけ直せば良い、というわけにはいかない ユーザは違うバージョンのdbを使っているかもしれない HTML5 Client Side database storage note from development of [-] dashmark データベースは保護されているか？inside [-]dashmark #5 domainが異なるとアクセスできない domainさえ同じなら、アクセスできてしまう Cookie並みか、それ以下かもしれん…… http://me.com/t_trace http://test.com  HTML5 Client Side database storage note from development of [-] dashmark Client side database storage in future HTML5 現在動作する環境 Safari : Mac OS X, Windows WebKit Browsers : iCab, シイラ,  MobileSafari : iPhone, iPod touch (OS X 2.0~) GoogleGears Database2API : http://code.google.com/p/gears/wiki/Database2API Silverlight Client Side Database Storage wrapper"/>
-    <title></title>
-    <script type="text/javascript" language="javascript">
-//      <![CDATA[
-            var images = new Array (19);
-            images[0] = "sqlapi_files/sqlapi.001-001.png";
-            images[1] = "sqlapi_files/sqlapi.002-001.png";
-            images[2] = "sqlapi_files/sqlapi.002-002.png";
-            images[3] = "sqlapi_files/sqlapi.003-001.png";
-            images[4] = "sqlapi_files/sqlapi.003-002.png";
-            images[5] = "sqlapi_files/sqlapi.004-001.png";
-            images[6] = "sqlapi_files/sqlapi.005-001.png";
-            images[7] = "sqlapi_files/sqlapi.006-001.png";
-            images[8] = "sqlapi_files/sqlapi.006-002.png";
-            images[9] = "sqlapi_files/sqlapi.007-001.png";
-            images[10] = "sqlapi_files/sqlapi.007-002.png";
-            images[11] = "sqlapi_files/sqlapi.008-001.png";
-            images[12] = "sqlapi_files/sqlapi.008-002.png";
-            images[13] = "sqlapi_files/sqlapi.008-003.png";
-            images[14] = "sqlapi_files/sqlapi.009-001.png";
-            images[15] = "sqlapi_files/sqlapi.009-002.png";
-            images[16] = "sqlapi_files/sqlapi.010-001.png";
-            images[17] = "sqlapi_files/sqlapi.011-001.png";
-            images[18] = "sqlapi_files/sqlapi.011-002.png";
-            var index = 0;
-            function WindowLoaded(evt)
-            {
-                document.body.onselectstart = function () { return false; };
-            }
-            function Step(i)
-            {
-                GoTo(index + i)
-            }
-            function GoTo(newIndex)
-            {
-                if(newIndex >= 0 && newIndex < images.length)
-                {
-                    index = newIndex;
-                    document.Slideshow.src = images[index];
-                }
-            }
-//      ]]>
-    </script>
-</head>
-<body bgcolor="black" onload='WindowLoaded(event);'>
-    <p align="center">
-        <br/>
-        <br/>
-        <img name="Slideshow" alt="" src="sqlapi_files/sqlapi.001-001.png" onclick="Step(1)"/>
-        <br/>
-        <br/>
-        <input type="image" src="sqlapi_files/home.png" onclick="GoTo(0)"/>
-        &nbsp;&nbsp;&nbsp;
-        <input type="image" src="sqlapi_files/prev.png" onclick="Step(-1)"/>
-        <input type="image" src="sqlapi_files/next.png" onclick="Step(1)"/>
-    </p>
-</body>
-</html>
