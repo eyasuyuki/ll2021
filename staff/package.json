@@ -4,6 +4,6 @@
     "materialize-css": "^1.0.0-rc.2"
   },
   "scripts": {
-    "md2html": "node md2html.js ./event/README.md ./site/2021/index.html"
+    "md2html": "node md2html.js ./event/README.md ./site/root/2021/index.html"
   }
 }
