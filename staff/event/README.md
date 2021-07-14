@@ -18,7 +18,7 @@
 
 Learn Languagesは様々なプログラミング言語について学びたい技術者のためのイベントです。2003年からほぼ毎年開催しています。
 
-[Open Developers Conference (ODC) 2021 Online](https://event.ospn.jp/odc2021-online/) のトラックとして開催します。
+([Open Developers Conference (ODC) 2021 Online](https://event.ospn.jp/odc2021-online/) のトラックとして開催します)
 
 | | |
 | ---:         |     ---      |
@@ -66,9 +66,9 @@ Learn Languagesは様々なプログラミング言語について学びたい�
 
 今までのアーカイブは以下を参照してください。
 
-- [Learn Languages 2019 (2019)](https://ll.jus.or.jp/2019/)
-- [Learn Languages 2018 (2018)](https://ll.jus.or.jp/2018about/)
-- [Learn Languages 2017 (2017)](https://ll.jus.or.jp/2017/)
+- [Learn Languages 2019](https://ll.jus.or.jp/2019/)
+- [Learn Languages 2018](https://ll.jus.or.jp/2018about/)
+- [Learn Languages 2017](https://ll.jus.or.jp/2017/)
 - [LLoT (2016)](https://ll.jus.or.jp/2016/)
 - [LL Ring Recursive (2015)](https://ll.jus.or.jp/2015/)
 - [LL Diver (2014)](https://ll.jus.or.jp/2014/)
