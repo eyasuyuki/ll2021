@@ -42,15 +42,17 @@ Learn Languagesは様々なプログラミング言語について学びたい�
 
 様々なプログラミング言語の最新動向を素早く把握できるセッションです。今回は以下の言語を取り上げます。
 
+(決定)
 - 14:00 - 14:45 PHP, Perl
 - 15:00 - 15: 45 Dart, Swift
-<!--
+
+(予定)
 - Python
 - Ruby
 - Rust
 - Go
 - Java
--->
+
 
 </div></div><!-- end Session -->
 
