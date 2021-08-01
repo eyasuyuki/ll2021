@@ -53,6 +53,11 @@ Learn Languagesは様々なプログラミング言語について学びたい�
 - Go
 - Java
 
+###### オンライン交流会＆懇親会(主催: ODC)
+
+当日17時から、ODC(Open Developers Conference)主催のオンライン交流会&amp;懇親会が予定されています。
+
+[https://ospn.connpass.com/event/216508/](https://ospn.connpass.com/event/216508/)
 
 </div></div><!-- end Session -->
 
