@@ -42,17 +42,36 @@ Learn Languagesは様々なプログラミング言語について学びたい�
 
 様々なプログラミング言語の最新動向を素早く把握できるセッションです。今回は以下の言語を取り上げます。
 
-(決定)
+タイムテーブル:
+- 12:00 - 12:45 Java, ...
+- 13:00 - 13:45 Ruby, Go
 - 14:00 - 14:45 PHP, Perl
 - 15:00 - 15: 45 Dart, Swift
 
-(予定)
-- Python
-- Ruby
-- Rust
-- Go
-- Java
 
+発表者:
+- Java
+  - 高橋徹(Java読書会) [@boochnich](https://twitter.com/boochnich)
+  - 岩室元典(Java読書会) [@vmi_jp](https://twitter.com/vmi_jp)
+- Ruby
+    - まつもとゆきひろ [@yukihiro_matz](https://twitter.com/yukihiro_matz)
+    - 遠藤侑介 [@mame](https://twitter.com/mame)
+- Go
+    - 辻大志郎（フューチャー株式会社）
+    - 伊藤真彦（フューチャー株式会社）
+- Perl
+  - [@charsbar](https://twitter.com/charsbar)
+  - [@_ybrliiu](https://twitter.com/_ybrliiu)
+- PHP
+  - 新原雅司 [@shin1x1](https://twitter.com/shin1x1)
+  - 富所亮 [@hanhan1978](https://twitter.com/hanhan1978)
+- Dart
+  - 林尚之 [@t_hyssh](https://twitter.com/t_hyssh)
+  - えんどうやすゆき [@eyasuyuki](https://twitter.com/eyasuyuki)
+- Swift
+  - 岸川克己(株式会社ヤプリ) [@k_katsumi](https://twitter.com/k_katsumi) 
+  - Yuta Koshizawa(Qoncept) [@koher](https://twitter.com/koher)
+- 
 ###### オンライン交流会＆懇親会(主催: ODC)
 
 当日17時から、ODC(Open Developers Conference)主催のオンライン交流会&amp;懇親会が予定されています。
