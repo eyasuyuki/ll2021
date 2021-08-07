@@ -56,9 +56,6 @@ Learn Languagesは様々なプログラミング言語について学びたい�
 - Ruby
     - まつもとゆきひろ [@yukihiro_matz](https://twitter.com/yukihiro_matz)
     - 遠藤侑介 [@mame](https://twitter.com/mame)
-- Go
-    - 辻大志郎（フューチャー株式会社）
-    - 伊藤真彦（フューチャー株式会社）
 - Perl
   - [@charsbar](https://twitter.com/charsbar)
   - [@_ybrliiu](https://twitter.com/_ybrliiu)
@@ -72,7 +69,7 @@ Learn Languagesは様々なプログラミング言語について学びたい�
   - 岸川克己(株式会社ヤプリ) [@k_katsumi](https://twitter.com/k_katsumi) 
   - Yuta Koshizawa(Qoncept) [@koher](https://twitter.com/koher)
 - 
-###### オンライン交流会＆懇親会(主催: ODC)
+###### オンライン交流会&amp;懇親会(主催: ODC)
 
 当日17時から、ODC(Open Developers Conference)主催のオンライン交流会&amp;懇親会が予定されています。
 
