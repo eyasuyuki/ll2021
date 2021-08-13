@@ -53,9 +53,15 @@ Learn Languagesは様々なプログラミング言語について学びたい�
 - Java
   - 高橋徹(Java読書会) [@boochnich](https://twitter.com/boochnich)
   - 岩室元典(Java読書会) [@vmi_jp](https://twitter.com/vmi_jp)
+- Python
+  - 小宮健 [@tk0miya](https://twitter.com/tk0miya)
+  - 高井陽一 [@peacock0803sz](https://twitter.com/peacock0803sz)
 - Ruby
     - まつもとゆきひろ [@yukihiro_matz](https://twitter.com/yukihiro_matz)
     - 遠藤侑介 [@mame](https://twitter.com/mame)
+- Go
+  - 辻大志郎（フューチャー株式会社）
+  - 伊藤真彦（フューチャー株式会社）
 - Perl
   - [@charsbar](https://twitter.com/charsbar)
   - [@_ybrliiu](https://twitter.com/_ybrliiu)
