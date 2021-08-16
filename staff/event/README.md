@@ -58,7 +58,7 @@ Learn Languagesは様々なプログラミング言語について学びたい�
   - 高井陽一 [@peacock0803sz](https://twitter.com/peacock0803sz)
 - Ruby
     - まつもとゆきひろ [@yukihiro_matz](https://twitter.com/yukihiro_matz)
-    - 遠藤侑介 [@mame](https://twitter.com/mame)
+    - 遠藤侑介 [@mametter](https://twitter.com/mametter)
 - Go
   - 辻大志郎（フューチャー株式会社）
   - 伊藤真彦（フューチャー株式会社）
