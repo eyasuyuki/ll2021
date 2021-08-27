@@ -14,7 +14,9 @@ no warnings qw(experimental::signatures);
 
 ## try-catch
 
-```perl:eval_if
+### eval-if
+
+```perl
 eval {
   die 'Oops!';
 };
@@ -23,7 +25,9 @@ if ($@) {
 }
 ```
 
-```perl:try_catch
+### try-catch
+
+```perl
 use experimental 'try';
 try {
   die 'Oops!';
@@ -54,8 +58,9 @@ $foo{qw( a b )}; # Multidimensional hash lookup is disabled
 
 ## Object::Pad
 
-```perl:コアの機能のみ
-package Point;
+### 現状のコアの機能のみ
+
+```perlpackage Point;
 use strict;
 use warnings;
 use Carp qw( croak );
@@ -81,7 +86,9 @@ sub move {
  $point->move(2, 1);
 ```
 
-```perl:Moose
+### Moose
+
+```perl
 package Point;
 use Moose;
 
@@ -107,7 +114,9 @@ __PACKAGE__->meta->make_immutable;
  $point->move(2, 1);
 ```
 
-```perl:Object;;Pad
+### Object::Pad
+
+```perl
  use Object::Pad;
  
  class Point {
