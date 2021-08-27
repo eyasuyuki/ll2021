@@ -60,7 +60,8 @@ $foo{qw( a b )}; # Multidimensional hash lookup is disabled
 
 ### 現状のコアの機能のみ
 
-```perlpackage Point;
+```perl
+package Point;
 use strict;
 use warnings;
 use Carp qw( croak );
