@@ -14,7 +14,7 @@ no warnings qw(experimental::signatures);
 
 ## try-catch
 
-```perl:eval-if
+```perl:eval_if
 eval {
   die 'Oops!';
 };
@@ -23,7 +23,7 @@ if ($@) {
 }
 ```
 
-```perl:try-catch
+```perl:try_catch
 use experimental 'try';
 try {
   die 'Oops!';
